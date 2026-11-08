@@ -27,6 +27,8 @@ AT=[
 ]
 keys=['year','document','source_id','country','medium','form','locator','evidence','bib','date_basis']
 AT=[dict(id=f'A{i:02}',**dict(zip(keys,row))) for i,row in enumerate(AT,1)]
+extra=DATA/'extra_attestations.json'
+if extra.exists():AT.extend(json.loads(extra.read_text(encoding='utf-8')))
 AT.sort(key=lambda r:r['year'])
 for i,r in enumerate(AT,1):
  r['id']=f'A{i:02}'
@@ -72,10 +74,17 @@ CLAIMS=[
 (2007,'Capricho, setembro','Revista','KKKKKKKKKK','quase quebrou a cara','Sem número, página e reportagem'),
 ]
 rows=[dict(id=f'C{i:02}',claimed_year=y,claimed_source=s,medium=m,claimed_form=f,anchor=a,missing=st,status='literal não autenticado nesta coleta') for i,(y,s,m,f,a,st) in enumerate(CLAIMS,1)]
+verification=DATA/'claims_verification.csv'
+if verification.exists():
+ with verification.open(encoding='utf-8') as f:details={r['id']:r for r in csv.DictReader(f)}
+ for r in rows:
+  r['status']=details[r['id']]['status']
+  r['missing']=details[r['id']]['finding']
 csvwrite('claims_audit.csv',rows)
-body=[r'\small\begin{longtable}{p{0.09\textwidth}p{0.27\textwidth}p{0.19\textwidth}p{0.29\textwidth}}',r'\caption{Os 22 alvos da série enviada: grafias alegadas, sem autenticação das frases.}\\',r'\toprule Ano & Fonte alegada & Grafia alegada & Falta documental \\\midrule\endfirsthead',r'\toprule Ano & Fonte alegada & Grafia alegada & Falta documental \\\midrule\endhead']
+body=[r'\small\begin{longtable}{p{0.07\textwidth}p{0.21\textwidth}p{0.14\textwidth}p{0.42\textwidth}}',r'\caption{Os 22 alvos da série enviada: grafias alegadas e parecer após a segunda auditoria.}\\',r'\toprule Ano & Fonte alegada & Grafia alegada & Verificação e limites \\\midrule\endfirsthead',r'\toprule Ano & Fonte alegada & Grafia alegada & Verificação e limites \\\midrule\endhead']
 for r in rows:
- body.append(str(r['claimed_year'])+' & '+tex(r['claimed_source'])+' & '+tex(r['claimed_form'])+' & '+tex(r['missing'])+'. '+r'\\')
+ form=tex(r['claimed_form']).replace('KKKKKKKKKK',r'KKKKK\allowbreak KKKKK')
+ body.append(str(r['claimed_year'])+' & '+tex(r['claimed_source'])+' & '+form+' & '+tex(r['missing']).rstrip('.')+'. '+r'\\')
 body+=[r'\bottomrule\end{longtable}\normalsize']
 (GEN/'claims-table.tex').write_text('\n'.join(body),encoding='utf-8')
 summary=dict(attestations=len(AT),years_with_attestations=len(counts),by_evidence=dict(collections.Counter(x['evidence'] for x in AT)),claims_audited=len(rows),design='exploratory_non_probability',n0_10=math.ceil(1.96**2*.25/.1**2),n0_05=math.ceil(1.96**2*.25/.05**2),detection_005=math.ceil(math.log(.05)/math.log(.95)),detection_001=math.ceil(math.log(.05)/math.log(.99)))

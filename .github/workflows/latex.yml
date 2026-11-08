@@ -1,7 +1,7 @@
 name: Compilar artigo
 on:
   push:
-    paths: ['artigo/**', 'scripts/build_data.py', 'scripts/build_appendices.py', 'data/**', '.github/workflows/latex.yml']
+    paths: ['artigo/**', 'scripts/build_data.py', 'scripts/build_appendices.py', 'scripts/revision2_audit.py', 'data/**', '.github/workflows/latex.yml']
   workflow_dispatch:
 jobs:
   compile:

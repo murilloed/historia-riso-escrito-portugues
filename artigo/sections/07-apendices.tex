@@ -10,6 +10,10 @@ Os anos abaixo pertencem ao núcleo 1900--2009. A coluna de atestações conta d
 Este catálogo preserva as sugestões de jornais, revistas e obras que motivaram a investigação. É uma lista de pistas, não um conjunto de fontes que comprovam as grafias atribuídas. As descrições herdadas são alegações do roteiro; datas de composição, publicação, reedição e disponibilização digital precisam ser distinguidas. A presença de uma obra no catálogo não autentica uma passagem nem valida sua alocação decenal.
 \input{generated/candidates-table}
 
+\section{Parecer individual da segunda auditoria}
+Os identificadores R01--R66 seguem a mesma ordem do catálogo anterior. A categoria A exige representação do riso autenticada; L identifica referência lexical, temática ou cotejo contextual, sem autenticar a grafia atribuída; B registra identificação bibliográfica; I registra recuperação do exemplar específico sem autenticação da frase; S conserva casos sem ocorrência autenticada ou com identificação insuficiente. Há três A, sete L, dezenove B, quatro I e trinta e três S. Esses estados descrevem o trabalho documental, não a frequência histórica de qualquer grafia. URLs, estado de aquisição e data do parecer constam no CSV público.
+\input{generated/references-audit-table}
+
 \section{Correções conceituais e decisões editoriais}
 \begin{enumerate}[leftmargin=*]
 \item Mudança histórica e motivação icônica são dimensões distintas, que podem coexistir.
@@ -31,6 +35,6 @@ Este catálogo preserva as sugestões de jornais, revistas e obras que motivaram
 \section{Dicionário de dados e reprodução}
 \texttt{attestations.csv} reúne testemunhos; \texttt{claims\_audit.csv}, os 22 alvos; \texttt{annual\_coverage.csv}, a cobertura anual; \texttt{candidate\_sources.csv}, as pistas; \texttt{downloads.json}, as aquisições; \texttt{detection\_sensitivity.csv}, os cenários matemáticos; \texttt{summary.json}, as contagens.
 
-\texttt{build\_data.py} gera tabelas de registros codificados e parâmetros declarados. A aquisição é separada da análise para que falhas de rede não sejam interpretadas como resultados linguísticos. Regex localizam candidatos e não substituem anotação. O repositório documenta comandos e versões.
+\texttt{build\_data.py} gera tabelas de registros codificados e parâmetros declarados. A aquisição é separada da análise para que falhas de rede não sejam interpretadas como resultados linguísticos. Regex localizam candidatos e não substituem anotação. A segunda rodada acrescenta os arquivos \texttt{references\_audit.csv}, \texttt{claims\_verification.csv} e \texttt{extra\_attestations.json}, além dos registros de buscas. O repositório documenta comandos e versões.
 
 Não foram produzidos logs sintéticos para os anos 1990, participantes fictícios, contagens populacionais ou intervalos de confiança para a amostra dirigida. Os cenários de planejamento são identificados como hipotéticos. A distinção entre realizado e proposto integra a metodologia.

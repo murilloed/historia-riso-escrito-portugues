@@ -19,7 +19,7 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 
 ## Resultado e alcance
 
-O inventário tem **15 atestações em documentos ou interações reportadas**, com ao menos um documento de cada década de 1900 a 2000. São seis testemunhos com imagem inspecionada (E1), seis transcrições primárias eletrônicas (E2) e três interações reportadas em pesquisas (E3).
+O inventário tem **19 atestações em documentos ou interações reportadas**, com ao menos um documento de cada década de 1900 a 2000. São dez testemunhos com imagem inspecionada (E1), seis transcrições primárias eletrônicas (E2) e três interações reportadas em pesquisas (E3).
 
 Isso **não é cobertura de todos os anos nem uma amostra equilibrada de três livros e três jornais por período**. Também não representa frequência de uso da população. As lacunas anuais são publicadas explicitamente.
 
@@ -27,7 +27,11 @@ O levantamento documenta quiá em Til, cá em A segunda vida, ah em obras do in�
 
 **Não se identificou a primeira ocorrência absoluta de kkkk nem se demonstrou sua derivação de quiá.** Também não se demonstrou que as formas antigas fossem independentes ou tenham desaparecido da circulação. Onomatopeias podem ser transmitidas, emprestadas e modificadas historicamente.
 
-As 22 transcrições do material inicial permanecem **não autenticadas nesta coleta**. Esse estatuto não significa prova de inexistência. As 66 sugestões são pistas para investigação; sua inclusão no apêndice não endossa datas ou descrições.
+As 22 transcrições do material inicial permanecem **sem autenticação integral**, após buscas literais e cotejo dos textos adquiridos. Em Policarpo Quaresma, há fala semelhante, mas a transcrição enviada acrescenta uma risada e altera a passagem. Esse estatuto não significa prova de inexistência das demais frases.
+
+**Todas as 66 indicações têm parecer individual**, em [references_audit.csv](data/references_audit.csv) e no apêndice do artigo: 3 com representação autenticada, 7 com referência lexical/temática ou cotejo contextual, 19 com identificação bibliográfica, 4 com exemplar específico recuperado sem confirmação da frase e 33 sem ocorrência autenticada ou com identificação insuficiente. As categorias são exclusivas; não são frequências históricas.
+
+A revisão acrescentou Quá em Urupês, edição de 1919, uma rubrica do Diário Nacional de 1928, uma rubrica do Jornal de Notícias de 1947 e uma passagem de Macunaíma na edição UFFS de 2019. O último não foi retrodatado a 1928 sem cotejo. Jornal de Notícias não foi confundido com Folha da Manhã. Foram corrigidas ou ressalvadas datas de A menina morta, Zero, Chove nos campos de Cachoeira e Budapeste. Ver [relatório da revisão](docs/REVISAO-2.md) e [parecer das 22 frases](data/claims_verification.csv).
 
 ## Estrutura
 

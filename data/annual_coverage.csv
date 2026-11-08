@@ -46,7 +46,7 @@ year,confirmed_documents,scope,interpretation
 1916,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1917,1,núcleo,atestação no inventário
 1918,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
-1919,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
+1919,1,núcleo,atestação no inventário
 1920,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1921,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1922,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
@@ -55,7 +55,7 @@ year,confirmed_documents,scope,interpretation
 1925,1,núcleo,atestação no inventário
 1926,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1927,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
-1928,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
+1928,1,núcleo,atestação no inventário
 1929,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1930,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1931,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
@@ -74,7 +74,7 @@ year,confirmed_documents,scope,interpretation
 1944,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1945,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1946,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
-1947,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
+1947,1,núcleo,atestação no inventário
 1948,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1949,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
 1950,0,núcleo,sem atestação confirmada nesta coleta; não é ausência histórica
@@ -146,7 +146,7 @@ year,confirmed_documents,scope,interpretation
 2016,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2017,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2018,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
-2019,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
+2019,1,extensão,atestação no inventário
 2020,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2021,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2022,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica

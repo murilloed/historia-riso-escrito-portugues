@@ -1,0 +1,20 @@
+{
+  "queries": [
+    "\"Feliz ano velho\" \"burradas do colégio\"",
+    "\"Folha\" \"14/11/1986\" \"congelar\"",
+    "\"Veja\" \"não fugirei da raia\"",
+    "\"Folhateen\" \"1997\" \"sala de chat do mIRC\""
+  ],
+  "result_urls": [
+    "https://hemeroteca.ihgg.org/publicacoes/DIARIO_DA_MANHA/1997/08/DIARIO_DA_MANHA_1997_08_18.pdf",
+    "https://jornaldebrasilia.com.br/brasilia/familia-sera-prioridade-de-juliano-costa-couto-apos-deixar-o-comando-da-oab/",
+    "https://casodepolitica.com/2024/03/vereadora-carmelia-da-mata-denuncia-bastidores-e-obscuridades-sobre-o-emprestimo-milionario-para-barreiras/",
+    "https://lucianosiqueira.blogspot.com/2008/04/?m=0",
+    "https://lucianosiqueira.blogspot.com/2008/04/?m=1",
+    "https://pt.scribd.com/document/637720151/ASSIS-Charleston-Jose-de-Sousa-Experiencias-cruzadas-a-participacao-popular-no-Plano-Cruzado-em-perspectiva-historica",
+    "https://acordaos.economia.gov.br/solr/acordaos2_shard11_replica_n60/browse?annotateBrowse=true&debugQuery=true&fq=ano_sessao_s%3A%222024%22&fq=decisao_txt%3A%22colegiado%22&fq=decisao_txt%3A%22de%22&fq=decisao_txt%3A%22unanimidade%22&fq=nome_relator_s%3A%22ARNALDO+DIEFENTHAELER+DORNELLES%22&fq=turma_s%3A%22Segunda+Turma+Ordin%C3%A1ria+da+Quarta+C%C3%A2mara+da+Terceira+Se%C3%A7%C3%A3o%22&q=",
+    "https://acordaos.economia.gov.br/solr/acordaos2_shard2_replica_n91/browse?annotateBrowse=true&debugQuery=true&fq=ano_sessao_s%3A%222024%22&fq=decisao_txt%3A%22colegiado%22&fq=decisao_txt%3A%22diefenthaeler%22&fq=decisao_txt%3A%22por%22&fq=nome_relator_s%3A%22ARNALDO+DIEFENTHAELER+DORNELLES%22&fq=turma_s%3A%22Segunda+Turma+Ordin%C3%A1ria+da+Quarta+C%C3%A2mara+da+Terceira+Se%C3%A7%C3%A3o%22&q=&start=10"
+  ],
+  "searched_on": "2026-11-08",
+  "interpretation": "Busca literal exploratória; resultado não autentica citação."
+}

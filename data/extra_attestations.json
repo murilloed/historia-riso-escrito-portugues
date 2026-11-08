@@ -1,0 +1,50 @@
+[
+  {
+    "year": 1919,
+    "document": "Urupês, quinta edição",
+    "source_id": "r2_urupes1919",
+    "country": "Brasil",
+    "medium": "livro",
+    "form": "Quá, quá, quá!",
+    "locator": "p. impressa 19; PDF p. 24; conto O engraçado arrependido",
+    "evidence": "E1",
+    "bib": "lobato1919",
+    "date_basis": "ano do exemplar consultado, não da primeira edição"
+  },
+  {
+    "year": 1928,
+    "document": "Diário Nacional, n. 290",
+    "source_id": "r2_diario1928",
+    "country": "Brasil",
+    "medium": "jornal: transcrição",
+    "form": "(risos, muito bem)",
+    "locator": "17/06/1928; p. 4; discurso de Mattos Pimenta",
+    "evidence": "E1",
+    "bib": "diarionacional1928",
+    "date_basis": "data impressa e passagem inspecionadas"
+  },
+  {
+    "year": 1947,
+    "document": "Jornal de Notícias, n. 267",
+    "source_id": "r2_folhamanha1947",
+    "country": "Brasil",
+    "medium": "jornal: transcrição",
+    "form": "(Risos dos presentes)",
+    "locator": "02/03/1947; p. 1; fala de Bidault; não é Folha da Manhã",
+    "evidence": "E1",
+    "bib": "jornalnoticias1947",
+    "date_basis": "data impressa; texto traduzido de discurso francês"
+  },
+  {
+    "year": 2019,
+    "document": "Macunaíma, edição UFFS",
+    "source_id": "r2_macunaima_uffs",
+    "country": "Brasil",
+    "medium": "livro",
+    "form": "Quá! quá! quá quaquá!...",
+    "locator": "p. impressa e PDF 139; ficha catalográfica PDF 205",
+    "evidence": "E1",
+    "bib": "andrade2019",
+    "date_basis": "edição consultada de 2019; obra original de 1928 sem cotejo daquela passagem"
+  }
+]

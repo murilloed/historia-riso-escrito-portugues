@@ -1,0 +1,39 @@
+{
+  "queries": [
+    "site.record.com.br \"Fogo morto\"",
+    "site.record.com.br \"O quinze\"",
+    "site.companhiadasletras.com.br \"Sagarana\"",
+    "\"Vestido de noiva\" \"1943\" site.bn.gov.br"
+  ],
+  "result_urls": [
+    "http://bsp.org.br/catalogo_bn/",
+    "http://memoria.bn.br/DocReader/DocReader.aspx?",
+    "http://www.funarte.gov.br/brasilmemoriadasartes/imagens/imagens-fotos/page/134/",
+    "https://app.uff.br/riuff/bitstream/handle/1/33249/Tese%20Fred%20material%20%C3%BAnico%20Vers%C3%A3o%20para%20Entrega%20Frederico%20Cabala.pdf?isAllowed=y&sequence=1",
+    "https://atom.funarte.gov.br/index.php/informationobject/browse?collection=1584&levels=2439&media=print&repos=465&sf_culture=es&sort=startDate&sortDir=asc&topLod=0",
+    "https://autoridades.org/projetos/vestido-de-noiva",
+    "https://bjks-opac.museus.gov.br/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=111716",
+    "https://consorciobdjur.stj.jus.br/vufind/Record/1947/Description",
+    "https://es.wikipedia.org/wiki/Vestido_de_noiva",
+    "https://fr.wikipedia.org/wiki/N%C3%A9lson_Rodr%C3%ADgues",
+    "https://historia.fafich.ufmg.br/defesas/447M.PDF",
+    "https://parkjuju.com.br/teatro-brasileiro/04-modernizacao.html",
+    "https://pt.wikipedia.org/wiki/Nelson_Rodrigues",
+    "https://pt.wikipedia.org/wiki/Sagarana",
+    "https://pt.wikipedia.org/wiki/Vestido_de_Noiva_%28pe%C3%A7a%29",
+    "https://pt.wikipedia.org/wiki/Ziembinski",
+    "https://repositorio.ufmg.br//bitstreams/b58764e1-6550-4bc5-8079-4d61c5dee6dd/download",
+    "https://repositorio.ufmg.br/bitstream/1843/30030/1/Dissertacao_HenriqueVertchenkocompleta.pdf",
+    "https://teses.usp.br/teses/disponiveis/27/27151/tde-06092016-145920/publico/VeronicaSilvaRodriguezMarquesVC.pdf",
+    "https://www.encontro2022.sp.anpuh.org/resources/anais/17/anpuh-sp-eeh2022/1661883058_ARQUIVO_ff2bc14756aced56a43ec86b4df204fe.pdf",
+    "https://www.record.com.br/collections/jose-olympio",
+    "https://www.record.com.br/pages/sala-do-educador",
+    "https://www.researchgate.net/publication/360290429_Vestido_de_Noiva_1943_a_luz_na_genese_do_moderno_teatro_brasileiro",
+    "https://www.travessa.com.br/vestido-de-noiva/artigo/72fa085c-8f5d-4b9c-b8e0-97e681ea14a5",
+    "https://www1.folha.uol.com.br/fsp/1994/11/08/fovest/9.html",
+    "https://www1.folha.uol.com.br/fsp/acontece/ac1906200101.htm",
+    "https://www1.folha.uol.com.br/fsp/ilustrad/fq1105200812.htm"
+  ],
+  "interpretation": "Resultados de busca são pistas; não equivalem à inspeção do documento.",
+  "searched_on": "2026-11-08"
+}

@@ -1,0 +1,17 @@
+{
+  "total": 66,
+  "status_counts": {
+    "I": 4,
+    "S": 33,
+    "L": 7,
+    "A": 3,
+    "B": 19
+  },
+  "legend": {
+    "A": "ocorrência de representação do riso autenticada",
+    "L": "referência lexical ou temática; não autentica grafia atribuída",
+    "B": "identificação bibliográfica; passagem não autenticada",
+    "I": "exemplar específico recuperado; citação atribuída não autenticada",
+    "S": "busca sem ocorrência autenticada ou referência insuficiente"
+  }
+}

@@ -5,7 +5,12 @@ ROOT=Path(__file__).resolve().parents[1]
 def readcsv(name):
  with (ROOT/'data'/name).open(encoding='utf-8') as f:return list(csv.DictReader(f))
 at=readcsv('attestations.csv');years=readcsv('annual_coverage.csv')
-assert len({x['id'] for x in at})==len(at)==15
+assert len({x['id'] for x in at})==len(at)==19
+audit=readcsv('references_audit.csv')
+assert len(audit)==66 and len({x['id'] for x in audit})==66
+assert __import__('collections').Counter(x['status'] for x in audit)==dict(A=3,L=7,B=19,I=4,S=33)
+assert all(x['finding'] and x['checked_on'] for x in audit)
+assert len(readcsv('claims_verification.csv'))==22
 assert len(years)==155
 assert all(any(int(x['year'])//10==d for x in at) for d in range(190,201))
 assert len(readcsv('claims_audit.csv'))==22
@@ -30,7 +35,7 @@ for r in manifest:
  if r.get('public_copy'):
   p=ROOT/r['public_path'];assert hashlib.sha256(p.read_bytes()).hexdigest()==r['sha256'];public.append(r['id'])
 assert len(public)==8
-report=dict(atestacoes=len(at),niveis=dict(__import__('collections').Counter(x['evidence'] for x in at)),referencias=len(keys),alvos_auditoria=22,pistas=66,anos_inventariados=155,decadas_nucleo_cobertas=11,downloads=sum(x['status']=='downloaded' for x in manifest),falhas_download=sum(x['status']=='failed' for x in manifest),textos_integrais_publicos=len(public),latex_sem_citacoes_indefinidas=True,latex_sem_glifos_ausentes=True,latex_sem_overfull=True)
+report=dict(atestacoes=len(at),niveis=dict(__import__('collections').Counter(x['evidence'] for x in at)),referencias=len(keys),alvos_auditoria=22,pistas=66,pareceres_individuais=len(audit),estados_auditoria=dict(__import__('collections').Counter(x['status'] for x in audit)),anos_inventariados=155,decadas_nucleo_cobertas=11,downloads=sum(x['status']=='downloaded' for x in manifest),falhas_download=sum(x['status']=='failed' for x in manifest),textos_integrais_publicos=len(public),latex_sem_citacoes_indefinidas=True,latex_sem_glifos_ausentes=True,latex_sem_overfull=True)
 try:
  import pymupdf
  d=pymupdf.open(ROOT/'artigo/main.pdf')

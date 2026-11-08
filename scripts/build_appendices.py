@@ -1,6 +1,7 @@
 from pathlib import Path
 import re,csv,json,hashlib,os
 from build_data import ROOT,GEN,DATA,tex
+import revision2_audit
 attachment=Path(os.environ['RISO_ROTEIRO_PATH']) if os.environ.get('RISO_ROTEIRO_PATH') else None
 if attachment is not None and attachment.is_file():
  text=attachment.read_text(encoding='utf-8')

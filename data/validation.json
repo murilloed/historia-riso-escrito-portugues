@@ -1,21 +1,29 @@
 {
-  "atestacoes": 15,
+  "atestacoes": 19,
   "niveis": {
     "E2": 6,
-    "E1": 6,
+    "E1": 10,
     "E3": 3
   },
-  "referencias": 32,
+  "referencias": 66,
   "alvos_auditoria": 22,
   "pistas": 66,
+  "pareceres_individuais": 66,
+  "estados_auditoria": {
+    "I": 4,
+    "S": 33,
+    "L": 7,
+    "A": 3,
+    "B": 19
+  },
   "anos_inventariados": 155,
   "decadas_nucleo_cobertas": 11,
-  "downloads": 34,
-  "falhas_download": 3,
+  "downloads": 76,
+  "falhas_download": 11,
   "textos_integrais_publicos": 8,
   "latex_sem_citacoes_indefinidas": true,
   "latex_sem_glifos_ausentes": true,
   "latex_sem_overfull": true,
-  "paginas": 29,
-  "palavras_pdf": 13230
+  "paginas": 38,
+  "palavras_pdf": 17959
 }
