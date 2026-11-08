@@ -81,6 +81,7 @@ for sid in ['r2_diario1928','ticotico1935','carioca1941']:
  a=next(x for x in at if x['source_id']==sid)
  if any(r['archive']=='H05' and r['decade']==int(a['year'])//10*10 for r in refs):continue
  add('H05',int(a['year'])//10*10,sid,a['document'],a['year'],a['locator'],a['form'],'rubrica' if 'risos' in a['form'].lower() else 'mimética',a['date_basis'])
+ refs[-1]['bib']=a['bib']
 writecsv('archive_decade_references.csv',refs)
 
 matrix=[]
@@ -110,7 +111,10 @@ bibpath=ROOT/'artigo/references.bib';bib=bibpath.read_text(encoding='utf-8').spl
 def entry(key,title,url,year,note):
  return '@misc{'+key+',\n  title = {'+tex(title)+'},\n  howpublished = {\\url{'+url+'}},\n  year = {'+str(year)+'},\n  note = {'+tex(note)+'; acesso em 8 nov. 2026}\n}\n\n'
 for p in profiles:bib+=entry('r3archive'+p['archive'],p['name']+': catálogo e condições de acesso',p['coverage_url'],2026,p['date_basis'])
-for r in refs:bib+=entry(r['bib'],r['title'],r['url'],r['date'][:4],r['locator']+'; '+r['date_basis'])
+existing_keys=set(re.findall(r'@\w+\{([^,]+),',bib))
+for r in refs:
+ if r['bib'] not in existing_keys:
+  bib+=entry(r['bib'],r['title'],r['url'],r['date'][:4],r['locator']+'; '+r['date_basis']);existing_keys.add(r['bib'])
 bibpath.write_text(bib.rstrip()+'\n',encoding='utf-8',newline='\n')
 
 # Somente quatro documentos novos entram no núcleo de representações.

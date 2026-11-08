@@ -5,7 +5,7 @@
     "E1": 14,
     "E3": 3
   },
-  "referencias": 108,
+  "referencias": 105,
   "alvos_auditoria": 22,
   "pistas": 66,
   "pareceres_individuais": 66,
@@ -25,7 +25,7 @@
   "latex_sem_glifos_ausentes": true,
   "latex_sem_overfull": true,
   "paginas": 48,
-  "palavras_pdf": 22492,
+  "palavras_pdf": 22414,
   "acervos": 13,
   "referencias_por_acervo_e_decada": 29,
   "linhas_matriz_acervos": 137,
