@@ -76,7 +76,9 @@ for r in rows:b.append(tex(str(r['year'])+' / '+r['id'])+' & '+tex(r['title']+';
 b.append(r'\bottomrule\end{longtable}\normalsize')
 (GEN/'new_titles_chronology.tex').write_text('\n'.join(b)+'\n',encoding='utf-8',newline='\n')
 
-bibpath=ROOT/'artigo/references.bib';bib=bibpath.read_text(encoding='utf-8').split('% BEGIN REVISION4')[0].rstrip()+'\n\n% BEGIN REVISION4\n'
+bibpath=ROOT/'artigo/references.bib';old_bib=bibpath.read_text(encoding='utf-8')
+method_block=('\n% BEGIN METHOD_INVENTORY'+old_bib.split('% BEGIN METHOD_INVENTORY',1)[1]) if '% BEGIN METHOD_INVENTORY' in old_bib else ''
+bib=old_bib.split('% BEGIN REVISION4')[0].rstrip()+'\n\n% BEGIN REVISION4\n'
 for r in rows:
  author=''
  if r['base']=='Brasiliana / BBM' and r['author']:
@@ -87,7 +89,7 @@ for r in rows:
  author_field=('  author = {'+tex(author)+'},\n') if author else ('  key = {'+tex(r['title'])+'},\n')
  bib+='@misc{'+r['bib']+',\n'+author_field+'  title = {'+tex(r['title'])+'},\n  year = {'+str(r['year'])+'},\n  howpublished = {\\url{'+r['url']+'}},\n  note = {'+tex(r['locator']+'; '+r['date_basis'])+'; acesso em 8 nov. 2026}\n}\n\n'
 bib+='@misc{r4orkutindex,\n title={Arquivo de Comunidades do Orkut: captura indicada pelo autor},\n year={2014},\n howpublished={\\url{https://web.archive.org/web/20141001005309/http://orkut.google.com/}},\n note={Página de entrada; não constitui transcrição de conversa de 2004. Acesso em 8 nov. 2026}\n}\n'
-bibpath.write_text(bib.rstrip()+'\n',encoding='utf-8',newline='\n')
+bibpath.write_text(bib.rstrip()+'\n'+method_block,encoding='utf-8',newline='\n')
 
 extra=json.loads((DATA/'extra_attestations.json').read_text(encoding='utf-8'));extra=[r for r in extra if not r['source_id'].startswith('r4_')]
 for r in rows:

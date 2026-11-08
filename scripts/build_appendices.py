@@ -33,3 +33,4 @@ for r in years:
 body += [r'\bottomrule\end{longtable}\normalsize']
 (GEN/'annual-table.tex').write_text('\n'.join(body),encoding='utf-8')
 print('candidate_sources',len(rows))
+import build_method_inventory

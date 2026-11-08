@@ -14,6 +14,9 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 - [Catálogo das 66 pistas bibliográficas recebidas](data/candidate_sources.csv).
 - [Cobertura de cada ano, 1872–2026](data/annual_coverage.csv).
 - [Método e dimensionamento estatístico](docs/METODOLOGIA.md).
+- [Inventário consolidado dos 16 endereços indicados](data/base_registry.csv).
+- [Quadro quantitativo com unidades e links](data/method_quantification.csv).
+- [Domínios e fontes complementares do manifesto](data/source_domains.csv).
 - [Condições de aquisição e distribuição](sources/README.md).
 - [Validação executada](data/validation.json).
 
@@ -136,3 +139,7 @@ A terceira rodada acrescenta quatro documentos ao núcleo e um inventário compl
 A quarta rodada seleciona **17 títulos novos**, uma referência por obra, periódico ou site: 14 da Brasiliana, Kibe Loco, Cifra Club e uma comunidade do Orkut. O intervalo selecionado é 1645–2017; a consulta foi feita em 2026 e não constitui censo das bases. O fórum preserva `kkkkkkkkkkkkk` numa resposta de 2010 e o Orkut preserva `hehehe` numa descrição capturada em 2014. Essas duas fontes elevam o núcleo a 25 documentos. A data do tópico e a criação da comunidade não foram transferidas às ocorrências. O edital da UnB foi retirado do artigo e da bibliografia.
 
 Veja [títulos selecionados](data/revision4_new_titles.csv), [exclusões de títulos anteriores](data/revision4_exclusions.csv) e [relatório da quarta rodada](docs/REVISAO-4.md).
+
+## Balanço metodológico consolidado
+
+A metodologia do artigo e o [documento metodológico](docs/METODOLOGIA.md) contêm tabelas com links para os dados. O [inventário de bases](data/base_registry.csv) reúne os 16 endereços indicados, com suas sobreposições. O [quadro quantitativo](data/method_quantification.csv) distingue 25 testemunhos do núcleo, 66 indicações auditadas, 22 citações alegadas, 29 referências por acervo/década e 17 títulos inéditos. Essas quantidades se sobrepõem e não se somam. As 293 entradas do manifesto histórico incluem 276 com conteúdo, duas vazias e 15 falhas; não equivalem a obras lidas integralmente. O gerador é [build_method_inventory.py](scripts/build_method_inventory.py).

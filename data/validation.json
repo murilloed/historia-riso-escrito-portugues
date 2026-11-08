@@ -5,7 +5,7 @@
     "E1": 14,
     "E3": 3
   },
-  "referencias": 122,
+  "referencias": 124,
   "alvos_auditoria": 22,
   "pistas": 66,
   "pareceres_individuais": 66,
@@ -24,12 +24,15 @@
   "latex_sem_citacoes_indefinidas": true,
   "latex_sem_glifos_ausentes": true,
   "latex_sem_overfull": true,
-  "paginas": 53,
-  "palavras_pdf": 25089,
+  "paginas": 56,
+  "palavras_pdf": 26233,
   "acervos": 13,
   "referencias_por_acervo_e_decada": 29,
   "linhas_matriz_acervos": 137,
   "cobertura_integral_acervos": false,
   "titulos_ineditos_quarta_rodada": 17,
-  "edital_unb_removido": true
+  "edital_unb_removido": true,
+  "enderecos_indicados_inventariados": 16,
+  "indicadores_metodologicos": 15,
+  "hiperlinks_metodologicos_no_pdf": true
 }

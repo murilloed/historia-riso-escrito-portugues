@@ -1,14 +1,22 @@
 # Método documental e estatístico
 
-Autor: Murillo Edson de Carvalho Souza. Data da coleta: 8 de novembro de 2026.
+Autor único: Murillo Edson de Carvalho Souza. Consulta: 8 de novembro de 2026.
 
-## O que foi executado
+## Balanço atualizado e dados vinculados
 
-Busca dirigida e auditoria exploratória. Os 15 registros não resultam de sorteio. O conjunto distingue 10 representações miméticas/marcadores e cinco rubricas descritivas. Documentos com exemplos reproduzidos em dissertações são classificados como interações reportadas, e não como logs originais obtidos.
+A coleta é dirigida, exploratória e não probabilística. O núcleo tem 25 testemunhos: E1=14, E2=8 e E3=3. As 66 indicações iniciais têm parecer individual; as 22 citações alegadas não foram autenticadas integralmente. Os números de 15 registros e 34 aquisições pertenciam à primeira versão e foram substituídos por este balanço consolidado.
 
-Os 34 downloads bem-sucedidos incluem apoio bibliográfico e fontes sem ocorrência validada; não equivalem a 34 documentos positivos. O inventário também registra três falhas. A consulta web de Young não se confunde com aquisição local.
+Os 16 endereços indicados pelo autor estão no [inventário de bases](../data/base_registry.csv), com URL original, URL de acesso, sobreposições, quantidade selecionada e links para os dados. Não são 16 bases independentes: há portal e item do APESP, coleção e acervo geral da BBM e Orkut preservado no próprio Wayback.
 
-E1: imagem primária inspecionada. E2: transcrição eletrônica primária sem colação completa. E3: interação reproduzida em estudo com localizador. E4: alegação secundária ou não autenticada; os 22 alvos do roteiro não entram como dados positivos.
+O [quadro quantitativo](../data/method_quantification.csv), também incluído na metodologia do artigo, reúne quantidades e unidades. O núcleo, as 29 referências por acervo/década e os 17 títulos inéditos se sobrepõem: não se somam como documentos independentes. Somente duas das 17 novas fontes ampliaram o núcleo. As quotas da rodada 3 permanecem incompletas.
+
+O manifesto histórico contém 293 entradas: 276 com conteúdo, 2 respostas vazias e 15 falhas. Essas entradas incluem arquivos auxiliares, páginas de catálogo, imagens, PDFs, metadados e recursos técnicos; não são 293 obras analisadas nem um contador de todas as tentativas realizadas. As 278 entradas com estado `downloaded` incluem as respostas vazias. O histórico também conserva uma referência posteriormente retirada; preservação de proveniência não equivale a citação atual no artigo.
+
+Todos os domínios presentes no manifesto constam em [source_domains.csv](../data/source_domains.csv). Eles não são contados como bases independentes. O [manifesto](../data/downloads.json) fornece URLs individuais, resultado de aquisição, tamanho e SHA-256. Os [25 testemunhos](../data/attestations.csv), os [29 registros por acervo/década](../data/archive_decade_references.csv), a [matriz de pendências](../data/archive_decade_matrix.csv) e os [17 títulos inéditos](../data/revision4_new_titles.csv) têm arquivos próprios.
+
+E1: imagem primária inspecionada. E2: texto/transcrição primária eletrônica, sem colação integral com o impresso. E3: interação reproduzida em estudo com localizador. E4: alegação secundária ou não autenticada, excluída do núcleo positivo. E1–E3 são categorias de cadeia de evidência, não escores estatísticos.
+
+O gerador [build_method_inventory.py](../scripts/build_method_inventory.py) reconstrói o inventário e o balanço a partir dos dados públicos. Os links no PDF levam diretamente aos arquivos correspondentes no GitHub; o repositório e a versão/commit consultados devem acompanhar a reprodução.
 
 ## Unidade e denominador
 
