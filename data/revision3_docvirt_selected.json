@@ -1,0 +1,102 @@
+[
+  {
+    "term": "kkkk",
+    "decade": 2020,
+    "year_folder": 2022,
+    "folder": 57,
+    "page": 21,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal A Cidade\\A Cidade - 2022",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/57/21",
+    "local_image": "sources/local/r3_docvirt_2020.webp"
+  },
+  {
+    "term": "hahaha",
+    "decade": 1990,
+    "year_folder": 1996,
+    "folder": 28,
+    "page": 96,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal A Cidade\\A Cidade - 1996",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/28/96",
+    "local_image": "sources/local/r3_docvirt_1990.webp"
+  },
+  {
+    "term": "hahaha",
+    "decade": 2010,
+    "year_folder": 2016,
+    "folder": 49,
+    "page": 3,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal A Cidade\\A Cidade - 2016",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/49/3",
+    "local_image": "sources/local/r3_docvirt_2010.webp"
+  },
+  {
+    "term": "gargalhada",
+    "decade": 1970,
+    "year_folder": 1972,
+    "folder": 4,
+    "page": 161,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal A Cidade\\A Cidade - 1972",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/4/161",
+    "local_image": "sources/local/r3_docvirt_1970.webp"
+  },
+  {
+    "term": "gargalhada",
+    "decade": 1980,
+    "year_folder": 1980,
+    "folder": 12,
+    "page": 50,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal A Cidade\\A Cidade - 1980",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/12/50",
+    "local_image": "sources/local/r3_docvirt_1980.webp"
+  },
+  {
+    "term": "gargalhada",
+    "decade": 2000,
+    "year_folder": 2001,
+    "folder": 33,
+    "page": 209,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal A Cidade\\A Cidade - 2001",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/33/209",
+    "local_image": "sources/local/r3_docvirt_2000.webp"
+  },
+  {
+    "term": "gargalhada",
+    "decade": 1920,
+    "year_folder": 1926,
+    "folder": 81,
+    "page": 39,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal Correio\\Correio - 1926",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/81/39",
+    "local_image": "sources/local/r3_docvirt_1920.webp"
+  },
+  {
+    "term": "gargalhada",
+    "decade": 1930,
+    "year_folder": 1930,
+    "folder": 85,
+    "page": 33,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal Correio\\Correio - 1930",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/85/33",
+    "local_image": "sources/local/r3_docvirt_1930.webp"
+  },
+  {
+    "term": "gargalhada",
+    "decade": 1940,
+    "year_folder": 1940,
+    "folder": 95,
+    "page": 117,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal Correio\\Correio - 1940",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/95/117",
+    "local_image": "sources/local/r3_docvirt_1940.webp"
+  },
+  {
+    "term": "gargalhada",
+    "decade": 1950,
+    "year_folder": 1952,
+    "folder": 108,
+    "page": 150,
+    "path": "\\Apresentação\\Acervo Jornais Históricos\\Jornal Correio\\Correio - 1952",
+    "image_url": "https://api.docvirt.com/v1/documents/dvd_ajhpmj/108/150",
+    "local_image": "sources/local/r3_docvirt_1950.webp"
+  }
+]

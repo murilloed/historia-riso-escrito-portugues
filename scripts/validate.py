@@ -5,13 +5,25 @@ ROOT=Path(__file__).resolve().parents[1]
 def readcsv(name):
  with (ROOT/'data'/name).open(encoding='utf-8') as f:return list(csv.DictReader(f))
 at=readcsv('attestations.csv');years=readcsv('annual_coverage.csv')
-assert len({x['id'] for x in at})==len(at)==19
+assert len({x['id'] for x in at})==len(at)==23
 audit=readcsv('references_audit.csv')
 assert len(audit)==66 and len({x['id'] for x in audit})==66
 assert __import__('collections').Counter(x['status'] for x in audit)==dict(A=3,L=7,B=19,I=4,S=33)
 assert all(x['finding'] and x['checked_on'] for x in audit)
 assert len(readcsv('claims_verification.csv'))==22
 assert len(years)==155
+archive_rows=readcsv('archive_decade_matrix.csv')
+archive_refs=readcsv('archive_decade_references.csv')
+assert len(readcsv('archive_profiles.csv'))==13
+assert len({(x['archive'],x['decade']) for x in archive_rows})==len(archive_rows)
+assert sum(bool(x['reference_id']) for x in archive_rows)==len(archive_refs)
+assert all(x['kind'] in ['lexical','rubrica','mimética'] for x in archive_refs)
+ref_lookup={x['id']:x for x in archive_refs}
+for x in archive_rows:
+ if x['reference_id']:
+  r=ref_lookup[x['reference_id']]
+  assert (x['archive'],x['decade'])==(r['archive'],r['decade'])
+for r in archive_refs:assert int(r['date'][:4])//10*10==int(r['decade'])
 assert all(any(int(x['year'])//10==d for x in at) for d in range(190,201))
 assert len(readcsv('claims_audit.csv'))==22
 assert len(readcsv('candidate_sources.csv'))==66
@@ -44,5 +56,6 @@ try:
  assert 'Murillo Edson de Carvalho Souza' in full
  assert '[?]' not in full
 except ImportError:pass
+report.update(acervos=13,referencias_por_acervo_e_decada=len(archive_refs),linhas_matriz_acervos=len(archive_rows),cobertura_integral_acervos=False)
 (ROOT/'data/validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=True))

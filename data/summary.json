@@ -1,9 +1,9 @@
 {
-  "attestations": 19,
-  "years_with_attestations": 19,
+  "attestations": 23,
+  "years_with_attestations": 23,
   "by_evidence": {
     "E2": 6,
-    "E1": 10,
+    "E1": 14,
     "E3": 3
   },
   "claims_audited": 22,

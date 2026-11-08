@@ -46,5 +46,53 @@
     "evidence": "E1",
     "bib": "andrade2019",
     "date_basis": "edição consultada de 2019; obra original de 1928 sem cotejo daquela passagem"
+  },
+  {
+    "year": 1879,
+    "document": "A Imprensa Ytuana : jornal scientifico, litterario, noticiozo e industrial do Instituto do Novo-Mundo, ano 004, n. 183, 1879",
+    "source_id": "r3_bore_item1870_2_pdf",
+    "country": "Brasil",
+    "medium": "jornal: rubrica",
+    "form": "(Riso)",
+    "locator": "1879-09-13; PDF p. 2",
+    "evidence": "E1",
+    "bib": "r3doc1",
+    "date_basis": "data do catálogo; ocorrência inspecionada na imagem"
+  },
+  {
+    "year": 2016,
+    "document": "A Cidade de Jardinópolis",
+    "source_id": "r3_docvirt_2010",
+    "country": "Brasil",
+    "medium": "jornal: grafia mimética",
+    "form": "Hahaha...",
+    "locator": "2016-01-09; pasta 49, página lógica 3; p. impressa 3; Só Rindo, Claudio Aguilhera",
+    "evidence": "E1",
+    "bib": "r3doc18",
+    "date_basis": "data impressa conferida"
+  },
+  {
+    "year": 2022,
+    "document": "A Cidade de Jardinópolis",
+    "source_id": "r3_docvirt_2020",
+    "country": "Brasil",
+    "medium": "jornal: grafia mimética",
+    "form": "kkkkk",
+    "locator": "2022-01-29; pasta 57, página lógica 21; p. impressa 5; Entrevista",
+    "evidence": "E1",
+    "bib": "r3doc19",
+    "date_basis": "data impressa conferida"
+  },
+  {
+    "year": 2025,
+    "document": "Correio Braziliense: Uma sintonia capital",
+    "source_id": "r3_cb2025",
+    "country": "Brasil",
+    "medium": "jornal: rubrica",
+    "form": "(risos)",
+    "locator": "2025-04-07; PDF p.22; Diversão & Arte; entrevista de Walter Lima Jr. por Ricardo Daehn",
+    "evidence": "E1",
+    "bib": "r3doc21",
+    "date_basis": "data impressa conferida"
   }
 ]

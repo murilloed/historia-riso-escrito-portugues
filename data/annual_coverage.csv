@@ -6,7 +6,7 @@ year,confirmed_documents,scope,interpretation
 1876,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 1877,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 1878,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
-1879,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
+1879,1,extensão,atestação no inventário
 1880,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 1881,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 1882,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
@@ -143,14 +143,14 @@ year,confirmed_documents,scope,interpretation
 2013,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2014,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2015,1,extensão,atestação no inventário
-2016,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
+2016,1,extensão,atestação no inventário
 2017,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2018,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2019,1,extensão,atestação no inventário
 2020,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2021,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
-2022,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
+2022,1,extensão,atestação no inventário
 2023,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
 2024,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
-2025,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica
+2025,1,extensão,atestação no inventário
 2026,0,extensão,sem atestação confirmada nesta coleta; não é ausência histórica

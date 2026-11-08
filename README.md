@@ -19,7 +19,7 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 
 ## Resultado e alcance
 
-O inventário tem **19 atestações em documentos ou interações reportadas**, com ao menos um documento de cada década de 1900 a 2000. São dez testemunhos com imagem inspecionada (E1), seis transcrições primárias eletrônicas (E2) e três interações reportadas em pesquisas (E3).
+O inventário tem **23 atestações em documentos ou interações reportadas**, com ao menos um documento de cada década de 1900 a 2000. São quatorze testemunhos com imagem inspecionada (E1), seis transcrições primárias eletrônicas (E2) e três interações reportadas em pesquisas (E3).
 
 Isso **não é cobertura de todos os anos nem uma amostra equilibrada de três livros e três jornais por período**. Também não representa frequência de uso da população. As lacunas anuais são publicadas explicitamente.
 
@@ -126,3 +126,7 @@ Há metadados em CITATION.cff. O GitHub não fornece DOI automaticamente; nenhum
 Manuscrito e arquivos novos são identificados com a autoria de Murillo Edson de Carvalho Souza. A publicação pública não atribui automaticamente licença aberta ao manuscrito. Os textos e imagens de terceiros mantêm direitos e condições próprias, detalhados no inventário e nos cabeçalhos dos textos.
 
 A elaboração utilizou assistência de IA para organização, redação, busca e programação, declarada no artigo. Essa assistência não configura coautoria e não substitui avaliação científica independente.
+
+## Ampliação por acervo e década
+
+A terceira rodada acrescenta quatro documentos ao núcleo e um inventário complementar de menções lexicais. A meta de uma referência em cada década de cada acervo **permanece parcialmente atendida**. Veja o [relatório da terceira revisão](docs/REVISAO-3.md), os [perfis dos 13 endereços](data/archive_profiles.csv), as [referências selecionadas](data/archive_decade_references.csv) e a [matriz com pendências](data/archive_decade_matrix.csv). Extremos editoriais não equivalem a disponibilidade integral de fac-símiles. O estado de conclusão consta em [archive_summary.json](data/archive_summary.json).
