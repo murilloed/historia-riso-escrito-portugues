@@ -1,0 +1,5 @@
+# Necessários apenas para inspeção de PDFs e QA, não para as tabelas estatísticas.
+pypdf>=5
+PyMuPDF>=1.24
+Pillow>=10
+truststore>=0.10

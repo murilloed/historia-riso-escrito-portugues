@@ -1,0 +1,15 @@
+{
+  "attestations": 15,
+  "years_with_attestations": 15,
+  "by_evidence": {
+    "E2": 6,
+    "E1": 6,
+    "E3": 3
+  },
+  "claims_audited": 22,
+  "design": "exploratory_non_probability",
+  "n0_10": 97,
+  "n0_05": 385,
+  "detection_005": 59,
+  "detection_001": 299
+}

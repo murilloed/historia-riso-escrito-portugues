@@ -1,0 +1,83 @@
+\section{Metodologia documental e organização do repositório}
+\subsection{Desenho executado, escopo e material de partida}
+O estudo executado é exploratório, documental e crítico, com busca dirigida e coleta não probabilística. Seu objeto empírico tem dois níveis: as alegações e supostas citações presentes no material conversacional fornecido pelo autor; e os documentos recuperados para verificá-las ou contextualizá-las. Não é uma revisão sistemática exaustiva, nem uma amostra representativa de toda a escrita portuguesa entre 1872 e 2026. O recorte de 1900 a 2009 organiza a cobertura anual do núcleo histórico sugerido no material; testemunhos anteriores e posteriores funcionam como extensões documentadas.
+
+A consulta foi realizada em 8 de novembro de 2026. Utilizaram-se buscas por autor, título, variante gráfica e ano em acervos institucionais e bibliotecas digitais, incluindo Project Gutenberg, Wikisource, o corpus de Machado de Assis mantido na Brigham Young University, a Hemeroteca Digital Brasileira e repositórios universitários. Variantes sem acento, pontuação alterada e repetições distintas foram consideradas como pistas. Resultados de buscadores serviram para descoberta; a passagem recuperada, a imagem ou o texto integral acessível fundamentaram a classificação de evidência.
+
+O material conversacional não foi contado como ocorrência histórica. Ele é um roteiro de investigação que contém hipóteses, exemplos, contradições e transcrições ainda sem autenticação. A auditoria conserva o assunto de cada trecho, distinguindo a formulação original de sua avaliação científica. Os arquivos integrais de trabalho permanecem locais; a versão pública contém uma matriz de alegações com os elementos necessários à conferência, sem divulgar a conversa inteira ou metadados pessoais desnecessários.
+
+\subsection{Unidades e metadados}
+Distinguem-se quatro unidades. A \emph{referência bibliográfica} identifica uma obra; o \emph{documento amostral} é uma edição, número de periódico ou sessão de interação; a \emph{ocorrência} é uma passagem contextualizada; o \emph{tipo gráfico} é uma categoria, como \forma{quiá} ou \forma{kkkk}. Três passagens do mesmo romance não equivalem a três documentos independentes. Uma dissertação que reproduz um chat é o documento consultado, enquanto o chat é o testemunho reportado. A unidade não deve mudar silenciosamente entre tabelas.
+
+Para cada testemunho registram-se identificador, autor ou periódico, título, ano da obra, ano da edição ou estudo, data da interação quando disponível, país, suporte, grafia literal, contexto, localizador, URL, data de acesso, natureza da evidência e restrições. Em PDFs, informa-se a página do arquivo e, quando conhecida, a paginação impressa. Em textos eletrônicos sem paginação estável, utiliza-se capítulo e âncora textual. Um identificador baseado em sequência exata permite reencontrar a passagem sem inventar uma página.
+
+A grafia diplomática conserva acento, caixa e pontuação na medida permitida pelo testemunho. A normalização é um campo separado, usado para localizar variantes. ``Quá quá quá'' e ``quá-quá-quá'' podem ser agrupados numa análise de tipos, mas não são apresentados como transcrições idênticas. Um OCR que lê uma vogal incorretamente não decide a forma final: a imagem prevalece quando disponível.
+
+\subsection{Níveis de evidência e regras de inclusão}
+Adotam-se os códigos E1, fonte primária com imagem inspecionada e localizador; E2, texto primário em edição ou transcrição eletrônica consultada, sem colação integral com o impresso; E3, interação reproduzida em estudo acadêmico, com página e contexto identificados; E4, alegação secundária, paráfrase ou referência sem passagem autenticada. E1 não significa ausência de qualquer erro editorial; E2 não equivale a edição crítica. Esses códigos qualificam a cadeia de acesso, não a importância literária.
+
+Incluem-se no inventário de atestações passagens cujo contexto sustenta leitura de riso e cujo suporte pode ser identificado. Excluem-se da contagem principal nomes comerciais, títulos de programas, siglas e sequências de letras sem função de riso demonstrada. A palavra ``risos'' numa descrição não é automaticamente rubrica de transcrição. Uma cadeia \forma{KKKK} que nomeia um empreendimento ou uma organização não é uma gargalhada digital. Tais falsos positivos são registrados quando relevantes para explicar a triagem.
+
+As frases literais do material inicial não foram autenticadas por existirem livros com os mesmos títulos. A identificação da obra e a verificação da passagem são etapas distintas. A ausência de correspondência numa busca eletrônica também não prova falsificação: pode haver diferenças de edição, OCR ou redação. O estatuto adequado é ``não autenticada nesta coleta'', salvo quando há uma contradição documental específica.
+
+\subsection{Rastreabilidade, downloads e disponibilidade}
+O repositório do autor, \repo, concentra o manuscrito, bibliografia, dados e scripts \cite{souzaRepositorio2026}. O inventário de aquisição registra URL, resultado de acesso, tamanho e SHA-256 dos arquivos efetivamente baixados. Falhas de acesso são mantidas no histórico. Os scripts distinguem arquivos obtidos localmente de documentos consultados por serviço de leitura web; uma consulta bem-sucedida num ambiente não é apresentada como download bem-sucedido em outro.
+
+O GitHub é infraestrutura de versionamento e disponibilização, não prova de validade da hipótese. A referência metodológica identifica o autor e o repositório; a reprodução deve usar o commit ou a versão efetivamente consultada. Links, checksums e scripts contribuem para localização e reuso segundo os princípios FAIR \cite{wilkinson2016}. Não se presume que acesso gratuito autorize republicação integral. Documentos com direitos não esclarecidos permanecem locais, com metadados públicos e instruções de obtenção. Arquivos redistribuídos conservam fonte e condições aplicáveis.
+
+\subsection{Controle de qualidade e limites de validação}
+Efetuou-se conferência contextual das passagens selecionadas, inspeção visual da capa de \textit{O Tico-Tico} e validação dos localizadores disponíveis. Uma revisão eletrônica verifica chaves bibliográficas, referências cruzadas, ausência de citações não resolvidas, contagem de registros e consistência entre tabelas geradas e arquivos de dados. A revisão é feita em uma etapa de trabalho assistida por ferramentas; não se declara dupla codificação independente ou concordância entre avaliadores que não ocorreu.
+
+Uma ampliação deverá empregar pelo menos dois anotadores em uma subamostra, medir acordo por categoria e discutir divergências. Textos antigos exigem atenção a acentos, hifens, fontes tipográficas e ordem das colunas. A validação humana não deve limitar-se a confirmar a regex: precisa verificar a função da sequência e sua atribuição ao documento correto.
+
+\section{Fundamentação estatística da quantidade de documentos por ano}
+\subsection{Por que três referências não constituem justificativa estatística}
+O roteiro inicial pede três jornais e três livros por período. Esse número é uma quota editorial útil para organizar exemplos, mas não fornece representatividade por si só. A existência de três títulos conhecidos não informa o número de páginas examinadas, a quantidade de oportunidades de riso, o universo de documentos preservados ou a dependência entre passagens. A repetição de exemplos não estima frequência social. Tampouco um cálculo de amostra transforma retrospectivamente a busca dirigida em sorteio probabilístico.
+
+É preciso separar dois objetivos. Para demonstrar \emph{existência}, uma atestação autêntica basta para aquele documento e data. Para estimar \emph{prevalência} ou comparar anos, é necessário definir população, unidade amostral, mecanismo de seleção e incerteza. Para demonstrar \emph{origem}, nenhum tamanho de amostra finito elimina automaticamente a possibilidade de documentos anteriores perdidos ou não inspecionados. A estatística auxilia o dimensionamento e a descrição; não produz uma certidão de nascimento etimológico.
+
+\subsection{Desenho prospectivo estratificado por ano e suporte}
+Propõe-se construir uma moldura de documentos para cada ano $y$ e suporte $s$, distinguindo ao menos livros e periódicos. O estrato é $h=(y,s)$ e contém $N_h$ unidades elegíveis. Livros podem ser definidos por edição publicada naquele ano; periódicos, por número, com páginas selecionadas em segundo estágio quando necessário. Interações digitais formam estratos próprios, pois sessões, mensagens e usuários não são equivalentes a volumes impressos. País, gênero e acervo devem ser registrados para controlar composição.
+
+O estimando básico sugerido é a proporção de documentos do estrato com pelo menos uma representação gráfica de riso: $p_h=P(I_h=1)$. Outro estimando possível é a frequência de determinado tipo por quantidade de palavras inspecionadas. Esses objetos não se confundem. Uma obra longa tende a oferecer mais oportunidades de ocorrência, razão pela qual também se registra extensão. A frequência normalizada, se houver denominadores confiáveis, será $f_h=10^6 C_h/W_h$, em que $C_h$ é número de ocorrências e $W_h$ o total de palavras elegíveis.
+
+Quando os estratos têm dimensões conhecidas, pode-se fazer censo dos pequenos e sorteio dos grandes, registrando probabilidades de inclusão. A estimativa agregada usa pesos proporcionais aos universos, e não uma média simples de estratos com tamanhos diferentes. Se custos e variâncias forem conhecidos, a alocação ótima é proporcional a $N_hS_h/\sqrt{c_h}$, em que $S_h$ é o desvio-padrão do indicador e $c_h$ o custo por unidade. Sem piloto ou moldura, essa alocação é uma proposta, não um procedimento executado \cite{cochran1977}.
+
+\subsection{Dimensionamento para uma proporção}
+Sob amostragem aleatória simples, população grande, nível nominal de 95\% e erro absoluto $e$, um dimensionamento inicial é
+\begin{equation}
+n_0=\frac{z_{0,975}^2p(1-p)}{e^2},\qquad z_{0,975}=1{,}96.
+\end{equation}
+Na ausência de proporção piloto, $p=0{,}5$ maximiza a variância. Com $e=0{,}10$, resulta $n_0=96{,}04$, arredondado para 97 documentos \emph{por estrato} se a precisão for exigida em cada combinação de ano e suporte. Para $e=0{,}05$, são 385. Esses números não significam 97 ou 385 referências bibliográficas a citar no artigo: as referências identificam os documentos examinados, enquanto tabelas exemplificativas podem exibir apenas uma seleção transparente.
+
+Para universo finito conhecido, a correção é
+\begin{equation}
+n_h=\left\lceil\frac{N_hn_0}{N_h+n_0-1}\right\rceil.
+\end{equation}
+Utiliza-se o valor não arredondado de $n_0$ na fórmula. Se $N_h=20$, o resultado para $e=0{,}10$ é 17; se $N_h=100$, é 50; se $N_h=1000$, é 88. Pressupõe-se sorteio sem reposição e população adequadamente coberta. A precisão nominal não corrige vieses de preservação, OCR ou seleção do acervo.
+
+\subsection{Dimensionamento para detecção de uma forma rara}
+Uma pergunta mais adequada à busca de atestações é: qual a chance de encontrar pelo menos um documento positivo? Sob ensaios independentes com probabilidade constante $p$, tem-se
+\begin{equation}
+P(\text{detecção}\mid n,p)=1-(1-p)^n,
+\qquad n\geq\left\lceil\frac{\log(1-q)}{\log(1-p)}\right\rceil,
+\end{equation}
+em que $q$ é a probabilidade de detecção desejada. Para $q=0{,}95$ e $p=0{,}05$, são necessários 59 documentos; para $p=0{,}01$, 299. Com três documentos, a chance é apenas 14,3\% no primeiro cenário e 3,0\% no segundo. Seis documentos elevam esses valores a 26,5\% e 5,9\%. A fórmula explicita por que uma quota pequena não fundamenta afirmações de ausência.
+
+\input{generated/detection-table}
+
+A independência é uma aproximação. Notícias reproduzidas, obras do mesmo autor e sessões com os mesmos participantes podem aumentar a correlação. Se necessário, um planejamento por conglomerados deverá considerar efeito de desenho $D$, com ajuste inicial $n_{\mathrm{aj}}=\lceil D n_0\rceil$, seguido de análise compatível com a amostragem efetiva. Não se adota um valor de $D$ como se fosse estimado pelos dados atuais.
+
+\subsection{Incerteza, zeros e análise temporal}
+Para uma amostra aleatória simples binomial, o intervalo de Wilson é uma alternativa ao intervalo normal simétrico, particularmente com contagens pequenas \cite{wilson1927}. Com $\hat p=x/n$, seus limites são
+\begin{equation}
+\frac{\hat p+z^2/(2n)\ \pm\ z\sqrt{\hat p(1-\hat p)/n+z^2/(4n^2)}}{1+z^2/n}.
+\end{equation}
+O script inclui a fórmula para reprodução do planejamento. Ela não é aplicada como intervalo populacional à coleta por conveniência deste artigo. Quando não há amostra válida num ano, informa-se ``sem atestação confirmada nesta coleta'', e não uma frequência zero da língua. O denominador precisa ser exposto mesmo quando a contagem de positivos é zero.
+
+Com corpus ampliado, comparações de contagens poderão utilizar modelos com compensação pela extensão textual, efeitos de documento e controles de gênero, país e acervo. Modelos de mudança temporal não devem ser ajustados a uma tabela composta apenas de exemplos selecionados. A forma mais antiga encontrada também é uma estatística dependente da cobertura: um acervo maior pode deslocá-la para trás sem que a história real tenha mudado.
+
+\subsection{Cobertura anual efetiva e plano de expansão}
+O arquivo \texttt{annual\_coverage.csv} apresenta, ano a ano, de 1872 a 2026, a quantidade de documentos com atestações confirmadas no inventário e o estatuto das lacunas. O núcleo 1900--2009 não foi preenchido artificialmente com três itens por suporte. Uma ausência na tabela é ausência de atestação \emph{nesta coleta}, não evidência negativa de uso histórico. O inventário de downloads contém documentos de apoio e documentos sem ocorrência confirmada; não se confunde número de arquivos com tamanho de amostra histórica.
+
+O planejamento de 97 documentos por estrato seria muito mais extenso que a quota inicial. Para 110 anos e dois suportes, corresponderia a até 21.340 documentos antes de correções por universo finito, indisponibilidade ou conglomerados. Essa ordem de grandeza é uma consequência da precisão escolhida, não uma exigência universal. Um projeto pode adotar precisão menor, estratos decenais ou objetivo apenas de detecção, desde que justifique a decisão e preserve os limites inferenciais.

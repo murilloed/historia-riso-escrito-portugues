@@ -1,0 +1,6 @@
+# Preservar bytes dos downloads e dos arquivos com SHA-256 publicado.
+sources/public/** -text
+artigo/main.tex -text
+artigo/references.bib -text
+*.pdf binary
+*.zip binary

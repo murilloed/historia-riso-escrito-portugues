@@ -1,0 +1,36 @@
+\section{Auditoria das supostas citações literais}
+A tabela preserva a identificação e a grafia atribuídas às fontes no material inicial. Não reproduz as frases como citações autênticas. O diagnóstico de não autenticação indica insuficiência de comprovação nesta coleta, não demonstração de inexistência em qualquer edição. A matriz CSV conserva uma âncora curta para buscas futuras.
+\input{generated/claims-table}
+
+\section{Cobertura anual e distinção entre lacuna e ausência}
+Os anos abaixo pertencem ao núcleo 1900--2009. A coluna de atestações conta documentos incluídos no inventário, não todos os arquivos baixados nem o universo publicado. O símbolo -- significa que não há atestação confirmada naquele ano nesta coleta; não representa frequência histórica zero. As extensões de 1872 a 2026 constam no arquivo público.
+\input{generated/annual-table}
+
+\section{Catálogo de pistas fornecidas para ampliação}
+Este catálogo preserva as sugestões de jornais, revistas e obras que motivaram a investigação. É uma lista de pistas, não um conjunto de fontes que comprovam as grafias atribuídas. As descrições herdadas são alegações do roteiro; datas de composição, publicação, reedição e disponibilização digital precisam ser distinguidas. A presença de uma obra no catálogo não autentica uma passagem nem valida sua alocação decenal.
+\input{generated/candidates-table}
+
+\section{Correções conceituais e decisões editoriais}
+\begin{enumerate}[leftmargin=*]
+\item Mudança histórica e motivação icônica são dimensões distintas, que podem coexistir.
+\item Continuidade lexical não exige afixação produtiva ou radical superficialmente preservado.
+\item Uma cadeia histórica pode ser reconstruída sem documentação de todas as gerações. A ausência de elos observados reduz a força da demonstração, mas não prova independência.
+\item Não há prova de que \forma{quiá} desapareceu da circulação social ao ser impresso. A extensão de uso requer corpus.
+\item \forma{Quiá} em \textit{Til} não é ocorrência literal de \forma{kkkk}, nem demonstra a primeira representação de riso da língua.
+\item \forma{Você} para \forma{cê} envolve aférese. A cronologia que situa \forma{você} apenas no século XX contradiz a atestação de 1638 discutida por Monte.
+\item \forma{Cá} é nome de letra ou sílaba, não um fonema único; /b/ é bilabial; a gargalhada não contém necessariamente /k/.
+\item \forma{Vilão} não se explica como simples mudança de \forma{-us} em \forma{-ão}. Mudança semântica não determina sozinha classe gramatical.
+\item Famílias linguísticas diferentes não excluem empréstimo; \forma{chikutaku} não é prova de isolamento.
+\item Datas de plataformas, reformas ortográficas e teclados são contexto potencial, não provas de origem de uma sequência.
+\item Preferências geracionais não são universais; o corpus não estima usos brasileiros da geração Alpha.
+\item Uma referência de divulgação citada num artigo acadêmico não se torna novo testemunho primário.
+\item A quota de três jornais e três livros é editorial. A justificativa estatística depende do estimando e da coleta.
+\item Datas precisas e aspas exigem localizador e conferência. Ilustrações não podem figurar como transcrições.
+\end{enumerate}
+
+\section{Dicionário de dados e reprodução}
+\texttt{attestations.csv} reúne testemunhos; \texttt{claims\_audit.csv}, os 22 alvos; \texttt{annual\_coverage.csv}, a cobertura anual; \texttt{candidate\_sources.csv}, as pistas; \texttt{downloads.json}, as aquisições; \texttt{detection\_sensitivity.csv}, os cenários matemáticos; \texttt{summary.json}, as contagens.
+
+\texttt{build\_data.py} gera tabelas de registros codificados e parâmetros declarados. A aquisição é separada da análise para que falhas de rede não sejam interpretadas como resultados linguísticos. Regex localizam candidatos e não substituem anotação. O repositório documenta comandos e versões.
+
+Não foram produzidos logs sintéticos para os anos 1990, participantes fictícios, contagens populacionais ou intervalos de confiança para a amostra dirigida. Os cenários de planejamento são identificados como hipotéticos. A distinção entre realizado e proposto integra a metodologia.

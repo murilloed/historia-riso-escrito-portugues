@@ -1,0 +1,23 @@
+name: Compilar artigo
+on:
+  push:
+    paths: ['artigo/**', 'scripts/build_data.py', 'scripts/build_appendices.py', 'data/**', '.github/workflows/latex.yml']
+  workflow_dispatch:
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gerar tabelas
+        run: python scripts/build_appendices.py
+      - uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: artigo
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artigo-pdf
+          path: artigo/main.pdf

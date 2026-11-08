@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Cite o artigo e identifique o commit ou release usado."
+type: dataset
+title: "Do riso impresso ao kkkk: manuscrito, auditoria e corpus documental"
+authors:
+  - family-names: "Souza"
+    given-names: "Murillo Edson de Carvalho"
+version: "0.1.0"
+date-released: "2026-11-08"
+url: "https://github.com/murilloed/historia-riso-escrito-portugues"
+repository-code: "https://github.com/murilloed/historia-riso-escrito-portugues"
+keywords:
+  - "riso escrito"
+  - "onomatopeia"
+  - "português brasileiro"
+  - "linguística histórica"
+  - "amostragem documental"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Souza"
+      given-names: "Murillo Edson de Carvalho"
+  title: "Do riso impresso ao kkkk: mudança linguística, iconicidade e evidência documental na história das representações do riso em português"
+  year: 2026
+  url: "https://github.com/murilloed/historia-riso-escrito-portugues/blob/main/artigo/main.pdf"

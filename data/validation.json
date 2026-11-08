@@ -1,0 +1,21 @@
+{
+  "atestacoes": 15,
+  "niveis": {
+    "E2": 6,
+    "E1": 6,
+    "E3": 3
+  },
+  "referencias": 32,
+  "alvos_auditoria": 22,
+  "pistas": 66,
+  "anos_inventariados": 155,
+  "decadas_nucleo_cobertas": 11,
+  "downloads": 34,
+  "falhas_download": 3,
+  "textos_integrais_publicos": 8,
+  "latex_sem_citacoes_indefinidas": true,
+  "latex_sem_glifos_ausentes": true,
+  "latex_sem_overfull": true,
+  "paginas": 29,
+  "palavras_pdf": 13230
+}
