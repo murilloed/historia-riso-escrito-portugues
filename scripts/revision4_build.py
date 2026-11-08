@@ -81,7 +81,8 @@ for r in rows:
  author=''
  if r['base']=='Brasiliana / BBM' and r['author']:
   # Datas biográficas do Dublin Core não integram o nome bibliográfico.
-  author=re.sub(r',?\s*\d{4}(?:[-–][\d?]*)?\s*$', '',r['author']).strip(' ,')
+  authors=[re.sub(r',?\s*\d{4}(?:[-–][\d?]*)?\s*$', '',name).strip(' ,') for name in r['author'].split('; ')]
+  author=' and '.join(name for name in authors if name)
  elif r['work_key']=='kibe-loco':author='{Kibe Loco}'
  author_field=('  author = {'+tex(author)+'},\n') if author else ('  key = {'+tex(r['title'])+'},\n')
  bib+='@misc{'+r['bib']+',\n'+author_field+'  title = {'+tex(r['title'])+'},\n  year = {'+str(r['year'])+'},\n  howpublished = {\\url{'+r['url']+'}},\n  note = {'+tex(r['locator']+'; '+r['date_basis'])+'; acesso em 8 nov. 2026}\n}\n\n'

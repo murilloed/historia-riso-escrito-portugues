@@ -46,6 +46,8 @@ for x in at:assert x['bib'] in keys
 log=(ROOT/'artigo/main.log').read_text(encoding='utf-8',errors='replace')
 bad=[line for line in log.splitlines() if re.search(r'undefined|Missing character|Overfull|^!',line)]
 assert not bad,bad
+blg=(ROOT/'artigo/main.blg').read_text(encoding='utf-8',errors='replace')
+assert not re.search(r'Too many commas|[1-9]\d* error messages?|I was expecting|Repeated entry',blg), 'Erro BibTeX: consultar main.blg'
 manifest=json.loads((ROOT/'data/downloads.json').read_text(encoding='utf-8'))
 public=[]
 for r in manifest:
