@@ -1,0 +1,16 @@
+{
+  "selection": "dirigida; cronológica; uma referência por título inédito",
+  "new_titles": 17,
+  "bbm_titles": 14,
+  "web_titles": 3,
+  "kind_counts": {
+    "lexical": 13,
+    "lexicográfica": 2,
+    "mimética": 2
+  },
+  "new_core_documents": 2,
+  "oldest_selected": 1645,
+  "newest_selected": 2017,
+  "exhaustive": false,
+  "checked_on": "2026-11-08"
+}

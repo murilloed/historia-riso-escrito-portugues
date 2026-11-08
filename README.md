@@ -19,7 +19,7 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 
 ## Resultado e alcance
 
-O inventário tem **23 atestações em documentos ou interações reportadas**, com ao menos um documento de cada década de 1900 a 2000. São quatorze testemunhos com imagem inspecionada (E1), seis transcrições primárias eletrônicas (E2) e três interações reportadas em pesquisas (E3).
+O inventário tem **25 atestações em documentos ou interações reportadas**, com ao menos um documento de cada década de 1900 a 2000. São quatorze testemunhos com imagem inspecionada (E1), oito textos ou transcrições primárias eletrônicas (E2) e três interações reportadas em pesquisas (E3).
 
 Isso **não é cobertura de todos os anos nem uma amostra equilibrada de três livros e três jornais por período**. Também não representa frequência de uso da população. As lacunas anuais são publicadas explicitamente.
 
@@ -111,9 +111,9 @@ Três livros e três jornais constituem uma quota editorial, não um tamanho amo
 
 Esses números são **planejamento prospectivo**, não o desenho retrospectivo da coleta dirigida. Não se calculam intervalos populacionais para os 15 exemplos.
 
-## Referências da UnB e literatura recente
+## Fundamentos linguísticos e literatura recente
 
-A relação com a bibliografia da UnB se apoia no Anexo IV do Edital 04/2026 do PPGL, documento oficial identificado no inventário. Não se atribui uma preferência uniforme a todo o departamento. Estudos de 2024 e 2025 complementam os fundamentos em iconicidade e sinais digitais. Nenhuma afiliação, financiamento ou avaliação por pares foi presumida.
+Os livros de linguística e de fonética e fonologia são citados pela pertinência teórica. Estudos de 2024 e 2025 complementam os fundamentos em iconicidade e sinais digitais. O artigo não declara afiliação institucional, financiamento ou avaliação por pares inexistentes.
 
 ## Citação
 
@@ -130,3 +130,9 @@ A elaboração utilizou assistência de IA para organização, redação, busca 
 ## Ampliação por acervo e década
 
 A terceira rodada acrescenta quatro documentos ao núcleo e um inventário complementar de menções lexicais. A meta de uma referência em cada década de cada acervo **permanece parcialmente atendida**. Veja o [relatório da terceira revisão](docs/REVISAO-3.md), os [perfis dos 13 endereços](data/archive_profiles.csv), as [referências selecionadas](data/archive_decade_references.csv) e a [matriz com pendências](data/archive_decade_matrix.csv). Extremos editoriais não equivalem a disponibilidade integral de fac-símiles. O estado de conclusão consta em [archive_summary.json](data/archive_summary.json).
+
+## Títulos inéditos: Brasiliana e Wayback
+
+A quarta rodada seleciona **17 títulos novos**, uma referência por obra, periódico ou site: 14 da Brasiliana, Kibe Loco, Cifra Club e uma comunidade do Orkut. O intervalo selecionado é 1645–2017; a consulta foi feita em 2026 e não constitui censo das bases. O fórum preserva `kkkkkkkkkkkkk` numa resposta de 2010 e o Orkut preserva `hehehe` numa descrição capturada em 2014. Essas duas fontes elevam o núcleo a 25 documentos. A data do tópico e a criação da comunidade não foram transferidas às ocorrências. O edital da UnB foi retirado do artigo e da bibliografia.
+
+Veja [títulos selecionados](data/revision4_new_titles.csv), [exclusões de títulos anteriores](data/revision4_exclusions.csv) e [relatório da quarta rodada](docs/REVISAO-4.md).

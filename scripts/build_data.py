@@ -32,7 +32,7 @@ if extra.exists():AT.extend(json.loads(extra.read_text(encoding='utf-8')))
 AT.sort(key=lambda r:r['year'])
 for i,r in enumerate(AT,1):
  r['id']=f'A{i:02}'
- r['representation']='rubrica descritiva' if r['medium'] in ['registro parlamentar','jornal: transcrição'] else 'representação mimética ou marcador digital'
+ r['representation']='rubrica descritiva' if r['medium'] in ['registro parlamentar','jornal: transcrição','jornal: rubrica'] else 'representação mimética ou marcador digital'
 csvwrite('attestations.csv',AT)
 counts=collections.Counter(r['year'] for r in AT)
 annual=[dict(year=y,confirmed_documents=counts[y],scope='núcleo' if 1900<=y<=2009 else 'extensão',interpretation='atestação no inventário' if counts[y] else 'sem atestação confirmada nesta coleta; não é ausência histórica') for y in range(1872,2027)]

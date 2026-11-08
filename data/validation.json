@@ -1,11 +1,11 @@
 {
-  "atestacoes": 23,
+  "atestacoes": 25,
   "niveis": {
-    "E2": 6,
+    "E2": 8,
     "E1": 14,
     "E3": 3
   },
-  "referencias": 105,
+  "referencias": 122,
   "alvos_auditoria": 22,
   "pistas": 66,
   "pareceres_individuais": 66,
@@ -18,16 +18,18 @@
   },
   "anos_inventariados": 155,
   "decadas_nucleo_cobertas": 11,
-  "downloads": 228,
-  "falhas_download": 14,
+  "downloads": 278,
+  "falhas_download": 15,
   "textos_integrais_publicos": 8,
   "latex_sem_citacoes_indefinidas": true,
   "latex_sem_glifos_ausentes": true,
   "latex_sem_overfull": true,
-  "paginas": 48,
-  "palavras_pdf": 22414,
+  "paginas": 53,
+  "palavras_pdf": 25089,
   "acervos": 13,
   "referencias_por_acervo_e_decada": 29,
   "linhas_matriz_acervos": 137,
-  "cobertura_integral_acervos": false
+  "cobertura_integral_acervos": false,
+  "titulos_ineditos_quarta_rodada": 17,
+  "edital_unb_removido": true
 }

@@ -1,8 +1,8 @@
 {
-  "attestations": 23,
-  "years_with_attestations": 23,
+  "attestations": 25,
+  "years_with_attestations": 24,
   "by_evidence": {
-    "E2": 6,
+    "E2": 8,
     "E1": 14,
     "E3": 3
   },

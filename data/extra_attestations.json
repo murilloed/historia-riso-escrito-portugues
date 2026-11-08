@@ -94,5 +94,29 @@
     "evidence": "E1",
     "bib": "r3doc21",
     "date_basis": "data impressa conferida"
+  },
+  {
+    "year": 2010,
+    "document": "Cifra Club: como afinar meio tom abaixo",
+    "source_id": "r4_forum_capture",
+    "country": "Brasil",
+    "medium": "fórum preservado",
+    "form": "kkkkkkkkkkkkk",
+    "locator": "resposta Enviado: 12/jul/10 15:21; após boa!; captura 2010-09-15T13:54:14Z",
+    "evidence": "E2",
+    "bib": "r4forumcifraclub",
+    "date_basis": "data e hora exibidas na mensagem; captura de 15/09/2010; tópico iniciado em 2003"
+  },
+  {
+    "year": 2014,
+    "document": "Orkut: comunidade Kiko Dança Psy-TRANCE",
+    "source_id": "r4_orkut_community",
+    "country": "Brasil",
+    "medium": "comunidade preservada",
+    "form": "hehehe",
+    "locator": "descrição da comunidade, após sempre agitado; captura 2014-10-04T09:58:23Z",
+    "evidence": "E2",
+    "bib": "r4orkutcomunidades",
+    "date_basis": "data da captura, não data de redação; criação da comunidade em 2006 não data o trecho"
   }
 ]

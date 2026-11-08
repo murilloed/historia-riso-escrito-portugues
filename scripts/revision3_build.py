@@ -107,7 +107,9 @@ table('archive_references.tex','Referências selecionadas por década e acervo. 
 table('archive_matrix.tex','Matriz por acervo e década: cumprimento observado da quota, sem imputação de exemplos.',['Acervo','Década','Resultado'],[(r['archive'],'n/d' if r['decade']=='indeterminada' else r['decade'],r['status']+(' ('+r['reference_id']+')' if r['reference_id'] else '')) for r in matrix],[.10,.13,.66])
 
 # Bloco idempotente de bibliografia.
-bibpath=ROOT/'artigo/references.bib';bib=bibpath.read_text(encoding='utf-8').split('% BEGIN REVISION3')[0].rstrip()+'\n\n% BEGIN REVISION3\n'
+bibpath=ROOT/'artigo/references.bib';old_bib=bibpath.read_text(encoding='utf-8')
+later_block=('\n% BEGIN REVISION4'+old_bib.split('% BEGIN REVISION4',1)[1]) if '% BEGIN REVISION4' in old_bib else ''
+bib=old_bib.split('% BEGIN REVISION3')[0].rstrip()+'\n\n% BEGIN REVISION3\n'
 def entry(key,title,url,year,note):
  return '@misc{'+key+',\n  title = {'+tex(title)+'},\n  howpublished = {\\url{'+url+'}},\n  year = {'+str(year)+'},\n  note = {'+tex(note)+'; acesso em 8 nov. 2026}\n}\n\n'
 for p in profiles:bib+=entry('r3archive'+p['archive'],p['name']+': catálogo e condições de acesso',p['coverage_url'],2026,p['date_basis'])
@@ -115,7 +117,7 @@ existing_keys=set(re.findall(r'@\w+\{([^,]+),',bib))
 for r in refs:
  if r['bib'] not in existing_keys:
   bib+=entry(r['bib'],r['title'],r['url'],r['date'][:4],r['locator']+'; '+r['date_basis']);existing_keys.add(r['bib'])
-bibpath.write_text(bib.rstrip()+'\n',encoding='utf-8',newline='\n')
+bibpath.write_text(bib.rstrip()+'\n'+later_block,encoding='utf-8',newline='\n')
 
 # Somente quatro documentos novos entram no núcleo de representações.
 new=[next(r for r in refs if r['source_id']==sid) for sid in ['r3_bore_item1870_2_pdf','r3_docvirt_2010','r3_docvirt_2020','r3_cb2025']]

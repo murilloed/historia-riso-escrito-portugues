@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def readcsv(name):
  with (ROOT/'data'/name).open(encoding='utf-8') as f:return list(csv.DictReader(f))
 at=readcsv('attestations.csv');years=readcsv('annual_coverage.csv')
-assert len({x['id'] for x in at})==len(at)==23
+assert len({x['id'] for x in at})==len(at)==25
 audit=readcsv('references_audit.csv')
 assert len(audit)==66 and len({x['id'] for x in audit})==66
 assert __import__('collections').Counter(x['status'] for x in audit)==dict(A=3,L=7,B=19,I=4,S=33)
@@ -36,6 +36,11 @@ keys=set(re.findall(r'@\w+\{([^,]+),',bib))
 text='\n'.join(p.read_text(encoding='utf-8') for p in (ROOT/'artigo').rglob('*.tex'))
 cites={k for m in re.finditer(r'\\cite\{([^}]+)\}',text) for k in m.group(1).split(',')}
 assert not cites-keys, f'Chaves ausentes: {cites-keys}'
+assert 'unb2026' not in keys and 'unb2026' not in cites
+new_titles=readcsv('revision4_new_titles.csv')
+assert len(new_titles)==17 and len({x['work_key'] for x in new_titles})==17
+assert sum(x['core']=='True' for x in new_titles)==2
+assert [int(x['year']) for x in new_titles]==sorted(int(x['year']) for x in new_titles)
 assert not keys-cites, f'Referências não citadas: {keys-cites}'
 for x in at:assert x['bib'] in keys
 log=(ROOT/'artigo/main.log').read_text(encoding='utf-8',errors='replace')
@@ -55,7 +60,9 @@ try:
  full='\n'.join(p.get_text() for p in d)
  assert 'Murillo Edson de Carvalho Souza' in full
  assert '[?]' not in full
+ assert not re.search(r'\bUnB\b|Edital 04/2026',full)
 except ImportError:pass
 report.update(acervos=13,referencias_por_acervo_e_decada=len(archive_refs),linhas_matriz_acervos=len(archive_rows),cobertura_integral_acervos=False)
+report.update(titulos_ineditos_quarta_rodada=len(new_titles),edital_unb_removido=True)
 (ROOT/'data/validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=True))

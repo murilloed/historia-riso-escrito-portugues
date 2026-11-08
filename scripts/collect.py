@@ -7,7 +7,6 @@ SOURCES=[
  ('primo1878','https://www.gutenberg.org/ebooks/42942.txt.utf-8','txt','dominio-publico; observar cabecalho Gutenberg'),
  ('policarpo1915','https://www.gutenberg.org/ebooks/67535.txt.utf-8','txt','dominio-publico; observar cabecalho Gutenberg'),
  ('young2008','https://repositorio.ufc.br/bitstream/riufc/3309/1/2008_Dis_RSYOUNG.pdf','pdf','acesso-aberto; redistribuicao-nao-verificada'),
- ('unb2026','https://dpg.unb.br/wp-content/uploads/2026/03/Rev_Edital_N_C2_BA_04.2026_Selecao_Mestrado_2026.2__281_29_assinado.pdf','pdf','documento-oficial-publico'),
  ('iida2024','https://pmc.ncbi.nlm.nih.gov/articles/PMC11670811/','html','CC-BY-NC-ND-4.0'),
  ('missangas2025','https://revistas.uneb.br/missangas/article/download/24450/16407/90797','pdf','licenca-a-conferir'),
  ('cruz2015','https://profletras.ufrn.br/wp-content/uploads/2025/04/6a-Ana-Catia-Alves-da-Silva.pdf','pdf','acesso-aberto; redistribuicao-nao-verificada'),
