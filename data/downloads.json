@@ -11669,5 +11669,159 @@
     "path": "sources/local/r6_r1session05_01.html",
     "bytes": 41866,
     "sha256": "ef76cb87f87cd8ed1b258805f2384b816bf3f5cf1b3d6b9937b08d048e9970b5"
+  },
+  {
+    "id": "r7_jb1978_49",
+    "url": "https://hemeroteca-pdf.bn.gov.br/030015/per030015_1978_00049.pdf",
+    "access_date": "2026-11-08",
+    "rights": "Hemeroteca; fac-símile com consulta pública",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_jb1970_35",
+    "url": "https://hemeroteca-pdf.bn.gov.br/030015/per030015_1970_00035.pdf",
+    "access_date": "2026-11-08",
+    "rights": "Hemeroteca; fac-símile com consulta pública",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_jb1976_1",
+    "url": "https://hemeroteca-pdf.bn.gov.br/030015/per030015_1976_00001.pdf",
+    "access_date": "2026-11-08",
+    "rights": "Hemeroteca; fac-símile com consulta pública",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_jb1977_1",
+    "url": "https://hemeroteca-pdf.bn.gov.br/030015/per030015_1977_00001.pdf",
+    "access_date": "2026-11-08",
+    "rights": "Hemeroteca; fac-símile com consulta pública",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_jb1979_1",
+    "url": "https://hemeroteca-pdf.bn.gov.br/030015/per030015_1979_00001.pdf",
+    "access_date": "2026-11-08",
+    "rights": "Hemeroteca; fac-símile com consulta pública",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_jb_reader",
+    "url": "https://memoria.bn.gov.br/DocReader/docreader.aspx?PagFis=186666&bib=030015_09",
+    "access_date": "2026-11-08",
+    "rights": "catálogo oficial",
+    "resolved_url": "https://memoria.bn.gov.br/DocReader/docreader.aspx?PagFis=186666&bib=030015_09",
+    "status": "downloaded",
+    "path": "sources/local/r7_jb_reader.html",
+    "bytes": 262278,
+    "sha256": "801800ce07916f5b0f225c8eee8d85a99d8ac7a57c18b2730e59b19706855bfc"
+  },
+  {
+    "id": "r7_jb_1978",
+    "url": "https://hemeroteca-pdf.bn.gov.br/030015_09/per030015_1978_00049.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile oficial",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_jb_1978b",
+    "url": "https://hemeroteca-pdf.bn.gov.br/030015_09/per030015_09_1978_00049.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile oficial",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_jb_1978c",
+    "url": "https://memoria.bn.gov.br/pdf/030015/per030015_1978_00049.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile oficial",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r7_bn_js",
+    "url": "https://memoria.bn.gov.br/DocReader/lib/DocReader.js",
+    "access_date": "2026-11-08",
+    "rights": "interface pública",
+    "resolved_url": "https://memoria.bn.gov.br/DocReader/lib/DocReader.js",
+    "status": "failed",
+    "path": "sources/local/r7_bn_js.js",
+    "bytes": 3,
+    "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+    "error": "A resposta não continha o script da interface."
+  },
+  {
+    "id": "r7_jb_unicamp",
+    "url": "https://redisap.unicamp.br/uploads/r/arquivo-central-do-sistema-de-arquivos-unicamp/b/1/d/b1d099e7907e60c892cbd74534cffbd926ad99b0b2eec6947fd189ef7eb8dd66/df096ebd-102c-4159-ae79-b0bbcc2bbbd5-BR_SPSIARQ_SBH_PMN_IT0028_d0001de0001.pdf",
+    "access_date": "2026-11-08",
+    "rights": "recortes de imprensa do Arquivo Central da Unicamp; consulta pública",
+    "resolved_url": "https://redisap.unicamp.br/uploads/r/arquivo-central-do-sistema-de-arquivos-unicamp/b/1/d/b1d099e7907e60c892cbd74534cffbd926ad99b0b2eec6947fd189ef7eb8dd66/df096ebd-102c-4159-ae79-b0bbcc2bbbd5-BR_SPSIARQ_SBH_PMN_IT0028_d0001de0001.pdf",
+    "status": "failed",
+    "path": "sources/local/r7_jb_unicamp.pdf",
+    "bytes": 908,
+    "sha256": "601a7c2440618237a7d53e97ae331cb714e208230c896e8747937fada41e24d5",
+    "error": "A resposta direta era HTML. A consulta ao texto indexado do recorte é registrada na matriz."
+  },
+  {
+    "id": "r7_bn1911",
+    "url": "https://hemeroteca-pdf.bn.gov.br/245038/per245038_1911_01125.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da BN",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/245038/per245038_1911_01125.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r7_bn1911.pdf",
+    "bytes": 4900220,
+    "sha256": "f288167e490455844ade2f74d322bdc641b6a2091521a3614d63e94c71d73d64"
+  },
+  {
+    "id": "r7_bn1978",
+    "url": "https://hemeroteca-pdf.bn.gov.br/829587/per829587_1978_00122.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da BN",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/829587/per829587_1978_00122.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r7_bn1978.pdf",
+    "bytes": 3017540,
+    "sha256": "8f079731bb52225c3b6e9bb0848e216f592145878a0a89d7620e345338263b50"
+  },
+  {
+    "id": "r7_bn1903",
+    "url": "https://hemeroteca-pdf.bn.gov.br/116300/per116300_1903_00060.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da BN",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/116300/per116300_1903_00060.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r7_bn1903.pdf",
+    "bytes": 4758546,
+    "sha256": "22fca0970c165c9c94b2dfdab2748bdb469ae82e56241d16cd5703904f706ebc"
+  },
+  {
+    "id": "r7_bn1965",
+    "url": "https://hemeroteca-pdf.bn.gov.br/089842/per089842_1965_22142.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da BN",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/089842/per089842_1965_22142.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r7_bn1965.pdf",
+    "bytes": 19673234,
+    "sha256": "5d9e656430e7fdbc6f7f140e3a7220afa8b1762f3d7d6d7b687968bde56cc7e6"
+  },
+  {
+    "id": "r7_bn1989",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1989_22293.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da BN",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1989_22293.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r7_bn1989.pdf",
+    "bytes": 26367913,
+    "sha256": "1c3afbbb822afed452dbe9385e264954d94f186348d2b57f4748bfffb1692f8c"
   }
 ]

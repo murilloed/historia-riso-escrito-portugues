@@ -1,9 +1,11 @@
 {
   "archive_addresses": 13,
   "matrix_rows": 137,
-  "confirmed_archive_decade_cells": 29,
-  "selected_references": 29,
-  "new_core_documents": 4,
+  "confirmed_archive_decade_cells": 35,
+  "alternative_source_cells": 2,
+  "pending_quota_cells": 98,
+  "selected_references": 37,
+  "new_core_documents_round3": 4,
   "scope_completed": false,
-  "checked_on": "2026-11-08"
+  "checked_on": "2026-11-09"
 }

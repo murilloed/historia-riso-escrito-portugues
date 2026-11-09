@@ -24,7 +24,7 @@ for p in profiles:
  if p['archive']=='H12':note='Coleção Gazeta na BBM; H14 é o acervo geral da mesma biblioteca.'
  if p['archive']=='H13':note='Item individual do APESP; não é outra base independente.'
  requested=p['url'] if p['archive']!='H13' else 'https://atom.arquivoestado.sp.gov.br/br-spapesp-hemapesp-s001-b000565-d000071;isad?sf_culture=fr'
- registry.append(dict(id=p['archive'],name=p['name'],requested_url=requested,access_url=p['url'],scope_note=note,selected_references=sum(x['archive']==p['archive'] for x in r3),count_scope='referências por acervo e década, rodada 3',data_url=gh('data/archive_decade_references.csv'),profile_url=gh('data/archive_profiles.csv'),bib='r3archive'+p['archive']))
+ registry.append(dict(id=p['archive'],name=p['name'],requested_url=requested,access_url=p['url'],scope_note=note,selected_references=sum(x['archive']==p['archive'] for x in r3),count_scope='referências por acervo e década',data_url=gh('data/archive_decade_references.csv'),profile_url=gh('data/archive_profiles.csv'),bib='r3archive'+p['archive']))
 registry += [
  dict(id='H14',name='Brasiliana / BBM: acervo geral',requested_url='https://www.brasiliana.usp.br/handle/bbm/1',access_url='https://digital.bbm.usp.br/handle/bbm/1',scope_note='Mesma biblioteca de H12; coleção geral, não outra instituição independente.',selected_references=sum(x['base']=='Brasiliana / BBM' for x in r4),count_scope='títulos inéditos selecionados, rodada 4',data_url=gh('data/revision4_new_titles.csv'),profile_url=gh('docs/REVISAO-4.md'),bib='bbmAcervo2026'),
  dict(id='H15',name='Orkut preservado na Wayback',requested_url='https://web.archive.org/web/20141001005309/http://orkut.google.com/',access_url='https://web.archive.org/web/20141001005309/http://orkut.google.com/',scope_note='Conteúdo do Orkut preservado no serviço H16; não plataforma de preservação independente.',selected_references=sum(x['work_key']=='orkut-comunidades' for x in r4),count_scope='comunidade selecionada, rodada 4',data_url=gh('data/revision4_new_titles.csv'),profile_url=gh('docs/REVISAO-4.md'),bib='r4orkutindex'),
@@ -60,6 +60,11 @@ bib+='''@misc{bbmAcervo2026,
  note={Capturas individuais e redirecionamentos documentados no manifesto. Acesso em 8 nov. 2026}
 }
 '''
+for row in r3:
+ if row['bib'].startswith('acervoD'):
+  title=tex(row['title'])
+  note=tex(row['locator']+'. '+row['date_basis'])
+  bib+=f"@misc{{{row['bib']},\n key={{{title}}},\n title={{{title}}},\n year={{{row['date'][:4]}}},\n howpublished={{\\url{{{row['url']}}}}},\n note={{{note}}}\n}}\n"
 bibpath.write_text(bib,encoding='utf-8',newline='\n')
 bib_count=len(set(re.findall(r'@\w+\{([^,]+),',bib+'\n'+(ROOT/'artigo/annual.bib').read_text(encoding='utf-8'))))
 evidence=collections.Counter(x['evidence'] for x in at)
@@ -70,7 +75,7 @@ metric('M02','Núcleo de representações autenticadas',len(at),'documentos/test
 metric('M03','Níveis do núcleo E1 / E2 / E3',f'{evidence["E1"]} / {evidence["E2"]} / {evidence["E3"]}','testemunhos',f'Imagem / texto primário eletrônico / interação reportada; partição dos {len(at)} registros.','data/attestations.csv')
 metric('M04','Indicações iniciais com parecer',len(readcsv('references_audit.csv')),'indicações','Auditoria bibliográfica; não são 66 ocorrências positivas.','data/references_audit.csv')
 metric('M05','Citações alegadas submetidas a verificação',len(readcsv('claims_verification.csv')),'alegações','Nenhuma autenticada integralmente; os resultados constam no parecer.','data/claims_verification.csv')
-metric('M06','Referências por acervo e década',len(r3),'referências selecionadas','Rodada 3: inclui lexical, rubrica e mimética; parte já integra o núcleo.','data/archive_decade_references.csv')
+metric('M06','Referências por acervo e década',len(r3),'referências selecionadas','Inclui menções lexicais, rubricas e grafias miméticas, com fontes alternativas identificadas na matriz.','data/archive_decade_references.csv')
 metric('M07','Linhas de acompanhamento por acervo/década',len(readcsv('archive_decade_matrix.csv')),'linhas','Inclui quotas pendentes e uma linha com década indeterminada; não universo completo.','data/archive_decade_matrix.csv')
 metric('M08','Títulos inéditos selecionados',len(r4),'títulos','Rodada 4: 14 Brasiliana e três espaços digitais; duas fontes já incorporadas ao núcleo.','data/revision4_new_titles.csv')
 metric('M09','Anos no inventário anual do núcleo',len(readcsv('annual_coverage.csv')),'anos','1872–2026; anos sem testemunho não significam ausência histórica.','data/annual_coverage.csv')
@@ -90,6 +95,28 @@ def table(name,caption,columns,header,lines):
 col=lambda w:r'>{\raggedright\arraybackslash}p{'+w+r'\textwidth}'
 table('method_quantification.tex','Balanço quantitativo do levantamento até 9 de novembro de 2026. As linhas têm unidades distintas e não devem ser somadas.',col('.31')+col('.13')+col('.45'),'Indicador & Quantidade & Unidade, escopo e dados',[tex(x['indicator'])+' & '+tex(x['value'])+' & '+tex(x['unit']+'. '+x['scope'])+r' \href{'+x['data_url']+r'}{Dados no GitHub} \\' for x in metrics])
 table('base_registry.tex','Inventário consolidado dos 16 endereços indicados: portais, coleções, item e captura. Sobreposições não são novas bases independentes.',col('.29')+col('.38')+col('.22'),'ID / recurso & Relação entre os recursos & Seleção e rastreabilidade',[tex(x['id']+' '+x['name'])+r' \cite{'+x['bib']+'} & '+tex(x['scope_note'])+' & '+tex(str(x['selected_references'])+'; '+x['count_scope'])+r' \href{'+x['access_url']+r'}{Fonte}; \href{'+x['data_url']+r'}{GitHub} \\' for x in registry])
+
+matrix=readcsv('archive_decade_matrix.csv')
+alternative=sum(x['status']=='confirmada em fonte alternativa' for x in matrix)
+direct=sum(bool(x['reference_id']) for x in matrix)-alternative
+archive_summary=dict(archive_addresses=len(profiles),matrix_rows=len(matrix),
+                     confirmed_archive_decade_cells=direct,alternative_source_cells=alternative,
+                     pending_quota_cells=sum(x['status'].startswith('pendente:') for x in matrix),
+                     selected_references=len(r3),new_core_documents_round3=4,
+                     scope_completed=False,checked_on='2026-11-09')
+(DATA/'archive_summary.json').write_text(json.dumps(archive_summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+table('archive_profiles.tex','Recortes e condições de acesso dos 13 endereços consultados.',
+      col('.20')+col('.32')+col('.37'),'ID / acervo & Recorte e fundamento & Situação',
+      [tex(p['archive']+' '+p['name'])+' & '+tex(p['start']+'--'+p['end']+'. '+p['date_basis'])+' & '+
+       tex(p['access_finding'])+r' \cite{r3archive'+p['archive']+r'} \\' for p in profiles])
+table('archive_references.tex','Referências selecionadas por década e acervo, com fontes alternativas identificadas na matriz.',
+      col('.13')+col('.53')+col('.23'),'Acervo / década & Documento e localização & Ocorrência / categoria',
+      [tex(r['archive']+' / '+r['decade'])+' & '+tex(r['title']+'; '+r['date']+'; '+r['locator'])+
+       ' & '+tex(r['form']+'; '+r['kind'])+r' \cite{'+r['bib']+r'} \\' for r in r3])
+table('archive_matrix.tex','Matriz por acervo e década. A confirmação em fonte alternativa conserva a pendência de conferência na plataforma indicada.',
+      col('.10')+col('.13')+col('.66'),'Acervo & Década & Resultado',
+      [' & '.join(map(tex,[r['archive'],'n/d' if r['decade']=='indeterminada' else r['decade'],
+       r['status']+(' ('+r['reference_id']+')' if r['reference_id'] else '')]))+r' \\' for r in matrix])
 
 # Substitui apenas o balanço inicial desatualizado, preservando o plano
 # estatístico e seus pressupostos, que continuam prospectivos.

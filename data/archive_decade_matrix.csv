@@ -28,7 +28,7 @@ H03,1950,pendente: quota não satisfeita,,Interface consultada; cobertura por d�
 H03,1960,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
 H03,1970,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
 H03,1980,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
-H03,1990,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
+H03,1990,confirmada em fonte alternativa,D037,versão eletrônica publicada pela Folha; o exemplar no portal Acervo Folha permanece sem conferência
 H03,2000,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
 H03,2010,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
 H03,2020,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
@@ -59,15 +59,15 @@ H05,1860,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas;
 H05,1870,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,1880,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,1890,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1900,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1910,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
+H05,1900,confirmada: lexical,D030,
+H05,1910,confirmada: lexical,D031,
 H05,1920,confirmada: rubrica,D027,
 H05,1930,confirmada: mimética,D028,
 H05,1940,confirmada: mimética,D029,
-H05,1950,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1960,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1970,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1980,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
+H05,1950,confirmada: mimética,D035,
+H05,1960,confirmada: lexical,D032,
+H05,1970,confirmada: lexical,D033,
+H05,1980,confirmada: lexical,D034,
 H05,1990,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,2000,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,2010,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
@@ -87,7 +87,7 @@ H07,1930,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no 
 H07,1940,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
 H07,1950,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
 H07,1960,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
-H07,1970,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
+H07,1970,confirmada em fonte alternativa,D036,trecho consultado no texto indexado do recorte; a cópia do Google News permanece sem conferência
 H07,1980,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
 H07,1990,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
 H08,indeterminada,pendente: quota não satisfeita,,Instrumentos de descrição consultados; inventário temporal e ocorrências pendentes

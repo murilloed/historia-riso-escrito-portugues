@@ -24,6 +24,11 @@ assert len(readcsv('archive_profiles.csv'))==13
 assert len({(x['archive'],x['decade']) for x in archive_rows})==len(archive_rows)
 assert sum(bool(x['reference_id']) for x in archive_rows)==len(archive_refs)
 assert all(x['kind'] in ['lexical','rubrica','mimética'] for x in archive_refs)
+archive_summary=json.loads((ROOT/'data/archive_summary.json').read_text(encoding='utf-8'))
+assert archive_summary['selected_references']==len(archive_refs)
+assert archive_summary['alternative_source_cells']==sum(x['status']=='confirmada em fonte alternativa' and bool(x['note']) for x in archive_rows)
+assert archive_summary['confirmed_archive_decade_cells']+archive_summary['alternative_source_cells']==len(archive_refs)
+assert archive_summary['pending_quota_cells']==sum(x['status'].startswith('pendente:') for x in archive_rows)
 ref_lookup={x['id']:x for x in archive_refs}
 for x in archive_rows:
  if x['reference_id']:
