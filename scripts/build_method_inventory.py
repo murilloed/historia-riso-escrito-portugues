@@ -60,7 +60,7 @@ bib+='''@misc{bbmAcervo2026,
  note={Capturas individuais e redirecionamentos documentados no manifesto. Acesso em 8 nov. 2026}
 }
 '''
-for row in r3:
+for row in {r['bib']: r for r in reversed(r3)}.values():
  if row['bib'].startswith('acervoD'):
   title=tex(row['title'])
   note=tex(row['locator']+'. '+row['date_basis'])

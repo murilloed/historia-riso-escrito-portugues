@@ -29,9 +29,9 @@ H03,1960,pendente: quota não satisfeita,,Interface consultada; cobertura por d�
 H03,1970,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
 H03,1980,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
 H03,1990,confirmada em fonte alternativa,D037,versão eletrônica publicada pela Folha; o exemplar no portal Acervo Folha permanece sem conferência
-H03,2000,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
-H03,2010,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
-H03,2020,pendente: quota não satisfeita,,Interface consultada; cobertura por década ainda pendente
+H03,2000,confirmada em fonte alternativa,D051,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
+H03,2010,confirmada em fonte alternativa,D052,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
+H03,2020,confirmada em fonte alternativa,D053,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
 H04,1870,confirmada: rubrica,D001,
 H04,1880,confirmada: lexical,D002,
 H04,1890,confirmada: lexical,D003,
@@ -54,11 +54,11 @@ H05,1810,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas;
 H05,1820,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,1830,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,1840,confirmada: lexical,D020,
-H05,1850,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1860,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1870,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1880,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H05,1890,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
+H05,1850,confirmada: lexical,D050,
+H05,1860,confirmada: lexical,D039,
+H05,1870,confirmada: lexical,D041,
+H05,1880,confirmada: lexical,D043,
+H05,1890,confirmada: lexical,D045,
 H05,1900,confirmada: lexical,D030,
 H05,1910,confirmada: lexical,D031,
 H05,1920,confirmada: rubrica,D027,
@@ -76,8 +76,8 @@ H06,1960,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais d�
 H06,1970,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
 H06,1980,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
 H06,1990,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
-H06,2000,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
-H06,2010,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
+H06,2000,confirmada em fonte alternativa,D054,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
+H06,2010,confirmada em fonte alternativa,D055,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
 H06,2020,confirmada: rubrica,D021,
 H07,1890,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
 H07,1900,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
@@ -98,23 +98,23 @@ H10,1820,pendente: quota não satisfeita,,Portal e destino da versão digital co
 H10,1830,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1840,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1850,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1860,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1870,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1880,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1890,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
+H10,1860,confirmada em fonte alternativa,D038,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
+H10,1870,confirmada em fonte alternativa,D040,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
+H10,1880,confirmada em fonte alternativa,D042,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
+H10,1890,confirmada em fonte alternativa,D044,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
 H10,1900,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1910,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1920,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1930,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1940,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1950,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
+H10,1920,confirmada em fonte alternativa,D046,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
+H10,1930,confirmada em fonte alternativa,D047,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
+H10,1940,confirmada em fonte alternativa,D048,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
+H10,1950,confirmada em fonte alternativa,D049,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
 H10,1960,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1970,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1980,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1990,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,2000,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,2010,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,2020,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
+H10,2010,confirmada em fonte alternativa,D056,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
+H10,2020,confirmada em fonte alternativa,D057,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
 H11,1820,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
 H11,1830,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
 H11,1840,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
