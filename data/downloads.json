@@ -12764,5 +12764,61 @@
     "path": "sources/local/r10_SECXIX_rindo_160.jpg",
     "bytes": 695823,
     "sha256": "5d570a85e96fd2a6aed4cd1d0eb892f06a9bbb29a9156be55a2c435489f938b6"
+  },
+  {
+    "id": "r11_folha1926",
+    "url": "https://almanaque.folha.uol.com.br/mundo_27jan1926.htm",
+    "access_date": "2026-11-08",
+    "rights": "transcrição institucional do Banco de Dados Folha",
+    "status": "failed",
+    "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
+  },
+  {
+    "id": "r11_folha1931",
+    "url": "https://almanaque.folha.uol.com.br/ilustrada2_12fev1931.htm",
+    "access_date": "2026-11-08",
+    "rights": "transcrição institucional do Banco de Dados Folha",
+    "status": "failed",
+    "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
+  },
+  {
+    "id": "r11_folha1940",
+    "url": "https://almanaque.folha.uol.com.br/mundo_11dez1940.htm",
+    "access_date": "2026-11-08",
+    "rights": "transcrição institucional do Banco de Dados Folha",
+    "status": "failed",
+    "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
+  },
+  {
+    "id": "r11_folha1952",
+    "url": "https://almanaque.folha.uol.com.br/ilustrada_22jun1952.htm",
+    "access_date": "2026-11-08",
+    "rights": "transcrição institucional do Banco de Dados Folha",
+    "status": "failed",
+    "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
+  },
+  {
+    "id": "r11_folha1968",
+    "url": "https://almanaque.folha.uol.com.br/ciencia_27mai1968.htm",
+    "access_date": "2026-11-08",
+    "rights": "transcrição institucional do Banco de Dados Folha",
+    "status": "failed",
+    "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
+  },
+  {
+    "id": "r11_folha1977",
+    "url": "https://almanaque.folha.uol.com.br/entubaldo.htm",
+    "access_date": "2026-11-08",
+    "rights": "transcrição institucional do Banco de Dados Folha",
+    "status": "failed",
+    "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
+  },
+  {
+    "id": "r11_folha1980",
+    "url": "https://almanaque.folha.uol.com.br/entrevista_gilberto%20freyre_09mar1980.htm",
+    "access_date": "2026-11-08",
+    "rights": "transcrição institucional do Banco de Dados Folha",
+    "status": "failed",
+    "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
   }
 ]
