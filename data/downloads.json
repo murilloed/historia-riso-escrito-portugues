@@ -12867,5 +12867,282 @@
     "path": "sources/local/r12_jb1968.html",
     "bytes": 24689,
     "sha256": "71381541d765799cf85561b4550b80d9d358ce9ff1f3af50e0800a6d56fcb9c0"
+  },
+  {
+    "id": "r13_dp1829_65",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00065.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00065.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1829_65.pdf",
+    "bytes": 1205916,
+    "sha256": "ef5cf8775b3e14b9151d141fc606f0e666d1554a80ad366888dc9f4aed54a4a5"
+  },
+  {
+    "id": "r13_dp1829_125",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00125.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00125.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1829_125.pdf",
+    "bytes": 1287080,
+    "sha256": "a0ff2570e47ba1e7e28eba11e9f41396ca0e9996e1e63eb91470a8d1b47c3aee"
+  },
+  {
+    "id": "r13_dp1829_175",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00175.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00175.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1829_175.pdf",
+    "bytes": 1761121,
+    "sha256": "446d9cf4918e103b4f4d31116769a65350c016dee7959c7c529b58c055b9aaa8"
+  },
+  {
+    "id": "r13_dp1829_225",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00225.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1829_00225.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1829_225.pdf",
+    "bytes": 1152727,
+    "sha256": "b6c70157e83876bc6fb85dcf711f33670c604d282cf60412ad375fdce0ea1f8d"
+  },
+  {
+    "id": "r13_dp1839_65",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00065.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00065.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1839_65.pdf",
+    "bytes": 2017576,
+    "sha256": "395796bdca985c7b0e0a89bafdf2fc9bdb19fc09b26fa988b32d0fb984e6803f"
+  },
+  {
+    "id": "r13_dp1839_125",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00125.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00125.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1839_125.pdf",
+    "bytes": 2167103,
+    "sha256": "74ba6ea2cbac272829687bae8afb6ae6b1ef266361d32e1a03af1a9fe96f8afd"
+  },
+  {
+    "id": "r13_dp1839_175",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00175.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00175.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1839_175.pdf",
+    "bytes": 3275419,
+    "sha256": "bddc584521eeed7a023ba8be4cc5738c0d79e5089ae6c89355ff3137b0539450"
+  },
+  {
+    "id": "r13_dp1839_225",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00225.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1839_00225.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1839_225.pdf",
+    "bytes": 2202851,
+    "sha256": "b6841d83f8e722e858d24e8776d95e91fc0cd71c5297f821b9d0494e12f1632a"
+  },
+  {
+    "id": "r13_dp1849_65",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00065.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00065.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1849_65.pdf",
+    "bytes": 2364370,
+    "sha256": "aac46d56ae21e80cb7c43612d4de5e14f40bad8f6151585798d6ddd575748201"
+  },
+  {
+    "id": "r13_dp1849_125",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00125.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00125.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1849_125.pdf",
+    "bytes": 2427559,
+    "sha256": "d4c8ea847554d8884fa537a25d44ec4425ac1ed29fb48336b86f8ed481dde5d6"
+  },
+  {
+    "id": "r13_dp1849_175",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00175.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00175.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1849_175.pdf",
+    "bytes": 2658958,
+    "sha256": "13346345736632b5960ed39ee2c2a10915c069ad34b77edf28c3824cbb6cae70"
+  },
+  {
+    "id": "r13_dp1849_225",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00225.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1849_00225.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1849_225.pdf",
+    "bytes": 2723045,
+    "sha256": "66866c666fd4f90d053c44251f7ce9eca32bb74eddb58d44955f473c9352e3e6"
+  },
+  {
+    "id": "r13_dp1859_65",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1859_00065.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1859_00065.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1859_65.pdf",
+    "bytes": 5306177,
+    "sha256": "db0d8148ee9817e58ab4303c7af27218ebba287b65ad5c5c15c6ebd6168f8994"
+  },
+  {
+    "id": "r13_dp1859_125",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1859_00125.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1859_00125.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1859_125.pdf",
+    "bytes": 5184520,
+    "sha256": "8e4c7e36477c3074953c65ce936898898c9f39f215f1295a5197e5c25e7c22bd"
+  },
+  {
+    "id": "r13_dp1859_175",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1859_00175.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r13_dp1859_225",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1859_00225.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r13_dp1909_65",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00065.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00065.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1909_65.pdf",
+    "bytes": 4829057,
+    "sha256": "994dbc1a5908c148027884ba1696326b4bef67879e9c14c23351058e1241ae60"
+  },
+  {
+    "id": "r13_dp1909_125",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00125.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00125.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1909_125.pdf",
+    "bytes": 4872053,
+    "sha256": "e30f66c84b20f2bea7064cf332dd0a6698f334d8f947205630a13a0a3d8af954"
+  },
+  {
+    "id": "r13_dp1909_175",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00175.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00175.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1909_175.pdf",
+    "bytes": 4725793,
+    "sha256": "0900a06eabdf8b015e25e965eec918cab0266fb97afcf27f57d860d69eb2d605"
+  },
+  {
+    "id": "r13_dp1909_225",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00225.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1909_00225.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1909_225.pdf",
+    "bytes": 4633104,
+    "sha256": "ccc2e26520f168809a9208bea9d640e051e562a2fb093fb5dc0016320b123159"
+  },
+  {
+    "id": "r13_dp1919_65",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1919_00065.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1919_00065.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1919_65.pdf",
+    "bytes": 5288801,
+    "sha256": "6f177bbdfee292ac78c4c580565e329bea6b9697060c938d5889438a8cf8b0e3"
+  },
+  {
+    "id": "r13_dp1919_125",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1919_00125.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1919_00125.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1919_125.pdf",
+    "bytes": 5398651,
+    "sha256": "d73aed378a4df4f19da5709c24592b1afcc50473d15531e7c237a78fd97b59f2"
+  },
+  {
+    "id": "r13_dp1919_175",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1919_00175.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1919_00175.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_dp1919_175.pdf",
+    "bytes": 5501800,
+    "sha256": "83e51414f4ad8d4e790d8924da0528d439521c535a0d87569279e193c847a52b"
+  },
+  {
+    "id": "r13_dp1919_225",
+    "url": "https://hemeroteca-pdf.bn.gov.br/029033/per029033_1919_00225.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r13_jb1932",
+    "url": "https://encontro2010.rj.anpuh.org/resources/anais/15/1337974352_ARQUIVO_OCarnavalnasImprensasCariocas.pdf",
+    "access_date": "2026-11-08",
+    "rights": "anais ANPUH com transcrição de poema",
+    "resolved_url": "https://encontro2010.rj.anpuh.org/resources/anais/15/1337974352_ARQUIVO_OCarnavalnasImprensasCariocas.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r13_jb1932.pdf",
+    "bytes": 115633,
+    "sha256": "86028cd21017e77e4c415b0efd0354c57d7ef9fa9c724bc56c63210ffbf3a26b"
+  },
+  {
+    "id": "r13_globo1970",
+    "url": "https://jornalheiros.blogspot.com/2009_10_01_archive.html",
+    "access_date": "2026-11-08",
+    "rights": "transcrição de crônica em blog público",
+    "resolved_url": "https://jornalheiros.blogspot.com/2009_10_01_archive.html",
+    "status": "downloaded",
+    "path": "sources/local/r13_globo1970.html",
+    "bytes": 449435,
+    "sha256": "b684ac5b0adf2b5ccbf5ac6a46c18df9155aed9e3ceca49c367b2d86f0accbda"
   }
 ]
