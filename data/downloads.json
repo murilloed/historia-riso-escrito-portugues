@@ -12820,5 +12820,52 @@
     "rights": "transcrição institucional do Banco de Dados Folha",
     "status": "failed",
     "error": "<urlopen error ('O nome CN do certificado não corresponde ao valor transmitido.',)>"
+  },
+  {
+    "id": "r12_globo2006",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/400563/complemento_1.htm?sequence=2",
+    "access_date": "2026-11-08",
+    "rights": "fonte alternativa com identificação da publicação original",
+    "resolved_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/400563/complemento_1.htm?sequence=2",
+    "status": "failed",
+    "path": "sources/local/r12_globo2006.html",
+    "bytes": 9051,
+    "sha256": "ae5a04c0a6e39d5f49e846e893ee234642e055d815b8e5f7a75e75f26d545964",
+    "error": "Requisição direta devolveu HTML de verificação. O conteúdo indexado foi consultado."
+  },
+  {
+    "id": "r12_cb1988",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/125014/1988_01%20a%2010%20de%20Fevereiro%20-%200127.pdf?isAllowed=y&sequence=1",
+    "access_date": "2026-11-08",
+    "rights": "fonte alternativa com identificação da publicação original",
+    "resolved_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/125014/1988_01%20a%2010%20de%20Fevereiro%20-%200127.pdf?isAllowed=y&sequence=1",
+    "status": "failed",
+    "path": "sources/local/r12_cb1988.pdf",
+    "bytes": 9051,
+    "sha256": "ae5a04c0a6e39d5f49e846e893ee234642e055d815b8e5f7a75e75f26d545964",
+    "error": "Requisição direta devolveu HTML de verificação. O conteúdo indexado foi consultado."
+  },
+  {
+    "id": "r12_jb1988",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/124240/1988_01%20a%2010%20de%20Fevereiro%20-%200025.pdf?isAllowed=y&sequence=1",
+    "access_date": "2026-11-08",
+    "rights": "fonte alternativa com identificação da publicação original",
+    "resolved_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/124240/1988_01%20a%2010%20de%20Fevereiro%20-%200025.pdf?isAllowed=y&sequence=1",
+    "status": "failed",
+    "path": "sources/local/r12_jb1988.pdf",
+    "bytes": 9051,
+    "sha256": "ae5a04c0a6e39d5f49e846e893ee234642e055d815b8e5f7a75e75f26d545964",
+    "error": "Requisição direta devolveu HTML de verificação. O conteúdo indexado foi consultado."
+  },
+  {
+    "id": "r12_jb1968",
+    "url": "https://cronicabrasileira.org.br/cronicas/12666/estado-de-graca-trecho",
+    "access_date": "2026-11-08",
+    "rights": "fonte alternativa com identificação da publicação original",
+    "resolved_url": "https://cronicabrasileira.org.br/cronicas/12666/estado-de-graca-trecho",
+    "status": "downloaded",
+    "path": "sources/local/r12_jb1968.html",
+    "bytes": 24689,
+    "sha256": "71381541d765799cf85561b4550b80d9d358ce9ff1f3af50e0800a6d56fcb9c0"
   }
 ]

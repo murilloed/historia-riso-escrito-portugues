@@ -1,14 +1,14 @@
 {
   "requested_entry_points": 16,
   "independent_bases_not_inferred": true,
-  "manifest_entries": 1181,
-  "nonempty_acquisitions": 1099,
+  "manifest_entries": 1185,
+  "nonempty_acquisitions": 1100,
   "empty_responses": 2,
-  "failed_entries": 80,
-  "technical_domains": 59,
+  "failed_entries": 83,
+  "technical_domains": 60,
   "corpus_records": 121,
-  "bibliographic_entries": 266,
-  "archive_decade_references": 81,
+  "bibliographic_entries": 270,
+  "archive_decade_references": 85,
   "new_titles": 17,
   "counts_additive": false
 }
