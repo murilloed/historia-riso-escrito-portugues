@@ -12443,5 +12443,38 @@
     "path": "sources/local/r8_bn1857.pdf",
     "bytes": 1605087,
     "sha256": "f881832fed9247088fb1456c74f2af24b149054a0e585eeea6dbcf3209b7fb8d"
+  },
+  {
+    "id": "r9_globo87",
+    "url": "https://blogs.oglobo.globo.com/blog-do-acervo/post/nao-me-considero-um-poeta-brasileiro-uma-entrevista-com-joao-cabral-de-melo-neto-feita-por-ferreira-gullar.html",
+    "access_date": "2026-11-08",
+    "rights": "republicação no Blog do Acervo de O Globo",
+    "resolved_url": "https://blogs.oglobo.globo.com/blog-do-acervo/post/nao-me-considero-um-poeta-brasileiro-uma-entrevista-com-joao-cabral-de-melo-neto-feita-por-ferreira-gullar.html",
+    "status": "downloaded",
+    "path": "sources/local/r9_globo87.html",
+    "bytes": 164316,
+    "sha256": "01cf8d6bc574644ff447cfaa9ffea60e04222b66e0d3108755d1a7135bec886e"
+  },
+  {
+    "id": "r9_globo15",
+    "url": "https://blogs.oglobo.globo.com/amplificador/post/joao-lucas-diretor-artistico-do-vaca-amarela-faz-balanco-positivo-da-14-edicao-do-festival.html",
+    "access_date": "2026-11-08",
+    "rights": "publicação eletrônica de O Globo",
+    "resolved_url": "https://blogs.oglobo.globo.com/amplificador/post/joao-lucas-diretor-artistico-do-vaca-amarela-faz-balanco-positivo-da-14-edicao-do-festival.html",
+    "status": "downloaded",
+    "path": "sources/local/r9_globo15.html",
+    "bytes": 148244,
+    "sha256": "5d8044d22b0ba6035fa2077912a833eaf32ff54c1c7cd167829be32b8e1ab518"
+  },
+  {
+    "id": "r9_globo20",
+    "url": "https://blogs.oglobo.globo.com/sonar-a-escuta-das-redes/post/chat-com-gabriela-prioli-estudo-antes-de-me-posicionar-nas-redes-nao-sou-um-oraculo.html",
+    "access_date": "2026-11-08",
+    "rights": "publicação eletrônica de O Globo",
+    "resolved_url": "https://blogs.oglobo.globo.com/sonar-a-escuta-das-redes/post/chat-com-gabriela-prioli-estudo-antes-de-me-posicionar-nas-redes-nao-sou-um-oraculo.html",
+    "status": "downloaded",
+    "path": "sources/local/r9_globo20.html",
+    "bytes": 152723,
+    "sha256": "59c483a787ae6f2c9137d1d7c0883d50f8eb20df5b0e169c42b683a741d03cd3"
   }
 ]
