@@ -16943,5 +16943,179 @@
     "path": "sources/local/r15_esp1822_114.pdf",
     "bytes": 767400,
     "sha256": "fda8ee22c249cfa57e14c3d36d5d2b1df3ef919667b708c97b7b8c3f2fab870e"
+  },
+  {
+    "id": "r16_dp2008",
+    "url": "https://aplauso.imprensaoficial.com.br/fs/Artigos/163/PDF_223.pdf",
+    "access_date": "2026-11-08",
+    "rights": "recorte preservado pela Imprensa Oficial",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "r16_dp2008mirror",
+    "url": "https://livrozilla.com/doc/1717658/senhora-sorriso---cole%C3%A7%C3%A3o-aplauso",
+    "access_date": "2026-11-08",
+    "rights": "espelho de transcrição ou recorte",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "r16_761036_1990_22540",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22540.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_761036_1990_22560",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22560.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_761036_1990_22600",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22600.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_761036_1990_22650",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22650.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_761036_1990_22700",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22700.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_761036_1990_22750",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22750.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_761036_1990_22800",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22800.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_761036_1990_22840",
+    "url": "https://hemeroteca-pdf.bn.gov.br/761036/per761036_1990_22840.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1050",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01050.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1060",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01060.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1070",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01070.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1080",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01080.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1090",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01090.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1100",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01100.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1110",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01110.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_124745_1990_1120",
+    "url": "https://hemeroteca-pdf.bn.gov.br/124745/per124745_1990_01120.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição candidata da Hemeroteca",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r16_globo1969",
+    "url": "https://editorasator.com.br/blog/2026/06/03/temos-no-rio-uma-fabulosa-mulher-de-papel/",
+    "access_date": "2026-11-08",
+    "rights": "republicação de crônica pela editora",
+    "resolved_url": "https://editorasator.com.br/blog/2026/06/03/temos-no-rio-uma-fabulosa-mulher-de-papel/",
+    "status": "downloaded",
+    "path": "sources/local/r16_globo1969.html",
+    "bytes": 112434,
+    "sha256": "9a572e832aff65f288a3b6d848f50d15a5c36c7426b00244920a0d1d4d8f9804"
+  },
+  {
+    "id": "r16_uff_recortes",
+    "url": "https://www.labhoi.uff.br/imagens-digitais/categorias/thumbs/206",
+    "access_date": "2026-11-08",
+    "rights": "inventário de recortes da UFF",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "r16_bn1991",
+    "url": "https://hemeroteca-pdf.bn.gov.br/325538/per325538_1991_00164.pdf",
+    "access_date": "2026-11-08",
+    "rights": "edição de 1991 da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/325538/per325538_1991_00164.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r16_bn1991.pdf",
+    "bytes": 10617752,
+    "sha256": "6c80aa80bdabf4b5b5ee44ee8f70ac11439824055075539d6b740ed4501752a8"
   }
 ]
