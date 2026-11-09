@@ -22,7 +22,7 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 
 ## Resultado e alcance
 
-O inventário tem **25 atestações em documentos ou interações reportadas**, com ao menos um documento de cada década de 1900 a 2000. São quatorze testemunhos com imagem inspecionada (E1), oito textos ou transcrições primárias eletrônicas (E2) e três interações reportadas em pesquisas (E3).
+O inventário tem **121 atestações** e cobre os **110 anos de 1900 a 2009**. A busca anual adicionou 96 testemunhos, sendo 87 registros parlamentares e nove periódicos. O conjunto contém 23 testemunhos E1, 95 E2 e três E3. Os novos testemunhos e respectivos localizadores constam no [suplemento anual](data/annual_supplement.csv).
 
 Isso **não é cobertura de todos os anos nem uma amostra equilibrada de três livros e três jornais por período**. Também não representa frequência de uso da população. As lacunas anuais são publicadas explicitamente.
 
@@ -142,4 +142,4 @@ Veja [títulos selecionados](data/revision4_new_titles.csv), [exclusões de tít
 
 ## Balanço metodológico consolidado
 
-A metodologia do artigo e o [documento metodológico](docs/METODOLOGIA.md) contêm tabelas com links para os dados. O [inventário de bases](data/base_registry.csv) reúne os 16 endereços indicados, com suas sobreposições. O [quadro quantitativo](data/method_quantification.csv) distingue 25 testemunhos do núcleo, 66 indicações auditadas, 22 citações alegadas, 29 referências por acervo/década e 17 títulos inéditos. Essas quantidades se sobrepõem e não se somam. As 293 entradas do manifesto histórico incluem 276 com conteúdo, duas vazias e 15 falhas; não equivalem a obras lidas integralmente. O gerador é [build_method_inventory.py](scripts/build_method_inventory.py).
+A metodologia do artigo e o [documento metodológico](docs/METODOLOGIA.md) vinculam o [inventário de bases](data/base_registry.csv), o [quadro quantitativo](data/method_quantification.csv), o [manifesto de aquisição](data/downloads.json) e a [cobertura anual](data/annual_coverage.csv). A busca de 8 e 9 de novembro de 2026 priorizou séries parlamentares do Brasil e de Portugal e periódicos brasileiros. Os registros estão separados por fonte e nível de evidência. Consulte o [relatório da sexta revisão](docs/REVISAO-6.md).

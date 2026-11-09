@@ -29,12 +29,23 @@ keys=['year','document','source_id','country','medium','form','locator','evidenc
 AT=[dict(id=f'A{i:02}',**dict(zip(keys,row))) for i,row in enumerate(AT,1)]
 extra=DATA/'extra_attestations.json'
 if extra.exists():AT.extend(json.loads(extra.read_text(encoding='utf-8')))
+supp=DATA/'annual_supplement.csv'
+added=[]
+if supp.exists():
+ with supp.open(encoding='utf-8') as f:added=list(csv.DictReader(f))
+ for r in added:AT.append(dict((k,int(r[k]) if k=='year' else r[k]) for k in keys))
+annual_bib=[]
+for r in added:
+ annual_bib.append('@misc{'+r['bib']+',\n  title={'+tex(r['document'])+'},\n  key={'+r['bib']+'},\n  year={'+r['year']+'},\n  howpublished={\\url{'+r['url']+'}},\n  note={'+tex(r['locator']+'; '+r['date_basis'])+'}\n}')
+(ROOT/'artigo/annual.bib').write_text('\n\n'.join(annual_bib)+'\n',encoding='utf-8',newline='\n')
 AT.sort(key=lambda r:r['year'])
 for i,r in enumerate(AT,1):
  r['id']=f'A{i:02}'
  r['representation']='rubrica descritiva' if r['medium'] in ['registro parlamentar','jornal: transcrição','jornal: rubrica'] else 'representação mimética ou marcador digital'
 csvwrite('attestations.csv',AT)
 counts=collections.Counter(r['year'] for r in AT)
+covered=sum(counts[y]>0 for y in range(1900,2010))
+(GEN/'annual_counts.tex').write_text('\n'.join('\\newcommand{\\'+k+'}{'+str(v)+'}' for k,v in dict(CorpusSize=len(AT),AnnualAdded=len(added),AnnualCovered=covered,AnnualMissing=110-covered).items())+'\n',encoding='utf-8',newline='\n')
 annual=[dict(year=y,confirmed_documents=counts[y],scope='núcleo' if 1900<=y<=2009 else 'extensão',interpretation='atestação no inventário' if counts[y] else 'sem atestação confirmada nesta coleta; não é ausência histórica') for y in range(1872,2027)]
 csvwrite('annual_coverage.csv',annual)
 det=[dict(n=n,p005=1-(1-.05)**n,p001=1-(1-.01)**n) for n in [3,6,30,59,97,299]]

@@ -26,10 +26,14 @@ body += [r'\bottomrule\end{longtable}\normalsize']
 (GEN/'candidates-table.tex').write_text('\n'.join(body),encoding='utf-8')
 with (DATA/'annual_coverage.csv').open(encoding='utf-8') as f:years=list(csv.DictReader(f))
 body=[r'\small\begin{longtable}{rrp{0.65\textwidth}}',r'\caption{Cobertura anual do núcleo 1900--2009. Não é série de prevalência.}\\',r'\toprule Ano & Documentos & Interpretação \\\midrule\endfirsthead',r'\toprule Ano & Documentos & Interpretação \\\midrule\endhead']
+with (DATA/'attestations.csv').open(encoding='utf-8') as f:
+ citations={}
+ for row in csv.DictReader(f):
+  citations.setdefault(row['year'],[]).append(row['bib'])
 for r in years:
  if 1900<=int(r['year'])<=2009:
   n=int(r['confirmed_documents'])
-  body.append(r['year']+' & '+(str(n) if n else '--')+' & '+('Atestação confirmada; ver tabela documental.' if n else 'Sem atestação confirmada nesta coleta.')+' '+r'\\')
+  body.append(r['year']+' & '+(str(n) if n else '--')+' & '+(r'Atestação confirmada \cite{'+','.join(dict.fromkeys(citations[r['year']]))+'}.' if n else 'Sem atestação confirmada nesta coleta.')+' '+r'\\')
 body += [r'\bottomrule\end{longtable}\normalsize']
 (GEN/'annual-table.tex').write_text('\n'.join(body),encoding='utf-8')
 print('candidate_sources',len(rows))

@@ -5,13 +5,19 @@ ROOT=Path(__file__).resolve().parents[1]
 def readcsv(name):
  with (ROOT/'data'/name).open(encoding='utf-8') as f:return list(csv.DictReader(f))
 at=readcsv('attestations.csv');years=readcsv('annual_coverage.csv')
-assert len({x['id'] for x in at})==len(at)==25
+annual_supplement=readcsv('annual_supplement.csv')
+assert len({x['id'] for x in at})==len(at)==25+len(annual_supplement)
+assert len({x['year'] for x in annual_supplement})==len(annual_supplement)
+assert all(1900<=int(x['year'])<=2009 for x in annual_supplement)
 audit=readcsv('references_audit.csv')
 assert len(audit)==66 and len({x['id'] for x in audit})==66
 assert __import__('collections').Counter(x['status'] for x in audit)==dict(A=3,L=7,B=19,I=4,S=33)
 assert all(x['finding'] and x['checked_on'] for x in audit)
 assert len(readcsv('claims_verification.csv'))==22
 assert len(years)==155
+core_years={int(x['year']) for x in years if int(x['confirmed_documents'])>0 and 1900<=int(x['year'])<=2009}
+assert core_years==set(range(1900,2010))
+assert len(annual_supplement)==96
 archive_rows=readcsv('archive_decade_matrix.csv')
 archive_refs=readcsv('archive_decade_references.csv')
 assert len(readcsv('archive_profiles.csv'))==13
@@ -31,7 +37,7 @@ assert sum(int(x['confirmed_documents']) for x in years)==len(at)
 assert math.ceil(math.log(.05)/math.log(.95))==59
 assert math.ceil(math.log(.05)/math.log(.99))==299
 assert math.ceil(1.96**2*.25/.1**2)==97
-bib=(ROOT/'artigo/references.bib').read_text(encoding='utf-8')
+bib='\n'.join(p.read_text(encoding='utf-8') for p in (ROOT/'artigo').glob('*.bib'))
 keys=set(re.findall(r'@\w+\{([^,]+),',bib))
 text='\n'.join(p.read_text(encoding='utf-8') for p in (ROOT/'artigo').rglob('*.tex'))
 cites={k for m in re.finditer(r'\\cite\{([^}]+)\}',text) for k in m.group(1).split(',')}
@@ -58,12 +64,18 @@ assert not bad,bad
 blg=(ROOT/'artigo/main.blg').read_text(encoding='utf-8',errors='replace')
 assert not re.search(r'Too many commas|[1-9]\d* error messages?|I was expecting|Repeated entry',blg), 'Erro BibTeX: consultar main.blg'
 manifest=json.loads((ROOT/'data/downloads.json').read_text(encoding='utf-8'))
+manifest_by_id={r['id']:r for r in manifest}
+for row in annual_supplement:
+ source=manifest_by_id[row['source_id']]
+ assert source['status']=='downloaded' and source['bytes']>0 and source['url']==row['url'],row
+ assert row['locator'] and row['form'] and row['date_basis'],row
 public=[]
 for r in manifest:
  if r.get('public_copy'):
   p=ROOT/r['public_path'];assert hashlib.sha256(p.read_bytes()).hexdigest()==r['sha256'];public.append(r['id'])
 assert len(public)==8
 report=dict(atestacoes=len(at),niveis=dict(__import__('collections').Counter(x['evidence'] for x in at)),referencias=len(keys),alvos_auditoria=22,pistas=66,pareceres_individuais=len(audit),estados_auditoria=dict(__import__('collections').Counter(x['status'] for x in audit)),anos_inventariados=155,decadas_nucleo_cobertas=11,downloads=sum(x['status']=='downloaded' for x in manifest),falhas_download=sum(x['status']=='failed' for x in manifest),textos_integrais_publicos=len(public),latex_sem_citacoes_indefinidas=True,latex_sem_glifos_ausentes=True,latex_sem_overfull=True)
+report.update(anos_nucleo_cobertos=len(core_years),atestacoes_suplementares=len(annual_supplement))
 try:
  import pymupdf
  d=pymupdf.open(ROOT/'artigo/main.pdf')
@@ -73,7 +85,7 @@ try:
  assert '[?]' not in full
  assert not re.search(r'\bUnB\b|Edital 04/2026',full)
  pdf_urls={link.get('uri','') for page in d for link in page.get_links()}
- for path in ['data/base_registry.csv','data/method_quantification.csv','data/source_domains.csv','data/downloads.json']:
+ for path in ['data/base_registry.csv','data/method_quantification.csv','data/source_domains.csv','data/downloads.json','data/annual_coverage.csv','data/annual_supplement.csv']:
   assert prefix+path in pdf_urls, 'Hiperlink ausente no PDF: '+path
 except ImportError:pass
 report.update(acervos=13,referencias_por_acervo_e_decada=len(archive_refs),linhas_matriz_acervos=len(archive_rows),cobertura_integral_acervos=False)

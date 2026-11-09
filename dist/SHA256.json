@@ -1,6 +1,7 @@
 {
-  "artigo/main.pdf": "371ff4d30eb83d8d44cc33fdf22c8331eebd6958cea2bfc5b20d14167a11220d",
-  "dist/artigo-overleaf.zip": "b3d3cc74879dabb83656ba130dfd8f1d4470521e882fa3c97334b067c2fc22e3",
-  "artigo/main.tex": "89848e0dae9cc8b1bcbd723be1fb571d5d97ffa172ed320f37be9e0abf2fae2a",
-  "artigo/references.bib": "a3e02284f640795b3d7c51578b29eab462064c9f3321861bebb3a4ebbdd37e3c"
+  "artigo/main.pdf": "9f36dac5fc21adea437c5d53bbe4bec51609d651f5d359dc1db767f0052444bd",
+  "dist/artigo-overleaf.zip": "1a87f68398c96389823f4a2db452461ae51682e1fe2e381463481e440627c621",
+  "artigo/main.tex": "3d1be9f1b6d8cb5320ffebf525c02e8444d9fdc1bf4f7cffb372a58f1a91b7a4",
+  "artigo/references.bib": "a3e02284f640795b3d7c51578b29eab462064c9f3321861bebb3a4ebbdd37e3c",
+  "artigo/annual.bib": "ab7d4538447ad0d6e454d32acd0b8e5317995ccdb36980d504b6582e5e629551"
 }
