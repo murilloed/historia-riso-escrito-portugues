@@ -72,10 +72,10 @@ H05,1990,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas;
 H05,2000,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,2010,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,2020,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
-H06,1960,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
+H06,1960,confirmada em fonte alternativa,D092,excerto identificado na dissertação; conferência do jornal no portal pendente
 H06,1970,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
 H06,1980,confirmada em fonte alternativa,D083,recorte indexado da Biblioteca Digital do Senado; conferência no acervo inicialmente indicado pendente
-H06,1990,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
+H06,1990,confirmada em fonte alternativa,D093,transcrição datada na cronologia do CBTIJ; conferência do jornal no portal pendente
 H06,2000,confirmada em fonte alternativa,D054,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
 H06,2010,confirmada em fonte alternativa,D055,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
 H06,2020,confirmada: rubrica,D021,
@@ -91,13 +91,13 @@ H07,1970,confirmada em fonte alternativa,D036,trecho consultado no texto indexad
 H07,1980,confirmada em fonte alternativa,D085,recorte indexado da Biblioteca Digital do Senado; conferência no acervo inicialmente indicado pendente
 H07,1990,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
 H08,indeterminada,pendente: quota não satisfeita,,A linha não identifica década. É preciso delimitar uma série datada no portal antes de atribuir uma quota por década.
-H09,1990,pendente: quota não satisfeita,,"PDFs de 1995, 2000 e 2015 e revista de 2017 adquiridos; busca textual sem ocorrência autenticada; parte dos arquivos sem OCR"
+H09,1990,confirmada: lexical,D090,
 H09,2000,confirmada em fonte alternativa,D073,texto da edição oficial indexado na Biblioteca Digital do Senado; consulta no portal de notícias original pendente
 H09,2010,confirmada em fonte alternativa,D074,texto da edição oficial indexado na Biblioteca Digital do Senado; consulta no portal de notícias original pendente
 H10,1820,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1830,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1840,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1850,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
+H10,1850,confirmada em fonte alternativa,D091,fac-símile da Biblioteca Nacional; data e passagem conferidas
 H10,1860,confirmada em fonte alternativa,D038,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
 H10,1870,confirmada em fonte alternativa,D040,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
 H10,1880,confirmada em fonte alternativa,D042,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
@@ -109,7 +109,7 @@ H10,1930,confirmada em fonte alternativa,D047,edição e contexto no texto digit
 H10,1940,confirmada em fonte alternativa,D048,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
 H10,1950,confirmada em fonte alternativa,D049,edição e contexto no texto digitalizado pela Biblioteca Nacional; consulta no portal do jornal pendente
 H10,1960,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
-H10,1970,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
+H10,1970,confirmada em fonte alternativa,D094,excerto identificado no texto indexado da EDUPE; página do jornal pendente
 H10,1980,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1990,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,2000,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes

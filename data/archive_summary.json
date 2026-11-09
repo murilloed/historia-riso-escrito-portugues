@@ -1,10 +1,10 @@
 {
   "archive_addresses": 13,
   "matrix_rows": 137,
-  "confirmed_archive_decade_cells": 51,
-  "alternative_source_cells": 38,
-  "pending_quota_cells": 46,
-  "selected_references": 89,
+  "confirmed_archive_decade_cells": 52,
+  "alternative_source_cells": 42,
+  "pending_quota_cells": 41,
+  "selected_references": 94,
   "new_core_documents_round3": 4,
   "scope_completed": false,
   "checked_on": "2026-11-09"
