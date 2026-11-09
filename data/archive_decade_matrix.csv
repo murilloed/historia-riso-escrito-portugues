@@ -17,7 +17,7 @@ H02,1950,pendente: quota não satisfeita,,Portal consultado; fac-símiles histó
 H02,1960,pendente: quota não satisfeita,,Portal consultado; fac-símiles históricos ainda pendentes de acesso e conferência
 H02,1970,pendente: quota não satisfeita,,Portal consultado; fac-símiles históricos ainda pendentes de acesso e conferência
 H02,1980,confirmada em fonte alternativa,D058,publicação original identificada pelo jornal; transcrição republicada em 09/01/2020 no Blog do Acervo; conferência no portal de acervo indicado pendente
-H02,1990,pendente: quota não satisfeita,,Portal consultado; fac-símiles históricos ainda pendentes de acesso e conferência
+H02,1990,confirmada em fonte alternativa,D072,data original informada pelo jornal na republicação no Blog do Acervo; portal original pendente
 H02,2000,pendente: quota não satisfeita,,Portal consultado; fac-símiles históricos ainda pendentes de acesso e conferência
 H02,2010,confirmada em fonte alternativa,D059,publicação eletrônica do jornal no blog Amplificador; conferência no portal de acervo indicado pendente
 H02,2020,confirmada em fonte alternativa,D060,publicação eletrônica do jornal no blog Sonar; conferência no portal de acervo indicado pendente
@@ -92,8 +92,8 @@ H07,1980,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no 
 H07,1990,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
 H08,indeterminada,pendente: quota não satisfeita,,Instrumentos de descrição consultados; inventário temporal e ocorrências pendentes
 H09,1990,pendente: quota não satisfeita,,"PDFs de 1995, 2000 e 2015 e revista de 2017 adquiridos; busca textual sem ocorrência autenticada; parte dos arquivos sem OCR"
-H09,2000,pendente: quota não satisfeita,,"PDFs de 1995, 2000 e 2015 e revista de 2017 adquiridos; busca textual sem ocorrência autenticada; parte dos arquivos sem OCR"
-H09,2010,pendente: quota não satisfeita,,"PDFs de 1995, 2000 e 2015 e revista de 2017 adquiridos; busca textual sem ocorrência autenticada; parte dos arquivos sem OCR"
+H09,2000,confirmada em fonte alternativa,D073,texto da edição oficial indexado na Biblioteca Digital do Senado; consulta no portal de notícias original pendente
+H09,2010,confirmada em fonte alternativa,D074,texto da edição oficial indexado na Biblioteca Digital do Senado; consulta no portal de notícias original pendente
 H10,1820,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1830,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
 H10,1840,pendente: quota não satisfeita,,Portal e destino da versão digital consultados; série histórica e ocorrências pendentes
@@ -119,19 +119,19 @@ H11,1820,pendente: quota não satisfeita,,Busca devolve candidatos; autenticaç�
 H11,1830,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
 H11,1840,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
 H11,1850,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1860,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1870,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1880,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1890,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
+H11,1860,confirmada: lexical,D068,
+H11,1870,confirmada: lexical,D069,
+H11,1880,confirmada: lexical,D070,
+H11,1890,confirmada: lexical,D071,
 H11,1900,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
 H11,1910,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1920,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1930,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1940,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1950,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1960,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1970,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
-H11,1980,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
+H11,1920,confirmada: lexical,D061,
+H11,1930,confirmada: lexical,D062,
+H11,1940,confirmada: lexical,D063,
+H11,1950,confirmada: lexical,D064,
+H11,1960,confirmada: lexical,D065,
+H11,1970,confirmada: lexical,D066,
+H11,1980,confirmada: lexical,D067,
 H11,1990,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
 H11,2000,pendente: quota não satisfeita,,Busca devolve candidatos; autenticação por década pendente; manuscritos do portal fora deste recorte
 H12,1810,sem ocorrência autenticada no item,,PDF de 28 páginas pesquisado; nenhuma representação autenticada; não se infere ausência histórica
