@@ -17349,5 +17349,16 @@
     "path": "sources/local/r25_dp1968.pdf",
     "bytes": 1080781,
     "sha256": "14d469c5fc4141ec752dcd8aa65805da526e08a298f80ba590ef9f178a7e2b0c"
+  },
+  {
+    "id": "r26_globo1950",
+    "url": "https://cev.org.br/media/biblioteca/4035746.pdf",
+    "access_date": "2026-11-08",
+    "rights": "tese com transcrição; íntegra conservada localmente",
+    "resolved_url": "https://cev.org.br/media/biblioteca/4035746.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r26_globo1950.pdf",
+    "bytes": 3445638,
+    "sha256": "2c0fb5817ea4561d4cbe4838b5cf628cb95c226c6ded38e6b998b830c089325c"
   }
 ]
