@@ -17360,5 +17360,16 @@
     "path": "sources/local/r26_globo1950.pdf",
     "bytes": 3445638,
     "sha256": "2c0fb5817ea4561d4cbe4838b5cf628cb95c226c6ded38e6b998b830c089325c"
+  },
+  {
+    "id": "r27_jb1926",
+    "url": "https://pt.scribd.com/document/1023768675/O-ULTRA-ESPLENDIDO-CARNAVAL-NA-TERRA-DAS",
+    "access_date": "2026-11-08",
+    "rights": "dissertação com transcrição; íntegra conservada localmente",
+    "resolved_url": "https://pt.scribd.com/document/1023768675/O-ULTRA-ESPLENDIDO-CARNAVAL-NA-TERRA-DAS",
+    "status": "downloaded",
+    "path": "sources/local/r27_jb1926.html",
+    "bytes": 1560462,
+    "sha256": "c4e6a622e4ec932ff3d15f5fe56ce4200659a39a0de4885dd4a615183c644314"
   }
 ]

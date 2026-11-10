@@ -29,4 +29,9 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H02/1930, mantida como pista.** O [Blog do Acervo](https://blogs.oglobo.globo.com/blog-do-acervo/post/como-os-cariocas-viraram-noite-nas-ruas-para-ver-chegada-do-dirigivel-graf-zeppelin-ha-90-anos.html) identifica a edição de 26 de maio de 1930. A expressão “cair na gargalhada” está no texto de 2020, fora do trecho explicitamente transcrito. A ocorrência histórica exige confirmação.
 - **H02/1940, mantida como pista.** Uma [dissertação da UFF](https://www.historia.uff.br/stricto/td/2053.pdf) indica um recorte de O Globo de 1948, mas o trecho sobre sorriso remete ao Correio da Manhã.
 
-As [15 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+## Rastreio temático por Carnaval
+
+- **H07/1920, incluída como D121.** O apêndice 1 da [dissertação sobre o Carnaval de Santa Cruz](https://pt.scribd.com/document/1023768675/O-ULTRA-ESPLENDIDO-CARNAVAL-NA-TERRA-DAS) identifica o Jornal do Brasil de 14 de fevereiro de 1926, p. 10, no começo da transcrição. O verso com “boa gargalhada” aparece na p. 281 do apêndice. A conferência no Google News segue pendente.
+- **H02/1920, H02/1930 e H07/1940.** O mesmo apêndice remete a O Globo de 18 de fevereiro de 1928, p. 7, e de 25 de fevereiro de 1933, p. 2, e ao Jornal do Brasil de 4 de fevereiro de 1940, p. 10. Essas edições são pistas, com ocorrência ainda sem confirmação.
+
+As [14 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
