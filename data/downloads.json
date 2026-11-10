@@ -17294,5 +17294,38 @@
     "resolved_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/827667/Eleicao_Presidencial_P091_R0055.pdf?isAllowed=y&sequence=1",
     "status": "failed",
     "error": "O download direto devolveu HTML em vez de PDF; recorte conferido pela cópia indexada."
+  },
+  {
+    "id": "r23_dp1857",
+    "url": "https://repositorio.ufpe.br/bitstream/123456789/11339/1/Disserta%C3%A7%C3%A3o%20-%20Roberta%20Duarte..pdf",
+    "access_date": "2026-11-08",
+    "rights": "fonte para conferência; íntegra mantida localmente",
+    "resolved_url": "https://repositorio.ufpe.br/bitstream/123456789/11339/1/Disserta%C3%A7%C3%A3o%20-%20Roberta%20Duarte..pdf",
+    "status": "downloaded",
+    "path": "sources/local/r23_dp1857.pdf",
+    "bytes": 2961152,
+    "sha256": "56a7a374a33ae1cb894729111ebb27baf8135d2827f66e4193c1cdfd4a947626"
+  },
+  {
+    "id": "r23_jp1905",
+    "url": "https://hemeroteca-pdf.bn.gov.br/800643/per800643_1905_00211.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fonte para conferência; íntegra mantida localmente",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/800643/per800643_1905_00211.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r23_jp1905.pdf",
+    "bytes": 2198981,
+    "sha256": "66d009fa3e8f5eb7da0865efc3360b0e9e5a729114441dc4009ea6bb09be1445"
+  },
+  {
+    "id": "r23_jp1910",
+    "url": "https://hemeroteca-pdf.bn.gov.br/800643/per800643_1910_00161.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fonte para conferência; íntegra mantida localmente",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/800643/per800643_1910_00161.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r23_jp1910.pdf",
+    "bytes": 2554309,
+    "sha256": "76298bd0f4483602d2ab7ddb6e868aadfd16ce10024e5f562cfacfb45f85c7f4"
   }
 ]
