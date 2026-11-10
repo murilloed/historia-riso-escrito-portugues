@@ -57,4 +57,8 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H10/1980, incluída como D127.** A busca pela década na história do teatro infantil identificou o grupo Mamulengo Só-Riso. O cruzamento do nome com Diario de Pernambuco levou ao [livro de Rodrigo Sávio](https://pt.scribd.com/document/710000787/Livro-Mestre-Solon-e-o-Mamulengo-Invenca). Na p. 42, o texto republicado de Lêda Rivas traz o nome do grupo. A nota 4, p. 39, identifica a edição de 21 de janeiro de 1981. A ocorrência é onomástica e a conferência no portal original segue pendente.
 - **H05/1740.** A Biblioteca Nacional [identifica 18 números do Folheto de Lisboa de 1741](https://bndigital.bn.gov.br/dossies/periodicos-literatura/titulos-manuscritos/folheto-de-lisboa-uma-pena-rapida-na-biblioteca-nacional/), com digitalização do manuscrito. A série fornece um recorte verificável; nenhuma ocorrência foi autenticada nesta rodada.
 
-As [8 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+As [7 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+
+## Transcrição anotada de periódico setecentista
+
+- **H05/1740, incluída como D128.** O cruzamento do título e da data com o catálogo do Corpus Tycho Brahe levou ao [XML m_009](https://www.tycho.iel.unicamp.br/corpus/texts/xml/m_009.xml). O n. 13 está datado de 1 de abril de 1741 (p_141 a p_143). Na seção Lisboa (p_150), o parágrafo p_153 traz a grafia “riu-∫e di∫so” (palavras 6915–6916), normalizada como “riu-se disso”. O cotejo com a imagem da Biblioteca Nacional permanece pendente.

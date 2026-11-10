@@ -17489,5 +17489,16 @@
     "path": "sources/local/r31_dp1981.html",
     "bytes": 1330710,
     "sha256": "669ff99ab4bd002151c44a7577eb6a761ad6743f8c97b676a2ef0bda4608533c"
+  },
+  {
+    "id": "r32_folheto1741",
+    "url": "https://www.tycho.iel.unicamp.br/corpus/texts/xml/m_009.xml",
+    "access_date": "2026-11-08",
+    "rights": "Transcrição anotada do Corpus Tycho Brahe; atribuir provedor e manter íntegra local",
+    "resolved_url": "https://www.tycho.iel.unicamp.br/corpus/texts/xml/m_009.xml",
+    "status": "downloaded",
+    "path": "sources/local/r32_folheto1741.xml",
+    "bytes": 1783227,
+    "sha256": "e93e0852cdff06087117457306697036a217b694e1c6ab1c5fe643f53c44f994"
   }
 ]
