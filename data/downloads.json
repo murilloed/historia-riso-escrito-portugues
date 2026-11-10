@@ -17199,5 +17199,60 @@
     "path": "sources/local/r18_dp1998.pdf",
     "bytes": 83278,
     "sha256": "a5fdf33a0d50d822ebd7f06554aee1874521a5af96b80e93b31e1be3e3738fc6"
+  },
+  {
+    "id": "r10_RCDOCUMENTO_gargalhada_1689",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=gargalhada&pagfis=1689",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=gargalhada&pagfis=1689",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r10_RCDOCUMENTO_gargalhada_1689.jpg",
+    "bytes": 866233,
+    "sha256": "70a4db2d4b32fe1a1743930886bcd1bad33fc9d808d3c53dd2a0d738478d1d33"
+  },
+  {
+    "id": "r10_RCDOCUMENTO_sorriso_89",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=sorriso&pagfis=89",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=sorriso&pagfis=89",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r10_RCDOCUMENTO_sorriso_89.jpg",
+    "bytes": 1034065,
+    "sha256": "11a353056b305abc164dc607f8bf9709803243830d740784ec1008b29aee87e6"
+  },
+  {
+    "id": "r10_RCDOCUMENTO_risos_1687",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=risos&pagfis=1687",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=risos&pagfis=1687",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r10_RCDOCUMENTO_risos_1687.jpg",
+    "bytes": 836856,
+    "sha256": "dfe61a5473a698788d477fad5777a94ff01788c53beafe28d2240aec0e533577"
+  },
+  {
+    "id": "r10_RCDOCUMENTO_sorriu_1686",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=sorriu&pagfis=1686",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=sorriu&pagfis=1686",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r10_RCDOCUMENTO_sorriu_1686.jpg",
+    "bytes": 761688,
+    "sha256": "c64891e0199059e93d05cb78c55d60248a72cc7da35251eb5e64abe24c428857"
+  },
+  {
+    "id": "r10_RCDOCUMENTO_riso_179",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=riso&pagfis=179",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=RCDOCUMENTO&pesq=riso&pagfis=179",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r10_RCDOCUMENTO_riso_179.jpg",
+    "bytes": 1012413,
+    "sha256": "5e37ecb5b85d52bff1f19d82af70c14ad3396f94b337296ff844d75eae1375a8"
   }
 ]
