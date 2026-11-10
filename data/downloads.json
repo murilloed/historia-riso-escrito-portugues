@@ -17338,5 +17338,16 @@
     "path": "sources/local/r24_dp2009.pdf",
     "bytes": 376262,
     "sha256": "eb84480269e272ba332271e48e909f94f78a82fd6624cb9e6f6bd109e21c528b"
+  },
+  {
+    "id": "r25_dp1968",
+    "url": "https://leidsonferraz.com.br/assets/pdfs/artigos/a26.pdf",
+    "access_date": "2026-11-08",
+    "rights": "estudo com transcrição; íntegra local",
+    "resolved_url": "https://leidsonferraz.com.br/assets/pdfs/artigos/a26.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r25_dp1968.pdf",
+    "bytes": 1080781,
+    "sha256": "14d469c5fc4141ec752dcd8aa65805da526e08a298f80ba590ef9f178a7e2b0c"
   }
 ]

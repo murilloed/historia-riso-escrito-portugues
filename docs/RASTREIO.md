@@ -18,4 +18,9 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H10/1980.** A busca pelo Diario de Pernambuco em estudos sobre cinema Super-8 levou à [dissertação de Gabriel Bandeira Alexandre](https://pt.scribd.com/document/1028640152/Super-8-e-Resistencia-Micropolitica-No-Recife-1973-1983-Gabriel-Bandeira-Alexandre). A bibliografia identifica a edição de 17 de maio de 1982, seção B, p. B-3. As menções a sorriso verificadas no estudo descrevem um filme de 1979. A linha continua pendente.
 - **Controle.** A triagem recuperou “gargalhadas” na p. 2 do Jornal Pequeno de 21 de julho de 1910, já documentado como D117. O OCR duplicou a passagem na mesma página, o que impede usar a contagem bruta de resultados como contagem documental.
 
-As [17 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+## Nova aplicação
+
+- **H10/1960, incluída como D119.** A consulta por Diario de Pernambuco, gargalhadas e anos de atuação de Barreto Júnior levou ao [estudo de Leidson Ferraz](https://leidsonferraz.com.br/assets/pdfs/artigos/a26.pdf#page=19). A busca dentro do PDF passou de gargalhadas a riso e localizou a transcrição “provocar o riso franco”. A referência identifica Adeth Leite, Diario de Pernambuco, 17 de setembro de 1968, p. 5. A conferência no portal do jornal segue pendente.
+- **H07/1920, ocorrência descartada.** A consulta por Jornal do Brasil, 1921, gargalhadas e teatro levou a [A Noite de 5 de dezembro de 1921](https://hemeroteca-pdf.bn.gov.br/348970/per348970_1921_03591.pdf#page=6). A edição reúne citações de vários jornais. A ocorrência de gargalhadas recuperada na busca estava fora do bloco introduzido por “Diz o Jornal do Brasil”.
+
+As [16 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
