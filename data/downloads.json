@@ -17265,5 +17265,16 @@
     "path": "sources/local/r20_SECXIX_risadas_8252.jpg",
     "bytes": 741194,
     "sha256": "865b4f2742a686615d33e25f7c61c321c49ce2c866a879778ed71fd98cfd6a21"
+  },
+  {
+    "id": "r21_carapuceiro1832",
+    "url": "https://hemeroteca-pdf.bn.gov.br/750000/per750000_1832_00001.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fac-símile da Biblioteca Nacional; íntegra conservada localmente",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/750000/per750000_1832_00001.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r21_carapuceiro1832.pdf",
+    "bytes": 20005332,
+    "sha256": "20da5d207251fdb30c7d70f0a9bfdf85591a8614549c93f688e3ffa203a6473d"
   }
 ]
