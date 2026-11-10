@@ -52,4 +52,9 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 
 - **H05/2010 e H05/2020.** A [ficha de O Dia](https://acervo.bn.gov.br/Sophia_Web/acervo/detalhe/881220) identifica o periódico carioca e informa acesso à Hemeroteca nos terminais da FBN. A busca de gargalhadas no site oficial encontrou [uma reportagem de 2019](https://odia.ig.com.br/diversao/rock-in-rio/2019/09/5687320-junior-groovador-faz-participacao-no-show-da-banda-tenacious-d-no-rock-in-rio.html) e [uma de 2022](https://odia.ig.com.br/diversao/celebridades/2022/09/6480023-nany-people-leva-ana-maria-braga-as-gargalhadas-com-dica-inesperada.html). D125 e D126 documentam as versões eletrônicas do mesmo título, classificadas como fontes alternativas. A correspondência com fascículos impressos e a presença desses textos na Hemeroteca ainda requerem conferência.
 
-As [9 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+## Rastreio por grupo teatral
+
+- **H10/1980, incluída como D127.** A busca pela década na história do teatro infantil identificou o grupo Mamulengo Só-Riso. O cruzamento do nome com Diario de Pernambuco levou ao [livro de Rodrigo Sávio](https://pt.scribd.com/document/710000787/Livro-Mestre-Solon-e-o-Mamulengo-Invenca). Na p. 42, o texto republicado de Lêda Rivas traz o nome do grupo. A nota 4, p. 39, identifica a edição de 21 de janeiro de 1981. A ocorrência é onomástica e a conferência no portal original segue pendente.
+- **H05/1740.** A Biblioteca Nacional [identifica 18 números do Folheto de Lisboa de 1741](https://bndigital.bn.gov.br/dossies/periodicos-literatura/titulos-manuscritos/folheto-de-lisboa-uma-pena-rapida-na-biblioteca-nacional/), com digitalização do manuscrito. A série fornece um recorte verificável; nenhuma ocorrência foi autenticada nesta rodada.
+
+As [8 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.

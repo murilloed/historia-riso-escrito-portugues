@@ -17478,5 +17478,16 @@
     "rights": "registro catalográfico da Biblioteca Nacional",
     "status": "failed",
     "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "r31_dp1981",
+    "url": "https://pt.scribd.com/document/710000787/Livro-Mestre-Solon-e-o-Mamulengo-Invenca",
+    "access_date": "2026-11-08",
+    "rights": "republicação atribuída; íntegra local",
+    "resolved_url": "https://pt.scribd.com/document/710000787/Livro-Mestre-Solon-e-o-Mamulengo-Invenca",
+    "status": "downloaded",
+    "path": "sources/local/r31_dp1981.html",
+    "bytes": 1330710,
+    "sha256": "669ff99ab4bd002151c44a7577eb6a761ad6743f8c97b676a2ef0bda4608533c"
   }
 ]
