@@ -40,4 +40,8 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H07/1940.** A consulta por Jornal do Brasil, sorriso e 1940 encontrou uma [dissertação da UFJF](https://repositorio.ufjf.br/jspui/bitstream/ufjf/14124/1/lucaseduardodesouzaferreira.pdf). O resultado aproxima um verso com sorriso de uma referência à edição de 19 de janeiro de 1940. A referência bibliográfica próxima não permite atribuir o verso à edição, que fica como pista.
 - **H10/1980.** A consulta por Diario de Pernambuco, sorriso e 1988 encontrou os [anais da Constituinte](https://www.senado.leg.br/publicacoes/anais/constituinte/n020.pdf). Os anais mencionam um recorte de 30 de maio de 1988, p. A-10, sobre benefícios para aposentados. A menção a sorriso pertence a um discurso nos anais. O recorte segue como localizador.
 
-As [14 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+## Busca por pasta anual no Suplemento Cultural
+
+- **H11/1990, incluída como D122.** A busca cruzou cada pasta de 1990 a 1999 com sorriso, risos, gargalhada e riso. O leitor indicou páginas candidatas, e foram recuperadas cinco imagens. A [página física 795](http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=gargalhada&pasta=1990&pagfis=795) traz o cabeçalho JUN 90 e, na coluna central da p. impressa 16, a expressão “gargalhada que entra na hora certa”. A forma é lexical e ocorre numa crônica de José Cláudio.
+
+As [13 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.

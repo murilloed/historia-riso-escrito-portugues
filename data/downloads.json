@@ -17371,5 +17371,60 @@
     "path": "sources/local/r27_jb1926.html",
     "bytes": 1560462,
     "sha256": "c4e6a622e4ec932ff3d15f5fe56ce4200659a39a0de4885dd4a615183c644314"
+  },
+  {
+    "id": "r28_SPFULL_sorriso_719",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=sorriso&pasta=1990&pagfis=719",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=sorriso&pasta=1990&pagfis=719",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r28_SPFULL_sorriso_719.jpg",
+    "bytes": 552917,
+    "sha256": "c6298d5ba0e2464e1f4f613dd3bf93528bbb624d345728f63981e97ae5c3885c"
+  },
+  {
+    "id": "r28_SPFULL_gargalhada_795",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=gargalhada&pasta=1990&pagfis=795",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=gargalhada&pasta=1990&pagfis=795",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r28_SPFULL_gargalhada_795.jpg",
+    "bytes": 550788,
+    "sha256": "0a66827c7e8285905082040ba380d8e29083c8fd407cf59f4ff714b04e13b552"
+  },
+  {
+    "id": "r28_SPFULL_gargalhada_2519",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=gargalhada&pasta=1997&pagfis=2519",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=gargalhada&pasta=1997&pagfis=2519",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r28_SPFULL_gargalhada_2519.jpg",
+    "bytes": 822327,
+    "sha256": "b17814c73538ce60c559cc4836d47d97d5dcd893f1398a08265ec6044e420f1f"
+  },
+  {
+    "id": "r28_SPFULL_sorriso_1987",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=sorriso&pasta=1996&pagfis=1987",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=sorriso&pasta=1996&pagfis=1987",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r28_SPFULL_sorriso_1987.jpg",
+    "bytes": 837530,
+    "sha256": "5489792006057b9d90d83d5ef2282f48862ebce20431b77723dfe7b16cd04074"
+  },
+  {
+    "id": "r28_SPFULL_risos_2551",
+    "url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=risos&pasta=1998&pagfis=2551",
+    "resolved_url": "http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=risos&pasta=1998&pagfis=2551",
+    "access_date": "2026-11-10",
+    "rights": "imagem de consulta pública; arquivo integral conservado localmente",
+    "status": "downloaded",
+    "path": "sources/local/r28_SPFULL_risos_2551.jpg",
+    "bytes": 970840,
+    "sha256": "079205a192ceac1f540822910ed4d70f91e960746bd749201ed8533fdbc937be"
   }
 ]
