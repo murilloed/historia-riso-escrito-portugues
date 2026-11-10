@@ -34,4 +34,10 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H07/1920, incluída como D121.** O apêndice 1 da [dissertação sobre o Carnaval de Santa Cruz](https://pt.scribd.com/document/1023768675/O-ULTRA-ESPLENDIDO-CARNAVAL-NA-TERRA-DAS) identifica o Jornal do Brasil de 14 de fevereiro de 1926, p. 10, no começo da transcrição. O verso com “boa gargalhada” aparece na p. 281 do apêndice. A conferência no Google News segue pendente.
 - **H02/1920, H02/1930 e H07/1940.** O mesmo apêndice remete a O Globo de 18 de fevereiro de 1928, p. 7, e de 25 de fevereiro de 1933, p. 2, e ao Jornal do Brasil de 4 de fevereiro de 1940, p. 10. Essas edições são pistas, com ocorrência ainda sem confirmação.
 
+## Cruzamento por transcrições e republicações
+
+- **H07/1890.** A consulta pelo nome do jornal, pelos anos de 1891 e 1892 e por referências a riso encontrou uma republicação contemporânea. [O Tempo de 30 de novembro de 1891](https://hemeroteca-pdf.bn.gov.br/218731/per218731_1891_00190.pdf) atribui ao Jornal do Brasil um telegrama do Recife publicado na véspera. A menção a riso está em outro texto da edição. O telegrama fica como localizador, sem inclusão na matriz.
+- **H07/1940.** A consulta por Jornal do Brasil, sorriso e 1940 encontrou uma [dissertação da UFJF](https://repositorio.ufjf.br/jspui/bitstream/ufjf/14124/1/lucaseduardodesouzaferreira.pdf). O resultado aproxima um verso com sorriso de uma referência à edição de 19 de janeiro de 1940. A referência bibliográfica próxima não permite atribuir o verso à edição, que fica como pista.
+- **H10/1980.** A consulta por Diario de Pernambuco, sorriso e 1988 encontrou os [anais da Constituinte](https://www.senado.leg.br/publicacoes/anais/constituinte/n020.pdf). Os anais mencionam um recorte de 30 de maio de 1988, p. A-10, sobre benefícios para aposentados. A menção a sorriso pertence a um discurso nos anais. O recorte segue como localizador.
+
 As [14 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
