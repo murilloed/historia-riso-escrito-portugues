@@ -17180,5 +17180,24 @@
     "path": "sources/local/r17_forrobodo_uece.pdf",
     "bytes": 10850076,
     "sha256": "9cedeb333e48bbb843e0c17ad06b465a927355f6ecf242a49a0f980edd4b58e0"
+  },
+  {
+    "id": "r18_dp1827",
+    "url": "https://repositorio.ufba.br/bitstream/ri/41486/3/Disserta%C3%A7%C3%A3o%20com%20ata%20e%20ficha%20catalogr%C3%A1fica.pdf",
+    "access_date": "2026-11-08",
+    "rights": "transcrição acadêmica; íntegra mantida localmente",
+    "status": "failed",
+    "error": "HTTP Error 468: "
+  },
+  {
+    "id": "r18_dp1998",
+    "url": "https://periodicos.ufrn.br/gelne/article/download/9272/6626/25351",
+    "access_date": "2026-11-08",
+    "rights": "transcrição acadêmica; íntegra mantida localmente",
+    "resolved_url": "https://periodicos.ufrn.br/gelne/article/download/9272/6626/25351",
+    "status": "downloaded",
+    "path": "sources/local/r18_dp1998.pdf",
+    "bytes": 83278,
+    "sha256": "a5fdf33a0d50d822ebd7f06554aee1874521a5af96b80e93b31e1be3e3738fc6"
   }
 ]
