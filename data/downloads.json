@@ -17327,5 +17327,16 @@
     "path": "sources/local/r23_jp1910.pdf",
     "bytes": 2554309,
     "sha256": "76298bd0f4483602d2ab7ddb6e868aadfd16ce10024e5f562cfacfb45f85c7f4"
+  },
+  {
+    "id": "r24_dp2009",
+    "url": "https://www.upe.br/down/imprensa/consciencia_negra.pdf",
+    "access_date": "2026-11-08",
+    "rights": "reprodução institucional do texto jornalístico; íntegra conservada localmente",
+    "resolved_url": "https://upe.br/",
+    "status": "downloaded",
+    "path": "sources/local/r24_dp2009.pdf",
+    "bytes": 376262,
+    "sha256": "eb84480269e272ba332271e48e909f94f78a82fd6624cb9e6f6bd109e21c528b"
   }
 ]
