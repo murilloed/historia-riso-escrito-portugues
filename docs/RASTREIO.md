@@ -44,4 +44,8 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 
 - **H11/1990, incluída como D122.** A busca cruzou cada pasta de 1990 a 1999 com sorriso, risos, gargalhada e riso. O leitor indicou páginas candidatas, e foram recuperadas cinco imagens. A [página física 795](http://200.238.101.22/docreader/docreader.aspx?bib=SPFULL&pesq=gargalhada&pasta=1990&pagfis=795) traz o cabeçalho JUN 90 e, na coluna central da p. impressa 16, a expressão “gargalhada que entra na hora certa”. A forma é lexical e ocorre numa crônica de José Cláudio.
 
-As [13 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+## Busca por data de edição na BORE/USP
+
+- **H04/1980 e H04/1990, incluídas como D123 e D124.** A [navegação por data](https://obrasraras.usp.br/xmlui/handle/123456789/4262/browse?type=dateissued&starts_with=1980) recuperou 14 itens de O Bisturi das duas décadas. A extração textual dos PDFs devolveu ocorrências em exemplares de 1983, 1985 e 1992. Foram selecionados “Envergonhou-se dos risos dos colegas” em setembro de 1985, PDF p. 7, e “tipo de risada” em janeiro/fevereiro de 1992, PDF p. 5. A navegação por data recuperou exemplares que a consulta por palavra não havia selecionado.
+
+As [11 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.

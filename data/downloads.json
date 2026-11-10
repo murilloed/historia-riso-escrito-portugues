@@ -17426,5 +17426,27 @@
     "path": "sources/local/r28_SPFULL_risos_2551.jpg",
     "bytes": 970840,
     "sha256": "079205a192ceac1f540822910ed4d70f91e960746bd749201ed8533fdbc937be"
+  },
+  {
+    "id": "r29_bisturi1985",
+    "url": "https://obrasraras.usp.br/xmlui/bitstream/handle/123456789/2884/O_bisturi_1985_Ano_52_n_01.pdf?sequence=1",
+    "access_date": "2026-11-08",
+    "rights": "exemplar institucional; íntegra local",
+    "resolved_url": "https://obrasraras.usp.br/xmlui/bitstream/handle/123456789/2884/O_bisturi_1985_Ano_52_n_01.pdf?sequence=1",
+    "status": "downloaded",
+    "path": "sources/local/r29_bisturi1985.pdf",
+    "bytes": 3515118,
+    "sha256": "bd0c4c38eab291f0f1e47e479b871a681b65353db3929dac78f388856ecbed7b"
+  },
+  {
+    "id": "r29_bisturi1992",
+    "url": "https://obrasraras.usp.br/xmlui/bitstream/handle/123456789/2886/O_bisturi_1992_Ano_5_n_1.pdf?sequence=1",
+    "access_date": "2026-11-08",
+    "rights": "exemplar institucional; íntegra local",
+    "resolved_url": "https://obrasraras.usp.br/xmlui/bitstream/handle/123456789/2886/O_bisturi_1992_Ano_5_n_1.pdf?sequence=1",
+    "status": "downloaded",
+    "path": "sources/local/r29_bisturi1992.pdf",
+    "bytes": 2379441,
+    "sha256": "fd4112d11125545e0522945dd4ed32589a26052f6310722823a1c2328309e720"
   }
 ]
