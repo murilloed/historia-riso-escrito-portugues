@@ -17276,5 +17276,23 @@
     "path": "sources/local/r21_carapuceiro1832.pdf",
     "bytes": 20005332,
     "sha256": "20da5d207251fdb30c7d70f0a9bfdf85591a8614549c93f688e3ffa203a6473d"
+  },
+  {
+    "id": "r22_cb1975",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/711649/DF_Brasilia_P006_R0019.pdf?isAllowed=y&sequence=1",
+    "access_date": "2026-11-08",
+    "rights": "recorte digitalizado pelo Senado Federal; íntegra conservada localmente",
+    "resolved_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/711649/DF_Brasilia_P006_R0019.pdf?isAllowed=y&sequence=1",
+    "status": "failed",
+    "error": "O download direto devolveu HTML em vez de PDF; recorte conferido pela cópia indexada."
+  },
+  {
+    "id": "r22_jb1996",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/827667/Eleicao_Presidencial_P091_R0055.pdf?isAllowed=y&sequence=1",
+    "access_date": "2026-11-08",
+    "rights": "recorte digitalizado pelo Senado Federal; íntegra conservada localmente",
+    "resolved_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/827667/Eleicao_Presidencial_P091_R0055.pdf?isAllowed=y&sequence=1",
+    "status": "failed",
+    "error": "O download direto devolveu HTML em vez de PDF; recorte conferido pela cópia indexada."
   }
 ]

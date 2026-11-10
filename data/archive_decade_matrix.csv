@@ -73,7 +73,7 @@ H05,2000,confirmada: lexical,D106,data e ocorrência conferidas no PDF da Biblio
 H05,2010,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H05,2020,pendente: quota não satisfeita,,Leitor antigo sem páginas carregadas; recomposição do serviço informada pela BN; PDFs públicos também consultados
 H06,1960,confirmada em fonte alternativa,D092,excerto identificado na dissertação; conferência do jornal no portal pendente
-H06,1970,pendente: quota não satisfeita,,Edição de 2025 recuperada; demais décadas pendentes
+H06,1970,confirmada em fonte alternativa,D112,texto e data conferidos no recorte digitalizado pelo Senado Federal; conferência na plataforma indicada pendente
 H06,1980,confirmada em fonte alternativa,D083,recorte indexado da Biblioteca Digital do Senado; conferência no acervo inicialmente indicado pendente
 H06,1990,confirmada em fonte alternativa,D093,transcrição datada na cronologia do CBTIJ; conferência do jornal no portal pendente
 H06,2000,confirmada em fonte alternativa,D054,data e trecho na publicação eletrônica do próprio jornal; consulta no portal de acervo pendente
@@ -89,7 +89,7 @@ H07,1950,confirmada em fonte alternativa,D105,"trecho da crônica em estudo acad
 H07,1960,confirmada em fonte alternativa,D084,"transcrição do Portal da Crônica Brasileira, com data original; conferência no acervo inicialmente indicado pendente"
 H07,1970,confirmada em fonte alternativa,D036,trecho consultado no texto indexado do recorte; a cópia do Google News permanece sem conferência
 H07,1980,confirmada em fonte alternativa,D085,recorte indexado da Biblioteca Digital do Senado; conferência no acervo inicialmente indicado pendente
-H07,1990,pendente: quota não satisfeita,,Catálogo consultado; ocorrências no fac-símile desta plataforma ainda pendentes
+H07,1990,confirmada em fonte alternativa,D113,texto e data conferidos no recorte digitalizado pelo Senado Federal; conferência na plataforma indicada pendente
 H08,indeterminada,pendente: quota não satisfeita,,A linha não identifica década. É preciso delimitar uma série datada no portal antes de atribuir uma quota por década.
 H09,1990,confirmada: lexical,D090,
 H09,2000,confirmada em fonte alternativa,D073,texto da edição oficial indexado na Biblioteca Digital do Senado; consulta no portal de notícias original pendente
