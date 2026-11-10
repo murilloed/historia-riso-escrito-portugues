@@ -17117,5 +17117,68 @@
     "path": "sources/local/r16_bn1991.pdf",
     "bytes": 10617752,
     "sha256": "6c80aa80bdabf4b5b5ee44ee8f70ac11439824055075539d6b740ed4501752a8"
+  },
+  {
+    "id": "r17_jb1903",
+    "url": "https://hemeroteca-pdf.bn.gov.br/025909/per025909_1903_00156.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fonte para conferência; íntegra mantida localmente",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/025909/per025909_1903_00156.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r17_jb1903.pdf",
+    "bytes": 7104632,
+    "sha256": "02b2257fe2a15b41b743882d2fb83bb179bfcdccf6d3c0e4cb77b9d362f3a2b0"
+  },
+  {
+    "id": "r17_jb1912",
+    "url": "https://www.scielo.br/j/rbcsoc/a/fpCYH7fpH7bpgRVZLRBvmPP/?lang=pt",
+    "access_date": "2026-11-08",
+    "rights": "fonte para conferência; íntegra mantida localmente",
+    "resolved_url": "https://www.scielo.br/j/rbcsoc/a/fpCYH7fpH7bpgRVZLRBvmPP/?lang=pt",
+    "status": "downloaded",
+    "path": "sources/local/r17_jb1912.html",
+    "bytes": 157164,
+    "sha256": "e30199e23d8bed262767de11aec7689f2a49444d6483cf82d9b90ac770682a85"
+  },
+  {
+    "id": "r17_jb1957",
+    "url": "https://www.scielo.br/j/ea/a/rcgQ5VvtrqLQzcz457f4pfp/?format=pdf&lang=pt",
+    "access_date": "2026-11-08",
+    "rights": "fonte para conferência; íntegra mantida localmente",
+    "resolved_url": "https://www.scielo.br/j/ea/a/rcgQ5VvtrqLQzcz457f4pfp/?format=pdf&lang=pt",
+    "status": "downloaded",
+    "path": "sources/local/r17_jb1957.pdf",
+    "bytes": 562168,
+    "sha256": "d749590fc91b131403a7362a39aba88167622bafb2bd2d95f11c52887fb9f567"
+  },
+  {
+    "id": "r17_unofato2008",
+    "url": "https://hemeroteca-pdf.bn.gov.br/882712/per882712_2008_00233.pdf",
+    "access_date": "2026-11-08",
+    "rights": "fonte para conferência; íntegra mantida localmente",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/882712/per882712_2008_00233.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r17_unofato2008.pdf",
+    "bytes": 1611143,
+    "sha256": "e1ca8189aed1640e7c4d696e5b4660026566ee9ca59a86297bf86a6de6098a4e"
+  },
+  {
+    "id": "r17_revista_bn",
+    "url": "https://bndigital.bn.gov.br/artigos/acervo-da-bn-20-de-maio-de-1900-lancamento-do-periodico-revista-da-semana/",
+    "access_date": "2026-11-08",
+    "rights": "histórico institucional do suplemento",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "r17_forrobodo_uece",
+    "url": "https://siduece.uece.br/siduece/report?id=88285&tipo=3",
+    "access_date": "2026-11-08",
+    "rights": "dissertação com transcrição e indicação da página original",
+    "resolved_url": "https://siduece.uece.br/siduece/report?id=88285&tipo=3",
+    "status": "downloaded",
+    "path": "sources/local/r17_forrobodo_uece.pdf",
+    "bytes": 10850076,
+    "sha256": "9cedeb333e48bbb843e0c17ad06b465a927355f6ecf242a49a0f980edd4b58e0"
   }
 ]
