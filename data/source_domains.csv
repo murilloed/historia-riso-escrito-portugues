@@ -1,6 +1,7 @@
 domain,url,manifest_entries,downloaded_nonempty,empty_responses,failed,scope
 200.238.101.22,http://200.238.101.22/docreader/docreader.aspx?bib=SECXIX,44,44,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 academia.org.br,https://academia.org.br/academicos/ignacio-de-loyola-brandao/bibliografia,1,1,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
+acervo.bn.gov.br,https://acervo.bn.gov.br/Sophia_Web/acervo/detalhe/881220,1,0,0,1,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 acervo.cepe.com.br,https://acervo.cepe.com.br/,5,5,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 acervo.folha.com.br,https://acervo.folha.com.br/index.do,2,2,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 acervo.museudalinguaportuguesa.org.br,https://acervo.museudalinguaportuguesa.org.br/acervos/9209/a-paixao-segundo-g-h,1,1,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
@@ -41,6 +42,7 @@ machado.byu.edu,https://machado.byu.edu/text/a-segunda-vida/,1,1,0,0,"fonte comp
 memoria.bn.gov.br,https://memoria.bn.gov.br/hdb/periodico.aspx,5,3,0,2,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 news.google.com,https://news.google.com/newspapers?nid=0qX8s2k1IRwC,1,1,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 obrasraras.usp.br,https://obrasraras.usp.br/xmlui/handle/123456789/4262,78,78,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
+odia.ig.com.br,https://odia.ig.com.br/diversao/rock-in-rio/2019/09/5687320-junior-groovador-faz-participacao-no-show-da-banda-tenacious-d-no-rock-in-rio.html,2,2,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 oglobo.globo.com,https://oglobo.globo.com/acervo/,1,1,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 periodicos.ufrn.br,https://periodicos.ufrn.br/gelne/article/download/9272/6626/25351,1,1,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"
 pmc.ncbi.nlm.nih.gov,https://pmc.ncbi.nlm.nih.gov/articles/PMC11670811/,1,1,0,0,"fonte complementar, portal, documento ou serviço técnico; conferir URL individual no manifesto"

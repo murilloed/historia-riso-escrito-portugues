@@ -17448,5 +17448,35 @@
     "path": "sources/local/r29_bisturi1992.pdf",
     "bytes": 2379441,
     "sha256": "fd4112d11125545e0522945dd4ed32589a26052f6310722823a1c2328309e720"
+  },
+  {
+    "id": "r30_odia2019",
+    "url": "https://odia.ig.com.br/diversao/rock-in-rio/2019/09/5687320-junior-groovador-faz-participacao-no-show-da-banda-tenacious-d-no-rock-in-rio.html",
+    "access_date": "2026-11-08",
+    "rights": "publicação eletrônica do jornal; íntegra local",
+    "resolved_url": "https://odia.ig.com.br/diversao/rock-in-rio/2019/09/5687320-junior-groovador-faz-participacao-no-show-da-banda-tenacious-d-no-rock-in-rio.html",
+    "status": "downloaded",
+    "path": "sources/local/r30_odia2019.html",
+    "bytes": 182458,
+    "sha256": "ed9b013beb28b09581d866176a944c3159acb00aac19daaa917ddaba3f4c045a"
+  },
+  {
+    "id": "r30_odia2022",
+    "url": "https://odia.ig.com.br/diversao/celebridades/2022/09/6480023-nany-people-leva-ana-maria-braga-as-gargalhadas-com-dica-inesperada.html",
+    "access_date": "2026-11-08",
+    "rights": "publicação eletrônica do jornal; íntegra local",
+    "resolved_url": "https://odia.ig.com.br/diversao/celebridades/2022/09/6480023-nany-people-leva-ana-maria-braga-as-gargalhadas-com-dica-inesperada.html",
+    "status": "downloaded",
+    "path": "sources/local/r30_odia2022.html",
+    "bytes": 169350,
+    "sha256": "ff7a4dc041ea677c2d50145b00bef404638a82df57544a66afd99798c3393bd1"
+  },
+  {
+    "id": "r30_catalogo_odia",
+    "url": "https://acervo.bn.gov.br/Sophia_Web/acervo/detalhe/881220",
+    "access_date": "2026-11-08",
+    "rights": "registro catalográfico da Biblioteca Nacional",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
   }
 ]

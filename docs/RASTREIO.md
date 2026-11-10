@@ -48,4 +48,8 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 
 - **H04/1980 e H04/1990, incluídas como D123 e D124.** A [navegação por data](https://obrasraras.usp.br/xmlui/handle/123456789/4262/browse?type=dateissued&starts_with=1980) recuperou 14 itens de O Bisturi das duas décadas. A extração textual dos PDFs devolveu ocorrências em exemplares de 1983, 1985 e 1992. Foram selecionados “Envergonhou-se dos risos dos colegas” em setembro de 1985, PDF p. 7, e “tipo de risada” em janeiro/fevereiro de 1992, PDF p. 5. A navegação por data recuperou exemplares que a consulta por palavra não havia selecionado.
 
-As [11 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+## Cruzamento entre catálogo da BN e edição eletrônica
+
+- **H05/2010 e H05/2020.** A [ficha de O Dia](https://acervo.bn.gov.br/Sophia_Web/acervo/detalhe/881220) identifica o periódico carioca e informa acesso à Hemeroteca nos terminais da FBN. A busca de gargalhadas no site oficial encontrou [uma reportagem de 2019](https://odia.ig.com.br/diversao/rock-in-rio/2019/09/5687320-junior-groovador-faz-participacao-no-show-da-banda-tenacious-d-no-rock-in-rio.html) e [uma de 2022](https://odia.ig.com.br/diversao/celebridades/2022/09/6480023-nany-people-leva-ana-maria-braga-as-gargalhadas-com-dica-inesperada.html). D125 e D126 documentam as versões eletrônicas do mesmo título, classificadas como fontes alternativas. A correspondência com fascículos impressos e a presença desses textos na Hemeroteca ainda requerem conferência.
+
+As [9 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
