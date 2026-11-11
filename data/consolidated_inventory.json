@@ -1,0 +1,48 @@
+{
+  "datasets": {
+    "attestations": {
+      "rows": 121,
+      "source_identifiers": 121,
+      "bibliographic_keys": 121
+    },
+    "archive_decade_references": {
+      "rows": 135,
+      "source_identifiers": 129,
+      "bibliographic_keys": 129
+    },
+    "revision4_new_titles": {
+      "rows": 17,
+      "source_identifiers": 17,
+      "bibliographic_keys": 17
+    },
+    "period_alternatives": {
+      "rows": 2,
+      "source_identifiers": 2,
+      "bibliographic_keys": 2
+    }
+  },
+  "combined_record_memberships": 275,
+  "unique_selected_source_identifiers": 258,
+  "unique_selected_source_urls": 258,
+  "selected_source_acquisition_status": {
+    "downloaded": 240,
+    "failed": 18
+  },
+  "core_representation_categories": {
+    "representação mimética ou marcador digital": 25,
+    "rubrica descritiva": 96
+  },
+  "core_countries": {
+    "Brasil": 95,
+    "Portugal": 26
+  },
+  "archive_selection_categories": {
+    "rubrica": 18,
+    "lexical": 112,
+    "mimética": 5
+  },
+  "archive_rows_with_reference": 135,
+  "archive_source_identifiers": 129,
+  "identity_rule": "source_id; URL identity checked; not a count of independent works, editions, witnesses or national usage",
+  "independence_not_inferred": true
+}

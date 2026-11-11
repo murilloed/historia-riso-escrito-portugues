@@ -22,9 +22,17 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 
 ## Resultado e alcance
 
-O inventário tem **121 atestações** e cobre os **110 anos de 1900 a 2009**. A busca anual adicionou 96 testemunhos, sendo 87 registros parlamentares e nove periódicos. O conjunto contém 23 testemunhos E1, 95 E2 e três E3. Os novos testemunhos e respectivos localizadores constam no [suplemento anual](data/annual_supplement.csv).
+O núcleo tem **121 registros** e cobre os **110 anos de 1900 a 2009**: 23 E1, 95 E2 e três E3. São **96 rubricas descritivas** e **25 representações miméticas ou marcadores digitais**, não 121 exemplos de onomatopeia. A ampliação anual adicionou 96 registros, predominantemente parlamentares. Brasil e Portugal estão representados; o conjunto não constitui uma amostra nacional de uso.
 
-Isso **não é cobertura de todos os anos nem uma amostra equilibrada de três livros e três jornais por período**. Também não representa frequência de uso da população. As lacunas anuais são publicadas explicitamente.
+O [balanço reconciliado](data/consolidated_inventory.json) e o [registro de vínculos](data/evidence_register.csv) distinguem as unidades:
+
+- **16 endereços indicados, agrupados em 13 conjuntos operacionais de recursos de acesso**. Portal e item do APESP, coleção e acervo geral da BBM, e Orkut/Wayback não são contados duas vezes como grupos. Não é uma contagem de todas as instituições ou fontes complementares.
+- **135 vínculos de quota por acervo/década, com 129 identificadores de fonte**: 65 confirmados no acervo indicado e 70 em fontes alternativas. São 112 menções lexicais, 18 rubricas e cinco grafias miméticas. Fontes alternativas não dispensam cotejo na plataforma indicada.
+- **17 títulos da seleção cronológica** e **duas alternativas literárias de período**, em arquivos próprios, com sobreposição declarada em relação aos demais inventários.
+- **275 vínculos nos quatro inventários positivos, correspondentes a 258 identificadores de fonte e 258 URLs**. Identificadores distintos não garantem independência textual. Não se somam os inventários como obras únicas.
+- **Dois exemplares da Gazeta conferidos sem ocorrência localizada**. As alternativas de período não são ocorrências nesses exemplares. Não há quota de década sem referência, mas a exigência de ocorrência positiva em cada item fixo não foi satisfeita.
+
+A cobertura anual é completa apenas no intervalo dirigido de 1900–2009. O inventário mais amplo de 1872–2026 conserva lacunas. A seleção é exploratória e não probabilística; cálculos amostrais são prospectivos. O total de entradas, domínios e falhas do manifesto é calculado automaticamente no [quadro quantitativo](data/method_quantification.csv), sem transformar recursos técnicos em bases ou arquivos baixados em documentos lidos.
 
 O levantamento documenta quiá em Til, cá em A segunda vida, ah em obras do início do século XX, quá em O Tico-Tico de 1935, ah no Diário Carioca de 1941 e em quadrinhos publicados em 1979. Inclui rubricas descritivas de 1925, 1955, 1965, 1985 e 1994 em categoria própria. Uma dissertação de 2008 reproduz kkkk em pesquisa desenvolvida em 2007.2.
 
@@ -136,14 +144,18 @@ A terceira rodada acrescenta quatro documentos ao núcleo e um inventário compl
 
 ## Títulos inéditos: Brasiliana e Wayback
 
-A quarta rodada seleciona **17 títulos novos**, uma referência por obra, periódico ou site: 14 da Brasiliana, Kibe Loco, Cifra Club e uma comunidade do Orkut. O intervalo selecionado é 1645–2017; a consulta foi feita em 2026 e não constitui censo das bases. O fórum preserva `kkkkkkkkkkkkk` numa resposta de 2010 e o Orkut preserva `hehehe` numa descrição capturada em 2014. Essas duas fontes elevam o núcleo a 25 documentos. A data do tópico e a criação da comunidade não foram transferidas às ocorrências. O edital da UnB foi retirado do artigo e da bibliografia.
+A quarta rodada seleciona **17 títulos novos**, uma referência por obra, periódico ou site: 14 da Brasiliana, Kibe Loco, Cifra Club e uma comunidade do Orkut. O intervalo selecionado é 1645–2017; a consulta foi feita em 2026 e não constitui censo das bases. O fórum preserva `kkkkkkkkkkkkk` numa resposta de 2010 e o Orkut preserva `hehehe` numa descrição capturada em 2014. Essas duas fontes foram incorporadas antes da ampliação anual; o núcleo consolidado tem 121 registros. A data do tópico e a criação da comunidade não foram transferidas às ocorrências. O edital da UnB foi retirado do artigo e da bibliografia.
 
 Veja [títulos selecionados](data/revision4_new_titles.csv), [exclusões de títulos anteriores](data/revision4_exclusions.csv) e [relatório da quarta rodada](docs/REVISAO-4.md).
 
 ## Balanço metodológico consolidado
 
-A metodologia do artigo e o [documento metodológico](docs/METODOLOGIA.md) vinculam o [inventário de bases](data/base_registry.csv), o [quadro quantitativo](data/method_quantification.csv), o [manifesto de aquisição](data/downloads.json) e a [cobertura anual](data/annual_coverage.csv). A busca de 8 e 9 de novembro de 2026 priorizou séries parlamentares do Brasil e de Portugal e periódicos brasileiros. Os registros estão separados por fonte e nível de evidência. Consulte o [relatório da sexta revisão](docs/REVISAO-6.md).
+A metodologia do artigo e o [documento metodológico](docs/METODOLOGIA.md) vinculam o [inventário de bases](data/base_registry.csv), o [quadro quantitativo](data/method_quantification.csv), o [manifesto de aquisição](data/downloads.json) e a [cobertura anual](data/annual_coverage.csv). A ampliação anual priorizou séries parlamentares do Brasil e de Portugal e periódicos brasileiros. Os registros estão separados por fonte e nível de evidência. Consulte o [relatório da sexta revisão](docs/REVISAO-6.md).
 
 Duas [alternativas literárias para as décadas de 1800 e 1810](data/period_alternatives.csv), Bocage (1800) e Gonzaga (1812), foram conferidas nas imagens e incorporadas ao artigo. Elas não equivalem a ocorrências nos dois exemplares específicos da Gazeta sem atestação localizada.
 
 H12 e H13 estão classificados como **conferidos, sem ocorrência localizada**, e vinculados às alternativas A001 e A002. Não são buscas pendentes. O resumo conserva separadamente o resultado negativo da leitura, a cobertura por período e as limitações do cotejo nas plataformas originais.
+
+## Revisão científica consolidada
+
+A [revisão de consistência](docs/REVISAO-CONSOLIDADA.md) registra a reconciliação das contagens, a distinção entre quotas e fontes, a atualização da conclusão e os limites remanescentes. O comando `python scripts/build_appendices.py` executa também [audit_inventory.py](scripts/audit_inventory.py), que reconstrói o registro consolidado. Os relatórios numerados em `docs/` conservam estados históricos e não substituem os balanços atuais.

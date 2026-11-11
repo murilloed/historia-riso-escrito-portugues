@@ -18,6 +18,8 @@ def gh(path):return REPO+'/blob/main/'+path
 manifest=json.loads((DATA/'downloads.json').read_text(encoding='utf-8'))
 at=readcsv('attestations.csv');r3=readcsv('archive_decade_references.csv');r4=readcsv('revision4_new_titles.csv')
 profiles=readcsv('archive_profiles.csv');registry=[]
+import audit_inventory
+reconciled=json.loads((DATA/'consolidated_inventory.json').read_text(encoding='utf-8'))
 for p in profiles:
  note='Portal/coleção; ver limitações de acesso e cobertura.'
  if p['archive']=='H08':note='Portal APESP; H13 é um item deste mesmo acervo.'
@@ -31,6 +33,10 @@ registry += [
  dict(id='H16',name='Wayback Machine: portal geral',requested_url='https://web.archive.org/',access_url='https://web.archive.org/',scope_note='Blog e fórum; Orkut contado separadamente em H15. O portal não foi pesquisado exaustivamente.',selected_references=sum(x['work_key'] in ['kibe-loco','forum-cifra-club'] for x in r4),count_scope='blog e fórum selecionados, rodada 4',data_url=gh('data/revision4_new_titles.csv'),profile_url=gh('docs/REVISAO-4.md'),bib='waybackPortal2026'),
 ]
 assert len(registry)==16 and len({x['id'] for x in registry})==16
+group_map={'H13':'H08','H14':'H12','H15':'H16'}
+for entry in registry:
+ entry['resource_group']=group_map.get(entry['id'],entry['id'])
+resource_groups=len({x['resource_group'] for x in registry})
 writecsv('base_registry.csv',registry)
 
 # Todos os domínios registrados, incluindo recursos técnicos e o histórico
@@ -50,14 +56,14 @@ bib+='''@misc{bbmAcervo2026,
  title={Acervo Digital: coleção geral bbm/1},
  year={2026},
  howpublished={\\url{https://digital.bbm.usp.br/handle/bbm/1}},
- note={Portal de descoberta; não equivale à leitura integral do acervo. Acesso em 8 nov. 2026}
+ note={Portal de descoberta; não equivale à leitura integral do acervo. Consulta documental registrada no inventário}
 }
 @misc{waybackPortal2026,
  author={{Internet Archive}},
  title={Wayback Machine: portal de preservação da web},
  year={2026},
  howpublished={\\url{https://web.archive.org/}},
- note={Capturas individuais e redirecionamentos documentados no manifesto. Acesso em 8 nov. 2026}
+ note={Capturas individuais e redirecionamentos documentados no manifesto. Consulta documental registrada no inventário}
 }
 '''
 for row in {r['bib']: r for r in reversed(r3)}.values():
@@ -76,7 +82,7 @@ metric('M03','Níveis do núcleo E1 / E2 / E3',f'{evidence["E1"]} / {evidence["E
 metric('M04','Indicações iniciais com parecer',len(readcsv('references_audit.csv')),'indicações','Auditoria bibliográfica; não são 66 ocorrências positivas.','data/references_audit.csv')
 metric('M05','Citações alegadas submetidas a verificação',len(readcsv('claims_verification.csv')),'alegações','Nenhuma autenticada integralmente; os resultados constam no parecer.','data/claims_verification.csv')
 metric('M06','Referências por acervo e década',len(r3),'referências selecionadas','Inclui menções lexicais, rubricas e grafias miméticas, com fontes alternativas identificadas na matriz.','data/archive_decade_references.csv')
-metric('M07','Linhas de acompanhamento por acervo/década',len(readcsv('archive_decade_matrix.csv')),'linhas','Inclui quotas pendentes e uma linha com década indeterminada; não universo completo.','data/archive_decade_matrix.csv')
+metric('M07','Linhas de acompanhamento por acervo/década',len(readcsv('archive_decade_matrix.csv')),'linhas','135 linhas com referência e dois itens conferidos sem ocorrência; não é o universo de documentos.','data/archive_decade_matrix.csv')
 metric('M08','Títulos inéditos selecionados',len(r4),'títulos','Rodada 4: 14 Brasiliana e três espaços digitais; duas fontes já incorporadas ao núcleo.','data/revision4_new_titles.csv')
 metric('M09','Anos no inventário anual do núcleo',len(readcsv('annual_coverage.csv')),'anos','1872–2026; anos sem testemunho não significam ausência histórica.','data/annual_coverage.csv')
 metric('M10','Entradas no manifesto histórico',len(manifest),'entradas de aquisição','Inclui apoio, metadados, recursos técnicos, falhas e referências retiradas; não documentos lidos.','data/downloads.json')
@@ -87,13 +93,22 @@ metric('M14','Textos integrais com cópia pública',sum(bool(x.get('public_copy'
 metric('M15','Referências bibliográficas',bib_count,'entradas BibTeX','Inclui teoria, documentos, catálogos e portais; não corresponde ao número de atestações.','artigo/references.bib')
 annual_covered=sum(1900<=int(row['year'])<=2009 and int(row['confirmed_documents'])>0 for row in readcsv('annual_coverage.csv'))
 metric('M16','Cobertura anual de 1900 a 2009',annual_covered,'anos com atestação','Intervalo de 110 anos. A busca dirigida incluiu rubricas e grafias miméticas.','data/annual_coverage.csv')
+metric('M17','Conjuntos de recursos de acesso indicados',resource_groups,'grupos operacionais','16 endereços agrupados: APESP portal/item, BBM coleção/acervo geral e Wayback/Orkut; não instituições independentes.','data/base_registry.csv')
+metric('M18','Fontes da seleção por acervo/década',reconciled['archive_source_identifiers'],'identificadores de fonte','As 135 seleções reutilizam documentos entre quotas; 129 source_id distintos.','data/evidence_register.csv')
+metric('M19','Fontes selecionadas nos quatro inventários',reconciled['unique_selected_source_identifiers'],'identificadores de fonte','Reconciliação por source_id e URL; não independência de obras, edições ou testemunhos.','data/consolidated_inventory.json')
+metric('M20','Rubricas / marcadores miméticos e digitais do núcleo',str(reconciled['core_representation_categories']['rubrica descritiva'])+' / '+str(reconciled['core_representation_categories']['representação mimética ou marcador digital']),'registros','Partição do núcleo; rubricas descrevem reações, sem transcrever necessariamente o som.','data/consolidated_inventory.json')
+metric('M21','Alternativas literárias de período',len(readcsv('period_alternatives.csv')),'fontes','Bocage 1800 e Gonzaga 1812; não ocorrências nos exemplares fixos da Gazeta.','data/period_alternatives.csv')
+metric('M22','Itens conferidos sem ocorrência localizada',sum(x['status'].startswith('conferido:') for x in readcsv('archive_decade_matrix.csv')),'itens','Leitura concluída; não prova de ausência na série nem quota positiva.','data/archive_decade_matrix.csv')
+metric('M23','Confirmação no acervo indicado / fonte alternativa',str(sum(bool(x['reference_id']) and x['status']!='confirmada em fonte alternativa' for x in readcsv('archive_decade_matrix.csv')))+' / '+str(sum(x['status']=='confirmada em fonte alternativa' for x in readcsv('archive_decade_matrix.csv'))),'linhas de quota','Partição das 135 seleções; confirmação alternativa não equivale a cotejo no portal original.','data/archive_decade_matrix.csv')
+metric('M24','Classes lexicais / rubricas / miméticas da seleção', ' / '.join(str(reconciled['archive_selection_categories'][k]) for k in ['lexical','rubrica','mimética']),'seleções','Partição das 135 linhas; não prevalência histórica nem fontes distintas.','data/consolidated_inventory.json')
+metric('M25','Domínios registrados no manifesto',len(domains),'hosts','Inclui subdomínios, serviços técnicos e aquisições falhas; não equivale a bases consultadas integralmente.','data/source_domains.csv')
 writecsv('method_quantification.csv',metrics)
 
 def table(name,caption,columns,header,lines):
  out=[r'\small\begin{longtable}{'+columns+'}',r'\caption{'+caption+r'}\\',r'\toprule '+header+r'\\\midrule\endfirsthead',r'\toprule '+header+r'\\\midrule\endhead']+lines+[r'\bottomrule\end{longtable}\normalsize']
  (GEN/name).write_text('\n'.join(out)+'\n',encoding='utf-8',newline='\n')
 col=lambda w:r'>{\raggedright\arraybackslash}p{'+w+r'\textwidth}'
-table('method_quantification.tex','Balanço quantitativo do levantamento até 9 de novembro de 2026. As linhas têm unidades distintas e não devem ser somadas.',col('.31')+col('.13')+col('.45'),'Indicador & Quantidade & Unidade, escopo e dados',[tex(x['indicator'])+' & '+tex(x['value'])+' & '+tex(x['unit']+'. '+x['scope'])+r' \href{'+x['data_url']+r'}{Dados no GitHub} \\' for x in metrics])
+table('method_quantification.tex','Balanço quantitativo consolidado do levantamento. As linhas têm unidades distintas e não devem ser somadas.',col('.31')+col('.13')+col('.45'),'Indicador & Quantidade & Unidade, escopo e dados',[tex(x['indicator'])+' & '+tex(x['value'])+' & '+tex(x['unit']+'. '+x['scope'])+r' \href{'+x['data_url']+r'}{Dados no GitHub} \\' for x in metrics])
 table('base_registry.tex','Inventário consolidado dos 16 endereços indicados: portais, coleções, item e captura. Sobreposições não são novas bases independentes.',col('.29')+col('.38')+col('.22'),'ID / recurso & Relação entre os recursos & Seleção e rastreabilidade',[tex(x['id']+' '+x['name'])+r' \cite{'+x['bib']+'} & '+tex(x['scope_note'])+' & '+tex(str(x['selected_references'])+'; '+x['count_scope'])+r' \href{'+x['access_url']+r'}{Fonte}; \href{'+x['data_url']+r'}{GitHub} \\' for x in registry])
 
 matrix=readcsv('archive_decade_matrix.csv')
@@ -136,11 +151,13 @@ Autor único: Murillo Edson de Carvalho Souza.
 
 ## Balanço atualizado e dados vinculados
 
-A coleta é dirigida, exploratória e não probabilística. O núcleo tem {len(at)} testemunhos: E1={evidence['E1']}, E2={evidence['E2']} e E3={evidence['E3']}. O núcleo cobre {annual_covered} dos 110 anos de 1900 a 2009. A ampliação por ano priorizou séries parlamentares brasileiras e portuguesas e periódicos brasileiros. As 66 indicações iniciais têm parecer individual; as 22 citações alegadas não foram autenticadas integralmente. Os números de 15 registros e 34 aquisições pertenciam à primeira versão e foram substituídos por este balanço consolidado.
+A coleta é dirigida, exploratória e não probabilística. O núcleo tem {len(at)} testemunhos: E1={evidence['E1']}, E2={evidence['E2']} e E3={evidence['E3']}. O núcleo cobre {annual_covered} dos 110 anos de 1900 a 2009. A ampliação por ano priorizou séries parlamentares brasileiras e portuguesas e periódicos brasileiros. As 66 indicações iniciais têm parecer individual; as 22 citações alegadas não foram autenticadas integralmente. O núcleo contém 96 rubricas descritivas e 25 representações miméticas ou marcadores digitais; as categorias não são intercambiáveis.
 
-Os 16 endereços indicados pelo autor estão no [inventário de bases](../data/base_registry.csv), com URL original, URL de acesso, sobreposições, quantidade selecionada e links para os dados. Não são 16 bases independentes: há portal e item do APESP, coleção e acervo geral da BBM e Orkut preservado no próprio Wayback.
+Os 16 endereços indicados pelo autor estão no [inventário de bases](../data/base_registry.csv), com URL original, URL de acesso, sobreposições, quantidade selecionada e links para os dados. São {resource_groups} conjuntos operacionais de recursos de acesso, após agrupar portal/item do APESP, coleção/acervo geral da BBM e Orkut/Wayback. Essa definição se aplica aos endereços indicados, não ao universo de instituições ou fontes complementares; os domínios do manifesto não são contados como bases.
 
 O [quadro quantitativo](../data/method_quantification.csv), também incluído na metodologia do artigo, reúne quantidades e unidades. O núcleo, as {len(r3)} referências por acervo/década e os {len(r4)} títulos inéditos se sobrepõem: não se somam como documentos independentes. Somente duas das 17 novas fontes ampliaram o núcleo. As 135 quotas por acervo e década têm referência selecionada, 70 em fontes alternativas; dois itens individuais têm conferência concluída sem ocorrência localizada, com duas alternativas de período registradas separadamente. Isso não equivale a confirmação nesses exemplares.
+
+Os quatro inventários positivos têm {reconciled['combined_record_memberships']} vínculos de registro e {reconciled['unique_selected_source_identifiers']} identificadores de fonte distintos. As {len(r3)} seleções de quota correspondem a {reconciled['archive_source_identifiers']} fontes por source_id. A reconciliação e os vínculos estão em [consolidated_inventory.json](../data/consolidated_inventory.json) e [evidence_register.csv](../data/evidence_register.csv). Identidade de URL não prova independência textual.
 
 O manifesto histórico contém {len(manifest)} entradas: {nonempty} com conteúdo, {empty} respostas vazias e {failed} falhas. Essas entradas incluem arquivos auxiliares, páginas de catálogo, imagens, PDFs, metadados e recursos técnicos; não são {len(manifest)} obras analisadas nem um contador de todas as tentativas realizadas. As {downloaded} entradas com estado `downloaded` incluem as respostas vazias. O histórico também conserva uma referência posteriormente retirada; preservação de proveniência não equivale a citação atual no artigo.
 
@@ -152,6 +169,6 @@ O gerador [build_method_inventory.py](../scripts/build_method_inventory.py) reco
 
 '''
 doc.write_text(intro+tail,encoding='utf-8',newline='\n')
-summary=dict(requested_entry_points=len(registry),independent_bases_not_inferred=True,manifest_entries=len(manifest),nonempty_acquisitions=nonempty,empty_responses=empty,failed_entries=failed,technical_domains=len(domains),corpus_records=len(at),bibliographic_entries=bib_count,archive_decade_references=len(r3),new_titles=len(r4),counts_additive=False)
+summary=dict(requested_entry_points=len(registry),requested_resource_groups=resource_groups,independent_bases_not_inferred=True,manifest_entries=len(manifest),nonempty_acquisitions=nonempty,empty_responses=empty,failed_entries=failed,technical_domains=len(domains),corpus_records=len(at),bibliographic_entries=bib_count,archive_decade_references=len(r3),new_titles=len(r4),counts_additive=False)
 (DATA/'method_inventory_summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(summary))

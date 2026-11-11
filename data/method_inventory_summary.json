@@ -1,5 +1,6 @@
 {
   "requested_entry_points": 16,
+  "requested_resource_groups": 13,
   "independent_bases_not_inferred": true,
   "manifest_entries": 1635,
   "nonempty_acquisitions": 1482,
@@ -7,7 +8,7 @@
   "failed_entries": 151,
   "technical_domains": 87,
   "corpus_records": 121,
-  "bibliographic_entries": 323,
+  "bibliographic_entries": 322,
   "archive_decade_references": 135,
   "new_titles": 17,
   "counts_additive": false

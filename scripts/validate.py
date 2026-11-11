@@ -61,6 +61,20 @@ assert sum(int(x['manifest_entries']) for x in domains)==len(json.loads((ROOT/'d
 metric_values={x['id']:x['value'] for x in metrics}
 assert int(metric_values['M02'])==len(at) and int(metric_values['M15'])==len(keys)
 assert int(metric_values['M10'])==sum(int(metric_values[k]) for k in ['M11','M12','M13'])
+reconciled=json.loads((ROOT/'data/consolidated_inventory.json').read_text(encoding='utf-8'))
+evidence_register=readcsv('evidence_register.csv')
+assert reconciled['combined_record_memberships']==len(evidence_register)
+assert reconciled['unique_selected_source_identifiers']==len({x['source_id'] for x in evidence_register})
+assert reconciled['unique_selected_source_urls']==len({x['url'] for x in evidence_register})
+assert len({x['resource_group'] for x in bases})==int(metric_values['M17'])==13
+assert int(metric_values['M18'])==len({x['source_id'] for x in archive_refs})
+assert int(metric_values['M19'])==reconciled['unique_selected_source_identifiers']
+assert sum(reconciled['core_representation_categories'].values())==len(at)
+assert sum(reconciled['archive_selection_categories'].values())==len(archive_refs)
+source_bibs={}
+for row in archive_refs:source_bibs.setdefault(row['source_id'],set()).add(row['bib'])
+assert all(len(v)==1 for v in source_bibs.values()), 'Chaves duplicadas para uma mesma fonte de quota'
+
 prefix='https://github.com/murilloed/historia-riso-escrito-portugues/blob/main/'
 for row in metrics+bases:
  assert row['data_url'].startswith(prefix) and (ROOT/row['data_url'][len(prefix):]).is_file()
@@ -91,6 +105,8 @@ try:
  full='\n'.join(p.get_text() for p in d)
  assert 'Murillo Edson de Carvalho Souza' in full
  assert '[?]' not in full
+ assert 'Sumário' not in full and 'Contents' not in full
+ assert 'corpus a 23 atestações' not in full and 'núcleo passa a 25 documentos' not in full
  assert not re.search(r'\bUnB\b|Edital 04/2026',full)
  pdf_urls={link.get('uri','') for page in d for link in page.get_links()}
  for path in ['data/base_registry.csv','data/method_quantification.csv','data/source_domains.csv','data/downloads.json','data/annual_coverage.csv','data/annual_supplement.csv']:
@@ -98,6 +114,6 @@ try:
 except ImportError:pass
 report.update(acervos=13,referencias_por_acervo_e_decada=len(archive_refs),linhas_matriz_acervos=len(archive_rows),cobertura_integral_acervos=False)
 report.update(titulos_ineditos_quarta_rodada=len(new_titles),edital_unb_removido=True)
-report.update(enderecos_indicados_inventariados=len(bases),indicadores_metodologicos=len(metrics),hiperlinks_metodologicos_no_pdf=True)
+report.update(grupos_operacionais_recursos=len({x['resource_group'] for x in bases}),fontes_selecionadas_por_identificador=reconciled['unique_selected_source_identifiers'],enderecos_indicados_inventariados=len(bases),indicadores_metodologicos=len(metrics),hiperlinks_metodologicos_no_pdf=True)
 (ROOT/'data/validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=True))
