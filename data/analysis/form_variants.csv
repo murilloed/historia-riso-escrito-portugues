@@ -1,0 +1,27 @@
+record_id,source_id,bib,year,variant_index,original_form,normalized,form_id
+A01,til1872,alencar1872,1872,1,Quiá!... quiá!... quiá!...,quiaquiaquia,F15
+A03,machado1884,assis1884,1884,1,"cá, cá, cá, cá, cá...",cacacacaca,F03
+A05,serras1901,queiros1901,1901,1,Ah! ah! ah!,ahahah,F02
+A21,engomadeira1917,almada1917,1917,1,Ah! Ah! Ah!...,ahahah,F02
+A23,r2_urupes1919,lobato1919,1919,1,"Quá, quá, quá!",quaquaqua,F12
+A31,r6_bn1927,anual1927,1927,1,"Quá, quá",quaqua,F11
+A33,r6_bn1929,anual1929,1929,1,"Quá, quá, quá, quá....",quaquaquaqua,F13
+A34,r6_bn1930,anual1930,1930,1,Quá-quá-quá...!,quaquaqua,F12
+A35,r6_tico1931,anual1931,1931,1,"quá quá, quá...",quaquaqua,F12
+A36,r6_bn1932,anual1932,1932,1,Quá-quá!,quaqua,F11
+A39,ticotico1935,ticotico1935,1935,1,Quá quá quá...,quaquaqua,F12
+A42,r6_tico1938,anual1938,1938,1,Ha ha ha ha!,hahahaha,F05
+A44,r6_tico1940,anual1940,1940,1,Quá - quá! quá!,quaquaqua,F12
+A45,carioca1941,carioca1941,1941,1,Ah! ah!,ahah,F01
+A54,r6_bn1950,anual1950,1950,1,"Quá, quá, quá",quaquaqua,F12
+A60,r6_bn1956,anual1956,1956,1,"quá, quá, quá",quaquaqua,F12
+A83,correio1979,correio1979,1979,1,"AH, AH, AH",ahahah,F02
+A111,young2008,young2008,2007,1,kkkk,kkkk,F07
+A114,ufpe,leao2010,2010,1,kkkkkkkk,kkkkkkkk,F09
+A114,ufpe,leao2010,2010,2,rsrsrsrs,rsrsrsrs,F16
+A115,r4_forum_capture,r4forumcifraclub,2010,1,kkkkkkkkkkkkk,kkkkkkkkkkkkk,F10
+A116,r4_orkut_community,r4orkutcomunidades,2014,1,hehehe,hehehe,F06
+A117,cruz2015,silva2015,2015,1,Kkkk,kkkk,F07
+A118,r3_docvirt_2010,r3doc18,2016,1,Hahaha...,hahaha,F04
+A119,r2_macunaima_uffs,andrade2019,2019,1,Quá! quá! quá quaquá!...,quaquaquaquaqua,F14
+A120,r3_docvirt_2020,r3doc19,2022,1,kkkkk,kkkkk,F08

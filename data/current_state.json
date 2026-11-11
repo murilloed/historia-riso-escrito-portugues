@@ -23,7 +23,7 @@
     "EvidenceMemberships": 275,
     "RequestedAddresses": 16,
     "ResourceGroups": 13,
-    "BibEntryCount": 322
+    "BibEntryCount": 325
   },
   "source": "CSV versionados; scripts/build_method_inventory.py"
 }

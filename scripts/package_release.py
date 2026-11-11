@@ -6,7 +6,7 @@ out=ROOT/'dist';out.mkdir(exist_ok=True)
 sourcezip=out/'artigo-overleaf.zip'
 with zipfile.ZipFile(sourcezip,'w',zipfile.ZIP_DEFLATED) as z:
  for p in (ROOT/'artigo').rglob('*'):
-  if p.is_file() and (p.suffix in ['.tex','.bib']):z.write(p,p.relative_to(ROOT/'artigo'))
+  if p.is_file() and (p.suffix in ['.tex','.bib'] or (p.parent.name=='figures' and p.suffix=='.pdf')):z.write(p,p.relative_to(ROOT/'artigo'))
  z.writestr('LEIA-ME.txt','Autor único: Murillo Edson de Carvalho Souza.\nSelecione main.tex e pdfLaTeX no Overleaf.\nRepositório: https://github.com/murilloed/historia-riso-escrito-portugues\nAs tabelas geradas estão incluídas. Não é necessário executar Python para compilar.\n')
 hashes={}
 for p in [ROOT/'artigo/main.pdf',sourcezip,ROOT/'artigo/main.tex',ROOT/'artigo/references.bib',ROOT/'artigo/annual.bib']:

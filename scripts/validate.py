@@ -136,6 +136,15 @@ for r in manifest:
 assert len(public)==8
 report=dict(atestacoes=len(at),niveis=dict(__import__('collections').Counter(x['evidence'] for x in at)),referencias=len(keys),alvos_auditoria=22,pistas=66,pareceres_individuais=len(audit),estados_auditoria=dict(__import__('collections').Counter(x['status'] for x in audit)),anos_inventariados=155,decadas_nucleo_cobertas=11,downloads=sum(x['status']=='downloaded' for x in manifest),falhas_download=sum(x['status']=='failed' for x in manifest),textos_integrais_publicos=len(public),latex_sem_citacoes_indefinidas=True,latex_sem_glifos_ausentes=True,latex_sem_overfull=True)
 report.update(anos_nucleo_cobertos=len(core_years),atestacoes_suplementares=len(annual_supplement))
+analysis_summary=json.loads((ROOT/'data/analysis/summary.json').read_text(encoding='utf-8'))
+assert analysis_summary['input_sha256']==hashlib.sha256((ROOT/'data/attestations.csv').read_bytes()).hexdigest()
+assert analysis_summary['input_records']==len(at)
+assert analysis_summary['unique_normalized_forms']==len(readcsv('analysis/form_units.csv'))
+assert analysis_summary['variant_links']==len(readcsv('analysis/form_variants.csv'))
+assert len(readcsv('analysis/initialization_sensitivity.csv'))==100
+assert len(readcsv('analysis/partition_grid.csv'))==5*analysis_summary['unique_normalized_forms']
+report.update(analise_grafica_executada=True,formas_normalizadas=analysis_summary['unique_normalized_forms'],vinculos_variantes=analysis_summary['variant_links'],grupos_hierarquico=analysis_summary['hierarchical']['selected_k'],grupos_kmeans=analysis_summary['kmeans']['selected_k'])
+
 try:
  import pymupdf
  d=pymupdf.open(ROOT/'artigo/main.pdf')

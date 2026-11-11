@@ -2,7 +2,7 @@
 
 **Autor único: Murillo Edson de Carvalho Souza.**
 
-Artigo científico exploratório sobre mudança linguística, iconicidade e evidência documental nas representações do riso em português. Projeto LaTeX adaptado do template fornecido pelo autor, com arquivo principal, seções e bibliografia BibTeX.
+Artigo científico exploratório sobre mudança linguística, iconicidade e evidência documental nas representações do riso em português, com análise descritiva e agrupamento gráfico não supervisionado. Projeto LaTeX adaptado do template fornecido pelo autor, com arquivo principal, seções e bibliografia BibTeX.
 
 ## Leitura e arquivos principais
 
@@ -165,3 +165,23 @@ H12 e H13 estão classificados como **conferidos, sem ocorrência localizada**, 
 A [revisão de consistência](docs/REVISAO-CONSOLIDADA.md) registra a reconciliação das contagens, a distinção entre quotas e fontes, a atualização da conclusão e os limites remanescentes. O comando `python scripts/build_appendices.py` executa também [audit_inventory.py](scripts/audit_inventory.py), que reconstrói o registro consolidado. Os relatórios numerados em `docs/` conservam estados históricos e não substituem os balanços atuais.
 
 O [protocolo de reprodução](docs/METODOLOGIA.md#reprodução-dos-resultados-publicados) detalha seleção, triagem, avaliação das passagens, deduplicação e comandos. Consulte também as [quantidades por acervo](data/archive_selection_counts.csv) e o [ambiente registrado](data/reproduction_environment.json). A reconstrução dos dados codificados não equivale a repetir automaticamente toda a busca histórica.
+
+## Análise descritiva e agrupamento executados
+
+O artigo inclui **seis gráficos**: composição dos inventários, distribuição por década do núcleo, distribuição dos 258 identificadores de fonte desde 1645, dendrograma, diagnósticos e matriz de distâncias. Os 25 registros miméticos/digitais geram 26 vínculos e **16 sequências normalizadas distintas**, sem alimentar os modelos com datas ou categorias.
+
+O hierárquico selecionou quatro grupos e o K-means seis na grade 2–6; o ARI entre as partições foi 0,784. São soluções exploratórias: quatro e cinco grupos quase empatam no hierárquico e seis é o limite da grade no K-means. A semelhança gráfica não comprova transmissão histórica. Não houve treinamento supervisionado.
+
+[Protocolo, gráficos e interpretação](docs/ANALISE-GRAFICA.md) · [Dados e parâmetros](data/analysis/) · [Script](scripts/analyze_forms.py) · [Dependências](requirements-analysis.txt).
+
+![Dendrograma das formas; não é genealogia](artigo/figures/analysis_dendrogram.png)
+
+Para recalcular os resultados após gerar os inventários:
+
+```sh
+python -m pip install -r requirements-analysis.txt
+python scripts/analyze_forms.py
+python scripts/validate_analysis.py
+```
+
+A geração dos inventários documentais e o cálculo dos agrupamentos são etapas distintas. O pacote Overleaf inclui as figuras vetoriais e as tabelas geradas, permitindo compilar sem instalar as bibliotecas de análise.

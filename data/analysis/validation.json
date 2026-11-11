@@ -1,0 +1,13 @@
+{
+  "core_records": 121,
+  "eligible_records": 25,
+  "variant_links": 26,
+  "normalized_forms": 16,
+  "hierarchical_k": 4,
+  "kmeans_k": 6,
+  "distance_checks": true,
+  "metric_recalculation": true,
+  "temporal_totals": true,
+  "figures": 6,
+  "input_hash_verified": true
+}

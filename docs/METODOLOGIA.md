@@ -102,7 +102,7 @@ A busca não recuperada não é tratada como frequência zero. Nos dois itens fi
 - **Reconciliação por identificador e URL:** controle das sobreposições entre inventários. Não elimina automaticamente reedições ou conteúdo reproduzido em URLs diferentes.
 - **Validação por scripts:** conferência de contagens, vínculos, chaves bibliográficas, fórmulas de planejamento e aspectos do PDF. A validação técnica não substitui a crítica documental.
 
-Não houve treinamento de modelo específico para recuperar o riso, classificação automática validada por amostra de referência, mensuração de precisão/recall ou aplicação de aprendizado ativo. O uso de ferramentas e IA não deve ser descrito como um algoritmo que autentica sozinho as fontes.
+Não houve treinamento de classificador supervisionado para recuperar o riso, classificação automática validada por amostra de referência, mensuração de precisão/recall ou aplicação de aprendizado ativo. O agrupamento não supervisionado adicional é descrito separadamente e não funciona como detector de ocorrências. O uso de ferramentas e IA não deve ser descrito como um algoritmo que autentica sozinho as fontes.
 
 ## Reprodução dos resultados publicados
 
@@ -177,6 +177,14 @@ São reconstruíveis a partir dos arquivos públicos: composição dos inventár
 A busca histórica completa não é reproduzível como uma sequência exata de requisições: não há log exaustivo de todos os termos, filtros, horários, resultados recuperados, candidatos descartados e páginas examinadas. Não se dispõe de denominador confiável de todas as obras ou páginas triadas; os 1.635 registros de aquisição não substituem esse denominador. Direitos, disponibilidade de portais e arquivos mantidos locais também limitam a repetição. Esses limites impedem inventar um fluxo de revisão sistemática ou calcular rendimento de busca e recall a partir do manifesto.
 
 Para **novas buscas**, recomenda-se registrar: identificador da consulta, linha-alvo, recurso, data/hora, termo exato, filtros, ordenação, URL ou endpoint, fonte candidata, localizador, transcrição, tipo de evidência, decisão e justificativa. Trata-se de uma especificação para ampliar o registro daqui em diante, não de dados retrospectivos que já existiriam para toda a coleta.
+
+## Análise empírica descritiva e agrupamento gráfico
+
+Foi executada uma etapa adicional, documentada em [ANALISE-GRAFICA.md](ANALISE-GRAFICA.md). Os 121 registros do núcleo são descritos por categoria e década; os 258 identificadores de fonte dos quatro inventários têm gráfico temporal próprio, desde 1645. Para o agrupamento, usam-se somente 25 registros miméticos/digitais, divididos em 26 vínculos e 16 sequências gráficas normalizadas distintas. Ano, país, suporte e rótulos não entram nos modelos.
+
+Compararam-se agrupamento hierárquico sobre distância de edição e K-means sobre n-gramas TF-IDF. A grade de 2–6 grupos, a normalização, os reinícios e os testes de sensibilidade estão integralmente publicados. O hierárquico selecionou quatro grupos; o K-means seis; a concordância entre as partições foi ARI 0,784. O quase empate hierárquico entre quatro e cinco grupos e o máximo do K-means no limite da grade impedem tratar essas escolhas como taxonomia definitiva. As similaridades não demonstram relações genealógicas.
+
+Essa análise foi efetivamente executada. Os cálculos de tamanho amostral da seção seguinte continuam sendo cenários prospectivos: não dirigiram a seleção documental. Para reconstruir os agrupamentos, instale `requirements-analysis.txt`, gere os inventários e execute `python scripts/analyze_forms.py` e `python scripts/validate_analysis.py`. Os dados numéricos, parâmetros, matrizes e gráficos estão em [data/analysis/](../data/analysis/) e [artigo/figures/](../artigo/figures/).
 
 <a id="plano-de-amostragem"></a>
 

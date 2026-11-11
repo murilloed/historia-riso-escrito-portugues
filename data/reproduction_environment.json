@@ -8,5 +8,13 @@
     "rapidocr-onnxruntime": "1.4.4"
   },
   "compiler": "Tectonic 0.17.0",
-  "scope": "Local validation environment; table generation uses Python standard library. OCR is optional and does not validate evidence automatically."
+  "scope": "Local validation environment; table generation uses Python standard library. OCR is optional and does not validate evidence automatically.",
+  "analysis_packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.8.0"
+  },
+  "analysis_requirements": "requirements-analysis.txt"
 }

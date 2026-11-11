@@ -1,0 +1,82 @@
+{
+  "scope": "exploratory; graphic resemblance, not transmission, prevalence or phonetic distance",
+  "all_inventory_source_identifiers": 258,
+  "all_inventory_earliest_year": 1645,
+  "all_inventory_latest_year": 2025,
+  "input_records": 121,
+  "rubrics": 96,
+  "mimetic_digital_records": 25,
+  "variant_links": 26,
+  "unique_normalized_forms": 16,
+  "cluster_unit": "distinct normalized graphic sequence; equal weight",
+  "normalization": "casefold, Unicode NFKD, retain letters only; split slash-separated variants",
+  "excluded_features": [
+    "year",
+    "country",
+    "medium",
+    "evidence",
+    "representation label",
+    "archive"
+  ],
+  "k_range": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hierarchical": {
+    "distance": "Levenshtein/max(lengths)",
+    "linkage": "average",
+    "selected_k": 4,
+    "selected_silhouette": 0.414812477443143
+  },
+  "kmeans": {
+    "features": "character TF-IDF 1–3 grams, L2",
+    "metric_for_silhouette": "cosine; optimization uses squared Euclidean distance",
+    "selected_k": 6,
+    "selected_silhouette": 0.7179966840813694,
+    "random_state": 0,
+    "n_init": 50,
+    "max_iter": 300,
+    "init": "k-means++",
+    "algorithm": "lloyd",
+    "tol": 0.0001,
+    "stability_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "stability_n_init": 1
+  },
+  "selected_partitions_ari": 0.7838270616493195,
+  "comparability_note": "Silhouettes use distinct representations/distances; do not rank methods by their raw values.",
+  "seed_stability_note": "Initialization sensitivity only; not population uncertainty or out-of-sample validation.",
+  "no_supervised_training": true,
+  "input_sha256": "456e58208afef1910bf2575436ccbaf07be935c3fd1a1c2c262eaa5579166c47",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.8.0"
+  },
+  "python": "3.12.14"
+}
