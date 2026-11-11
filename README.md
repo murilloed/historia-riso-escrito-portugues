@@ -22,6 +22,8 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 
 ## Resultado e alcance
 
+O levantamento inclui documentos desde **1645**, com **40 identificadores de fonte anteriores a 1900** em 47 vínculos de registro: crônica, dicionários, cantigas, poemas, obras e periódicos. Não há cobertura anual contínua desses séculos.
+
 O núcleo tem **121 registros** e cobre os **110 anos de 1900 a 2009**: 23 E1, 95 E2 e três E3. São **96 rubricas descritivas** e **25 representações miméticas ou marcadores digitais**, não 121 exemplos de onomatopeia. A ampliação anual adicionou 96 registros, predominantemente parlamentares. Brasil e Portugal estão representados; o conjunto não constitui uma amostra nacional de uso.
 
 O [balanço reconciliado](data/consolidated_inventory.json) e o [registro de vínculos](data/evidence_register.csv) distinguem as unidades:

@@ -102,6 +102,7 @@ metric('M22','Itens conferidos sem ocorrência localizada',sum(x['status'].start
 metric('M23','Confirmação no acervo indicado / fonte alternativa',str(sum(bool(x['reference_id']) and x['status']!='confirmada em fonte alternativa' for x in readcsv('archive_decade_matrix.csv')))+' / '+str(sum(x['status']=='confirmada em fonte alternativa' for x in readcsv('archive_decade_matrix.csv'))),'linhas de quota','Partição das 135 seleções; confirmação alternativa não equivale a cotejo no portal original.','data/archive_decade_matrix.csv')
 metric('M24','Classes lexicais / rubricas / miméticas da seleção', ' / '.join(str(reconciled['archive_selection_categories'][k]) for k in ['lexical','rubrica','mimética']),'seleções','Partição das 135 linhas; não prevalência histórica nem fontes distintas.','data/consolidated_inventory.json')
 metric('M25','Domínios registrados no manifesto',len(domains),'hosts','Inclui subdomínios, serviços técnicos e aquisições falhas; não equivale a bases consultadas integralmente.','data/source_domains.csv')
+metric('M26','Fontes anteriores a 1900',reconciled['pre1900_source_identifiers'],'identificadores de fonte','47 vínculos nos quatro inventários; inclui documentos desde 1645. Não é cobertura anual contínua.','data/consolidated_inventory.json')
 writecsv('method_quantification.csv',metrics)
 
 def table(name,caption,columns,header,lines):
@@ -151,7 +152,7 @@ Autor único: Murillo Edson de Carvalho Souza.
 
 ## Balanço atualizado e dados vinculados
 
-A coleta é dirigida, exploratória e não probabilística. O núcleo tem {len(at)} testemunhos: E1={evidence['E1']}, E2={evidence['E2']} e E3={evidence['E3']}. O núcleo cobre {annual_covered} dos 110 anos de 1900 a 2009. A ampliação por ano priorizou séries parlamentares brasileiras e portuguesas e periódicos brasileiros. As 66 indicações iniciais têm parecer individual; as 22 citações alegadas não foram autenticadas integralmente. O núcleo contém 96 rubricas descritivas e 25 representações miméticas ou marcadores digitais; as categorias não são intercambiáveis.
+A coleta é dirigida, exploratória e não probabilística. O núcleo tem {len(at)} testemunhos: E1={evidence['E1']}, E2={evidence['E2']} e E3={evidence['E3']}. O núcleo cobre {annual_covered} dos 110 anos de 1900 a 2009. A ampliação por ano priorizou séries parlamentares brasileiras e portuguesas e periódicos brasileiros. As 66 indicações iniciais têm parecer individual; as 22 citações alegadas não foram autenticadas integralmente. O núcleo contém 96 rubricas descritivas e 25 representações miméticas ou marcadores digitais; as categorias não são intercambiáveis. O levantamento mais amplo inclui documentos desde 1645: são {reconciled["pre1900_source_identifiers"]} identificadores de fonte anteriores a 1900 em {reconciled["pre1900_record_memberships"]} vínculos, sem cobertura anual contínua desse período.
 
 Os 16 endereços indicados pelo autor estão no [inventário de bases](../data/base_registry.csv), com URL original, URL de acesso, sobreposições, quantidade selecionada e links para os dados. São {resource_groups} conjuntos operacionais de recursos de acesso, após agrupar portal/item do APESP, coleção/acervo geral da BBM e Orkut/Wayback. Essa definição se aplica aos endereços indicados, não ao universo de instituições ou fontes complementares; os domínios do manifesto não são contados como bases.
 

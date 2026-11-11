@@ -13,12 +13,14 @@ for name in SETS:
  for x in rows:
   assert x['source_id'] in manifest,x['source_id']
   m=manifest[x['source_id']]
-  register.append(dict(dataset=name,record_id=x.get('id',x.get('work_key','')),source_id=x['source_id'],bib=x['bib'],url=m['url'],acquisition_status=m['status']))
+  register.append(dict(dataset=name,record_id=x.get('id',x.get('work_key','')),source_id=x['source_id'],year=x.get('year',x.get('date',''))[:4],bib=x['bib'],url=m['url'],acquisition_status=m['status']))
 with (DATA/'evidence_register.csv').open('w',encoding='utf-8',newline='') as f:
  w=csv.DictWriter(f,fieldnames=list(register[0]),lineterminator='\n');w.writeheader();w.writerows(register)
 core=read('attestations.csv');refs=read('archive_decade_references.csv');matrix=read('archive_decade_matrix.csv')
 ids={x['source_id'] for x in register}
 summary=dict(datasets=per_set,combined_record_memberships=len(register),unique_selected_source_identifiers=len(ids),unique_selected_source_urls=len({x['url'] for x in register}),selected_source_acquisition_status=dict(collections.Counter(manifest[x]['status'] for x in ids)),core_representation_categories=dict(collections.Counter(x['representation'] for x in core)),core_countries=dict(collections.Counter(x['country'] for x in core)),archive_selection_categories=dict(collections.Counter(x['kind'] for x in refs)),archive_rows_with_reference=sum(bool(x['reference_id']) for x in matrix),archive_source_identifiers=len({x['source_id'] for x in refs}),identity_rule='source_id; URL identity checked; not a count of independent works, editions, witnesses or national usage',independence_not_inferred=True)
+historical=[x for x in register if int(x['year'])<1900]
+summary.update(earliest_selected_year=min(int(x['year']) for x in register),latest_selected_year=max(int(x['year']) for x in register),pre1900_record_memberships=len(historical),pre1900_source_identifiers=len({x['source_id'] for x in historical}),pre1900_continuous_annual_coverage_not_claimed=True)
 (DATA/'consolidated_inventory.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps(summary,ensure_ascii=False))
 

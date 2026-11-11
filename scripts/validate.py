@@ -74,6 +74,10 @@ for x in archive_counts:
 
 assert reconciled['unique_selected_source_identifiers']==len({x['source_id'] for x in evidence_register})
 assert reconciled['unique_selected_source_urls']==len({x['url'] for x in evidence_register})
+historical=[x for x in evidence_register if int(x['year'])<1900]
+assert reconciled['pre1900_record_memberships']==len(historical)
+assert reconciled['pre1900_source_identifiers']==len({x['source_id'] for x in historical})
+assert reconciled['earliest_selected_year']==min(int(x['year']) for x in evidence_register)
 assert len({x['resource_group'] for x in bases})==int(metric_values['M17'])==13
 assert int(metric_values['M18'])==len({x['source_id'] for x in archive_refs})
 assert int(metric_values['M19'])==reconciled['unique_selected_source_identifiers']

@@ -26,8 +26,8 @@
   "latex_sem_overfull": true,
   "anos_nucleo_cobertos": 110,
   "atestacoes_suplementares": 96,
-  "paginas": 86,
-  "palavras_pdf": 39848,
+  "paginas": 88,
+  "palavras_pdf": 40221,
   "acervos": 13,
   "referencias_por_acervo_e_decada": 135,
   "linhas_matriz_acervos": 137,
@@ -37,6 +37,6 @@
   "grupos_operacionais_recursos": 13,
   "fontes_selecionadas_por_identificador": 258,
   "enderecos_indicados_inventariados": 16,
-  "indicadores_metodologicos": 25,
+  "indicadores_metodologicos": 26,
   "hiperlinks_metodologicos_no_pdf": true
 }
