@@ -19,3 +19,9 @@ O artigo continua exploratório: não se adotou retrospectivamente o rótulo de 
 ## Reprodução e limites
 
 `python scripts/build_appendices.py` reconstrói o núcleo, as tabelas e a reconciliação. `python scripts/validate.py` verifica os invariantes de contagem, chaves, vínculos, cálculos, PDF e hiperlinks após compilar. O pacote Overleaf conserva o LaTeX e as bibliografias. O manifesto público disponibiliza localizadores e hashes; as cópias integrais sem licença de redistribuição ficam locais. Os estados de aquisição preservam o histórico e não representam todas as requisições executadas. A revisão de consistência não equivale a nova leitura integral de todas as fontes, verificação independente ou avaliação por pares.
+
+## Precisão dos recortes temporais
+
+Os registros do núcleo têm datas de 1872 a 2025: 110 entre 1900 e 2009, um por ano, e 11 fora desse recorte (três anteriores a 1900 e oito posteriores a 2009). Os quatro inventários positivos, em conjunto, abrangem 1645–2025. O quadro de acompanhamento contém posições de 1872 a 2026, sem atestação selecionada em 2026. Portanto, 2026 não é apresentado como data do documento mais recente. Os textos atuais distinguem fonte selecionada, posição anual, data de consulta e data de publicação do manuscrito.
+
+O parágrafo principal do README e as constantes quantitativas do LaTeX são gerados dos CSV por build_method_inventory.py. Os relatórios numerados têm aviso de estado histórico. CITATION.cff passa a orientar a identificação do commit, sem atribuir uma versão antiga de lançamento ao estado atual do manuscrito. As datas das obras, edições, capturas e consultas preservadas no histórico não foram alteradas para fazê-las coincidir com a atualização editorial.

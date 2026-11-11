@@ -25,8 +25,8 @@
   "unique_selected_source_identifiers": 258,
   "unique_selected_source_urls": 258,
   "selected_source_acquisition_status": {
-    "failed": 18,
-    "downloaded": 240
+    "downloaded": 240,
+    "failed": 18
   },
   "core_representation_categories": {
     "representação mimética ou marcador digital": 25,
@@ -49,5 +49,12 @@
   "latest_selected_year": 2025,
   "pre1900_record_memberships": 47,
   "pre1900_source_identifiers": 40,
-  "pre1900_continuous_annual_coverage_not_claimed": true
+  "pre1900_continuous_annual_coverage_not_claimed": true,
+  "core_earliest_year": 1872,
+  "core_latest_year": 2025,
+  "core_records_within_1900_2009": 110,
+  "core_years_covered_1900_2009": 110,
+  "core_records_outside_1900_2009": 11,
+  "core_records_before_1900": 3,
+  "core_records_after_2009": 8
 }

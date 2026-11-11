@@ -1,5 +1,7 @@
 # Ampliação por década em cada acervo
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Autor único: Murillo Edson de Carvalho Souza. Consulta em 8 de novembro de 2026.
 
 ## Escopo e andamento

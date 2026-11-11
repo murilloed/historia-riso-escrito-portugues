@@ -1,5 +1,7 @@
 # Vigésima segunda revisão
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Dois recortes da Biblioteca Digital do Senado Federal documentam as ocorrências na própria página reproduzida.
 
 - D112, H06/1970. Maria Valdira, O homem que inventou a cidade, Correio Braziliense, Caderno 2, 19 de abril de 1975. Forma lexical “esboçou um sorriso”. [Recorte](https://www2.senado.leg.br/bdsf/bitstream/handle/id/711649/DF_Brasilia_P006_R0019.pdf?isAllowed=y&sequence=1)

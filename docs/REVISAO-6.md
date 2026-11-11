@@ -1,5 +1,7 @@
 # Sexta revisão — cobertura anual de 1900 a 2009
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Autor: Murillo Edson de Carvalho Souza. Busca complementar realizada em 8 e 9 de novembro de 2026.
 
 A revisão localizou um testemunho para cada um dos 96 anos que estavam sem atestação na tabela anual. Os 14 anos que já tinham testemunhos foram preservados. O núcleo passa a cobrir 110 de 110 anos. O inventário completo contém 121 atestações, incluindo documentos de fora desse intervalo.

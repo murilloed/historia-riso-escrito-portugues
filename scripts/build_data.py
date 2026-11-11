@@ -46,7 +46,7 @@ csvwrite('attestations.csv',AT)
 counts=collections.Counter(r['year'] for r in AT)
 covered=sum(counts[y]>0 for y in range(1900,2010))
 (GEN/'annual_counts.tex').write_text('\n'.join('\\newcommand{\\'+k+'}{'+str(v)+'}' for k,v in dict(CorpusSize=len(AT),AnnualAdded=len(added),AnnualCovered=covered,AnnualMissing=110-covered).items())+'\n',encoding='utf-8',newline='\n')
-annual=[dict(year=y,confirmed_documents=counts[y],scope='núcleo' if 1900<=y<=2009 else 'extensão',interpretation='atestação no inventário' if counts[y] else 'sem atestação confirmada nesta coleta; não é ausência histórica') for y in range(1872,2027)]
+annual=[dict(year=y,confirmed_documents=counts[y],scope='recorte anual 1900–2009' if 1900<=y<=2009 else 'fora do recorte anual',interpretation='atestação no inventário' if counts[y] else 'sem atestação confirmada nesta coleta; não é ausência histórica') for y in range(1872,2027)]
 csvwrite('annual_coverage.csv',annual)
 det=[dict(n=n,p005=1-(1-.05)**n,p001=1-(1-.01)**n) for n in [3,6,30,59,97,299]]
 csvwrite('detection_sensitivity.csv',det)

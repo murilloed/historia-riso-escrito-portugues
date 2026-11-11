@@ -1,5 +1,7 @@
 # Vigésima quarta revisão
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 D118 confirma H10/2000 em fonte alternativa. A [reprodução da Universidade de Pernambuco](https://www.upe.br/down/imprensa/consciencia_negra.pdf) identifica o Diario de Pernambuco de 20 de novembro de 2009 e atribui a Rafael Dias a reportagem Pelo fim do racismo. A expressão está na p. 1 do PDF. A busca pelo título do jornal, por formas flexionadas do verbo sorrir e por anos específicos levou ao clipping institucional.
 
 ## Rastreio das linhas restantes

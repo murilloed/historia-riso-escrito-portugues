@@ -1,5 +1,7 @@
 # Brasiliana, Orkut e Wayback: títulos inéditos
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Autor único: Murillo Edson de Carvalho Souza. Consulta: 8 de novembro de 2026.
 
 O autor delimitou uma **seleção cronológica de títulos inéditos, incluindo sites, fóruns e blogs**. A unidade desta rodada é a obra, o periódico ou o site. A antiga quota por acervo e década não foi substituída nem declarada concluída.

@@ -1,5 +1,7 @@
 # Vigésima terceira revisão
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 O leitor da coleção Jornais Século XIX da CEPE lista Diario de Pernambuco e Jornal Pequeno. Quatro décadas foram documentadas em fontes alternativas, com a verificação dos exemplares no leitor da CEPE pendente.
 
 - D114, H11/1820. Diario de Pernambuco, n. 1000, 1827-05-11. Forma “riso da indignaçaõ e do despreso”. Localizador: p. 402 da edição, transcrição na ficha 8, p. 124 da dissertação da UFBA. [Fonte](https://repositorio.ufba.br/bitstream/ri/41486/3/Disserta%C3%A7%C3%A3o%20com%20ata%20e%20ficha%20catalogr%C3%A1fica.pdf)

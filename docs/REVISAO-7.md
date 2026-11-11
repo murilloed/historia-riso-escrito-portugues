@@ -1,5 +1,7 @@
 # Sétima revisão — referências por acervo e década
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Em 9 de novembro de 2026 foram acrescentadas oito referências à matriz. Seis preenchem décadas da Hemeroteca Digital Brasileira (H05), com páginas de 1903, 1911, 1950, 1965, 1978 e 1989. As décadas de 1920, 1930 e 1940 já estavam preenchidas.
 
 Duas linhas receberam confirmação em fonte alternativa. Para H07 na década de 1970, o texto indexado do recorte do Jornal do Brasil de 1977 está no Arquivo Central da Unicamp, item IT0028. A resposta ao download direto era HTML, registrada como falha no manifesto. A conferência no Google News permanece pendente. Para H03 na década de 1990, a rubrica de 1994 consta na versão eletrônica da Folha, com conferência pendente no portal Acervo Folha.

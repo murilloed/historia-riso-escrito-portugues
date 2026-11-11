@@ -1,5 +1,7 @@
 # Décima sétima revisão
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Foram acrescentadas quatro referências lexicais. A matriz ficou com 58 confirmações no acervo indicado, 48 em fonte alternativa e 29 quotas pendentes.
 
 - D103, H07/1900. O fac-símile da Revista da Semana de 10 de maio de 1903 contém a ocorrência na segunda página do PDF. A capa identifica a publicação como edição semanal ilustrada do Jornal do Brasil. O [histórico da Biblioteca Nacional](https://bndigital.bn.gov.br/artigos/acervo-da-bn-20-de-maio-de-1900-lancamento-do-periodico-revista-da-semana/) documenta a circulação encartada até 1915.

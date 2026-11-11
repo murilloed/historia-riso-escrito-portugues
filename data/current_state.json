@@ -1,0 +1,29 @@
+{
+  "text": "O núcleo reúne **121 registros**, classificados em **23 E1, 95 E2 e 3 E3**, com datas de **1872 a 2025**. Há **110 registros no intervalo de 1900–2009**, um em cada um dos **110 anos**, e **11 fora dele**. São **96 rubricas descritivas** e **25 representações miméticas ou marcadores digitais**, portanto não 121 exemplos de onomatopeia. A ampliação anual incorporou 96 registros — 87 parlamentares e nove da imprensa periódica — já incluídos no total. Há documentos brasileiros e portugueses; a seleção não é amostra representativa de uso nacional. **Os quatro inventários positivos incluem fontes de 1645 a 2025, com 40 identificadores anteriores a 1900, sem cobertura anual contínua desse período.** O quadro anual estende-se até 2026, ano sem atestação selecionada no núcleo.",
+  "counts": {
+    "CoreEOne": 23,
+    "CoreETwo": 95,
+    "CoreEThree": 3,
+    "CoreRubrics": 96,
+    "CoreMimetic": 25,
+    "CoreWithin": 110,
+    "CoreOutside": 11,
+    "CoreMinYear": 1872,
+    "CoreMaxYear": 2025,
+    "SelectedMinYear": 1645,
+    "SelectedMaxYear": 2025,
+    "PreNineteenSources": 40,
+    "PreNineteenLinks": 47,
+    "ArchiveLinkCount": 135,
+    "ArchiveSourceCount": 129,
+    "ArchiveDirect": 65,
+    "ArchiveAlternative": 70,
+    "MatrixRowCount": 137,
+    "EvidenceSources": 258,
+    "EvidenceMemberships": 275,
+    "RequestedAddresses": 16,
+    "ResourceGroups": 13,
+    "BibEntryCount": 322
+  },
+  "source": "CSV versionados; scripts/build_method_inventory.py"
+}

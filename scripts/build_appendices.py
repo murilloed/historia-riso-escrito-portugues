@@ -25,7 +25,7 @@ for r in rows:
 body += [r'\bottomrule\end{longtable}\normalsize']
 (GEN/'candidates-table.tex').write_text('\n'.join(body),encoding='utf-8')
 with (DATA/'annual_coverage.csv').open(encoding='utf-8') as f:years=list(csv.DictReader(f))
-body=[r'\small\begin{longtable}{rrp{0.65\textwidth}}',r'\caption{Cobertura anual do núcleo 1900--2009. Não é série de prevalência.}\\',r'\toprule Ano & Documentos & Interpretação \\\midrule\endfirsthead',r'\toprule Ano & Documentos & Interpretação \\\midrule\endhead']
+body=[r'\small\begin{longtable}{rrp{0.65\textwidth}}',r'\caption{Cobertura do recorte anual de 1900--2009. Não é série de prevalência.}\\',r'\toprule Ano & Documentos & Interpretação \\\midrule\endfirsthead',r'\toprule Ano & Documentos & Interpretação \\\midrule\endhead']
 with (DATA/'attestations.csv').open(encoding='utf-8') as f:
  citations={}
  for row in csv.DictReader(f):

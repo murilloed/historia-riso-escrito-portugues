@@ -78,6 +78,32 @@ historical=[x for x in evidence_register if int(x['year'])<1900]
 assert reconciled['pre1900_record_memberships']==len(historical)
 assert reconciled['pre1900_source_identifiers']==len({x['source_id'] for x in historical})
 assert reconciled['earliest_selected_year']==min(int(x['year']) for x in evidence_register)
+assert reconciled['latest_selected_year']==max(int(x['year']) for x in evidence_register)
+core_dates=[int(x['year']) for x in at]
+assert reconciled['core_earliest_year']==min(core_dates)
+assert reconciled['core_latest_year']==max(core_dates)
+assert reconciled['core_records_within_1900_2009']==sum(1900<=y<=2009 for y in core_dates)
+assert reconciled['core_records_outside_1900_2009']==sum(not 1900<=y<=2009 for y in core_dates)
+assert reconciled['core_records_before_1900']+reconciled['core_records_after_2009']==reconciled['core_records_outside_1900_2009']
+assert reconciled['core_records_within_1900_2009']+reconciled['core_records_outside_1900_2009']==len(at)
+from datetime import date
+for filename in ['attestations.csv','archive_decade_references.csv','revision4_new_titles.csv','period_alternatives.csv','archive_profiles.csv']:
+ for row in readcsv(filename):
+  for field in ['date','capture_date','message_date','checked_on']:
+   value=row.get(field,'')
+   if re.match(r'^\d{4}-\d{2}-\d{2}',value):date.fromisoformat(value[:10])
+  if row.get('date') and row.get('year'):assert row['date'][:4]==row['year']
+state=json.loads((ROOT/'data/current_state.json').read_text(encoding='utf-8'))
+assert state['counts']['CoreWithin']==reconciled['core_records_within_1900_2009']
+assert state['counts']['CoreOutside']==reconciled['core_records_outside_1900_2009']
+assert state['counts']['SelectedMaxYear']==reconciled['latest_selected_year']
+assert state['text'] in (ROOT/'README.md').read_text(encoding='utf-8')
+macrotext=(ROOT/'artigo/generated/inventory_counts.tex').read_text(encoding='utf-8')
+for key,value in state['counts'].items():
+ assert chr(92)+'newcommand{'+chr(92)+key+'}{'+str(value)+'}' in macrotext
+for path in (ROOT/'docs').glob('REVISAO-*.md'):
+ if path.name!='REVISAO-CONSOLIDADA.md':assert '**Relatório histórico de etapa.**' in path.read_text(encoding='utf-8')
+
 assert len({x['resource_group'] for x in bases})==int(metric_values['M17'])==13
 assert int(metric_values['M18'])==len({x['source_id'] for x in archive_refs})
 assert int(metric_values['M19'])==reconciled['unique_selected_source_identifiers']

@@ -1,5 +1,7 @@
 # Segunda auditoria documental — 8 de novembro de 2026
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Autor único do artigo: Murillo Edson de Carvalho Souza.
 
 Esta rodada examinou individualmente as 66 indicações e buscou âncoras das 22 citações recebidas. Concluir o parecer sobre uma indicação não significa confirmar sua alegação. Nenhuma das 22 frases foi autenticada integralmente. Não houve leitura visual integral de todas as páginas de todos os volumes. A pesquisa combinou buscas web literais, identificação em catálogos, aquisição de exemplares, pesquisa do texto/OCR e inspeção visual de passagens e cabeçalhos selecionados.

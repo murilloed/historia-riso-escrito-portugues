@@ -1,5 +1,7 @@
 # Consolidação metodológica e inventário de bases
 
+**Relatório histórico de etapa.** As contagens e pendências abaixo pertencem à etapa descrita. Para os resultados vigentes, consulte o [balanço reconciliado](../data/consolidated_inventory.json), a [matriz](../data/archive_decade_matrix.csv) e a [metodologia](METODOLOGIA.md).
+
 Autor único: Murillo Edson de Carvalho Souza. Data: 8 de novembro de 2026.
 
 A conferência identificou que as fontes estavam registradas de maneira dispersa e que `docs/METODOLOGIA.md` ainda descrevia a primeira versão, com 15 registros e 34 aquisições. O documento foi atualizado, e a metodologia do artigo ganhou dois quadros com hiperlinks diretos para os arquivos no GitHub.

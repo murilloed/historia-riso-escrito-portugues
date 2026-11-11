@@ -24,7 +24,9 @@ Artigo científico exploratório sobre mudança linguística, iconicidade e evid
 
 O levantamento inclui documentos desde **1645**, com **40 identificadores de fonte anteriores a 1900** em 47 vínculos de registro: crônica, dicionários, cantigas, poemas, obras e periódicos. Não há cobertura anual contínua desses séculos.
 
-O núcleo tem **121 registros** e cobre os **110 anos de 1900 a 2009**: 23 E1, 95 E2 e três E3. São **96 rubricas descritivas** e **25 representações miméticas ou marcadores digitais**, não 121 exemplos de onomatopeia. A ampliação anual adicionou 96 registros, predominantemente parlamentares. Brasil e Portugal estão representados; o conjunto não constitui uma amostra nacional de uso.
+<!-- BEGIN CURRENT_CORE_SUMMARY -->
+O núcleo reúne **121 registros**, classificados em **23 E1, 95 E2 e 3 E3**, com datas de **1872 a 2025**. Há **110 registros no intervalo de 1900–2009**, um em cada um dos **110 anos**, e **11 fora dele**. São **96 rubricas descritivas** e **25 representações miméticas ou marcadores digitais**, portanto não 121 exemplos de onomatopeia. A ampliação anual incorporou 96 registros — 87 parlamentares e nove da imprensa periódica — já incluídos no total. Há documentos brasileiros e portugueses; a seleção não é amostra representativa de uso nacional. **Os quatro inventários positivos incluem fontes de 1645 a 2025, com 40 identificadores anteriores a 1900, sem cobertura anual contínua desse período.** O quadro anual estende-se até 2026, ano sem atestação selecionada no núcleo.
+<!-- END CURRENT_CORE_SUMMARY -->
 
 O [balanço reconciliado](data/consolidated_inventory.json) e o [registro de vínculos](data/evidence_register.csv) distinguem as unidades:
 
@@ -34,7 +36,7 @@ O [balanço reconciliado](data/consolidated_inventory.json) e o [registro de ví
 - **275 vínculos nos quatro inventários positivos, correspondentes a 258 identificadores de fonte e 258 URLs**. Identificadores distintos não garantem independência textual. Não se somam os inventários como obras únicas.
 - **Dois exemplares da Gazeta conferidos sem ocorrência localizada**. As alternativas de período não são ocorrências nesses exemplares. Não há quota de década sem referência, mas a exigência de ocorrência positiva em cada item fixo não foi satisfeita.
 
-A cobertura anual é completa apenas no intervalo dirigido de 1900–2009. O inventário mais amplo de 1872–2026 conserva lacunas. A seleção é exploratória e não probabilística; cálculos amostrais são prospectivos. O total de entradas, domínios e falhas do manifesto é calculado automaticamente no [quadro quantitativo](data/method_quantification.csv), sem transformar recursos técnicos em bases ou arquivos baixados em documentos lidos.
+A cobertura anual é completa apenas no intervalo dirigido de 1900–2009. O quadro anual de acompanhamento cobre 1872–2026; os registros efetivamente selecionados no núcleo vão de 1872 a 2025. O levantamento complementar alcança 1645 e não tem cobertura anual contínua. A seleção é exploratória e não probabilística; cálculos amostrais são prospectivos. O total de entradas, domínios e falhas do manifesto é calculado automaticamente no [quadro quantitativo](data/method_quantification.csv), sem transformar recursos técnicos em bases ou arquivos baixados em documentos lidos.
 
 O levantamento documenta quiá em Til, cá em A segunda vida, ah em obras do início do século XX, quá em O Tico-Tico de 1935, ah no Diário Carioca de 1941 e em quadrinhos publicados em 1979. Inclui rubricas descritivas de 1925, 1955, 1965, 1985 e 1994 em categoria própria. Uma dissertação de 2008 reproduz kkkk em pesquisa desenvolvida em 2007.2.
 
@@ -122,7 +124,7 @@ Três livros e três jornais constituem uma quota editorial, não um tamanho amo
 5. detecção de forma rara: 59 documentos para p=0,05 ou 299 para p=0,01, com 95% de chance de ao menos uma ocorrência;
 6. análise de sensibilidade e limites da dependência entre documentos.
 
-Esses números são **planejamento prospectivo**, não o desenho retrospectivo da coleta dirigida. Não se calculam intervalos populacionais para os 15 exemplos.
+Esses números são **planejamento prospectivo**, não o desenho retrospectivo da coleta dirigida. Não se calculam intervalos populacionais para a coleta dirigida.
 
 ## Fundamentos linguísticos e literatura recente
 
@@ -142,7 +144,7 @@ A elaboração utilizou assistência de IA para organização, redação, busca 
 
 ## Ampliação por acervo e década
 
-A terceira rodada acrescenta quatro documentos ao núcleo e um inventário complementar de menções lexicais. A meta de uma referência em cada década de cada acervo **tem as 135 quotas documentais atendidas, com dois itens individuais sem ocorrência localizada**. Veja o [relatório da terceira revisão](docs/REVISAO-3.md), os [perfis dos 13 endereços](data/archive_profiles.csv), as [referências selecionadas](data/archive_decade_references.csv) e a [matriz com pendências](data/archive_decade_matrix.csv). O balanço atual registra 65 células confirmadas no acervo indicado, 70 em fonte alternativa e nenhuma quota por década pendente. Veja o [relatório da vigésima quarta revisão](docs/REVISAO-24.md). O estado de conclusão consta em [archive_summary.json](data/archive_summary.json).
+A terceira rodada acrescenta quatro documentos ao núcleo e um inventário complementar de menções lexicais. A meta de uma referência em cada década de cada acervo **tem as 135 quotas documentais atendidas, com dois itens individuais sem ocorrência localizada**. Veja o [relatório da terceira revisão](docs/REVISAO-3.md), os [perfis dos 13 endereços](data/archive_profiles.csv), as [referências selecionadas](data/archive_decade_references.csv) e a [matriz de acompanhamento](data/archive_decade_matrix.csv). O balanço atual registra 65 células confirmadas no acervo indicado, 70 em fonte alternativa e nenhuma quota por década pendente. Veja o [relatório da vigésima quarta revisão](docs/REVISAO-24.md). O estado de conclusão consta em [archive_summary.json](data/archive_summary.json).
 
 ## Títulos inéditos: Brasiliana e Wayback
 

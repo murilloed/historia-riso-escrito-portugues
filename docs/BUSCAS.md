@@ -1,5 +1,7 @@
 # Registro de busca dirigida
 
+**Registro histórico de buscas.** Os eixos abaixo não são um balanço quantitativo atual nem um log completo. Consulte o [método consolidado](METODOLOGIA.md) e o [balanço reconciliado](../data/consolidated_inventory.json) para os resultados vigentes.
+
 Data de consulta: 8 de novembro de 2026. A pesquisa é exploratória; esta relação documenta eixos e consultas de descoberta, sem alegar protocolo de revisão sistemática exaustiva.
 
 ## Eixos e consultas utilizadas
