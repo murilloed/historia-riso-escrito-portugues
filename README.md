@@ -185,3 +185,5 @@ python scripts/validate_analysis.py
 ```
 
 A geração dos inventários documentais e o cálculo dos agrupamentos são etapas distintas. O pacote Overleaf inclui as figuras vetoriais e as tabelas geradas, permitindo compilar sem instalar as bibliotecas de análise.
+
+A [discussão histórica ampliada](docs/DISCUSSAO.md) integra alcance anterior a 1900, coexistência das convenções, função dos registros, agrupamentos gráficos e vieses de preservação. Ela distingue as conclusões documentais das hipóteses de transmissão ainda não demonstradas.
