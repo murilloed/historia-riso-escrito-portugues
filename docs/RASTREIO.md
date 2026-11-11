@@ -57,7 +57,7 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H10/1980, incluída como D127.** A busca pela década na história do teatro infantil identificou o grupo Mamulengo Só-Riso. O cruzamento do nome com Diario de Pernambuco levou ao [livro de Rodrigo Sávio](https://pt.scribd.com/document/710000787/Livro-Mestre-Solon-e-o-Mamulengo-Invenca). Na p. 42, o texto republicado de Lêda Rivas traz o nome do grupo. A nota 4, p. 39, identifica a edição de 21 de janeiro de 1981. A ocorrência é onomástica e a conferência no portal original segue pendente.
 - **H05/1740.** A Biblioteca Nacional [identifica 18 números do Folheto de Lisboa de 1741](https://bndigital.bn.gov.br/dossies/periodicos-literatura/titulos-manuscritos/folheto-de-lisboa-uma-pena-rapida-na-biblioteca-nacional/), com digitalização do manuscrito. A série fornece um recorte verificável; nenhuma ocorrência foi autenticada nesta rodada.
 
-A [quota pendente](../data/archive_decade_matrix.csv) corresponde a H02/1920. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+A [matriz](../data/archive_decade_matrix.csv) registra 135 quotas atendidas; dois itens individuais permanecem sem ocorrência localizada. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
 
 ## Transcrição anotada de periódico setecentista
 
@@ -81,3 +81,11 @@ A [quota pendente](../data/archive_decade_matrix.csv) corresponde a H02/1920. A 
 
 - **H05/1760, D133.** A nova triagem dos PDFs incluiu rizo e variantes com acento no OCR. No [Hebdomadario Lisbonense, n. 34](https://hemeroteca-pdf.bn.gov.br/891070/per891070_1767_00034.pdf#page=3), a imagem confirma “fabula, e rizo” no fim do segundo parágrafo numerado de Notícias Históricas. A data de 21 de fevereiro de 1767 consta no cabeçalho da primeira página.
 - **H02/1930, D134.** A busca por transcrições de legendas levou à [biografia de Leonencio Nossa](https://pt.scribd.com/document/688913700/Roberto-Marinho-O-Poder-Esta-No-Ar), na passagem que antecede a nota 217. A narrativa data a cobertura de 27 de novembro de 1935 e atribui “sorriem à objetiva” à legenda de uma fotografia de Agildo Barata e seus companheiros na edição noturna de O Globo. A página do jornal segue por conferir.
+
+## Conferência final: O Globo e os dois itens individuais
+
+D135 confirma H02/1920 no primeiro número de O Globo (29/07/1925), p. 2, entrevista “O Sr. Eugenio Cotia confia na acção das autoridades”: “num sorriso”. Ocorrência lexical conferida na imagem primária.
+
+O código público da página de resultados revelou o endpoint `https://hugin.mybackstage.globo.com/acervo-base-texto`. A consulta POST utilizou JSON `{"decada":1920,"sort":"asc","texto":"(riso)","conteudo":"pagina","size":20,"page":0}`, Content-Type application/json e Origin https://oglobo.globo.com. O índice retornou data 1925-07-29, numeroPagina 2, numeroEdicao 1 e identificador `pagina_ge290725002PRM1-1234`. O PDF veio do endpoint público usado pelo próprio acervo. O manifesto registra URL, tamanho e SHA-256. O índice orientou a recuperação; a confirmação dependeu da leitura da imagem.
+
+H12: o PDF BBM/8426 contém a Gazeta Extraordinaria n. 1 de 06/03/1817, capas, guardas e folhas em branco. As páginas impressas 7 e 9 (duplicadas) e 10 foram conferidas na imagem: matéria política e militar, sem ocorrência localizada. OCR espúrio de folhas em branco foi descartado. H13: as quatro páginas da Gazeta n. 48 de 25/02/1809 foram lidas no fac-símile da BN, sem ocorrência localizada. Esses resultados são específicos dos itens; outro número ou obra não substitui o exemplar solicitado. Não se infere ausência em toda a série.

@@ -10,7 +10,7 @@ H01,1990,confirmada: lexical,D026,
 H01,2000,confirmada: lexical,D017,
 H01,2010,confirmada: mimética,D018,
 H01,2020,confirmada: mimética,D019,
-H02,1920,pendente: quota não satisfeita,,Portal consultado; fac-símiles históricos ainda pendentes de acesso e conferência
+H02,1920,confirmada: lexical,D135,"O Globo, primeiro número, 29/07/1925, p. 2: num sorriso; imagem primária conferida."
 H02,1930,confirmada em fonte alternativa,D134,Legenda de O Globo reproduzida por Leonencio Nossa; fac-símile pendente
 H02,1940,confirmada em fonte alternativa,D131,Transcrição parcial em dissertação da UEPB com autoria e título; fascículo original pendente
 H02,1950,confirmada em fonte alternativa,D120,"entrevista transcrita em tese com jornal, data e página identificados; portal de O Globo pendente"
@@ -134,5 +134,5 @@ H11,1970,confirmada: lexical,D066,
 H11,1980,confirmada: lexical,D067,
 H11,1990,confirmada: lexical,D122,data e ocorrência conferidas no fac-símile da CEPE; menção lexical em crônica
 H11,2000,confirmada: lexical,D109,ocorrência conferida na imagem do leitor indicado pela CEPE; ano e volume identificados na pasta do exemplar
-H12,1810,sem ocorrência autenticada no item,,PDF de 28 páginas pesquisado; nenhuma representação autenticada; não se infere ausência histórica
-H13,1800,cópia em fonte alternativa; ocorrência pendente,,"Cópia da edição n. 48, de 25/02/1809, recuperada na Biblioteca Nacional. A busca textual não autenticou uma ocorrência. https://hemeroteca-pdf.bn.gov.br/749664/per749664_1809_00048.pdf"
+H12,1810,sem ocorrência autenticada no item,,"PDF de 28 páginas: capas, guardas, folhas em branco e Gazeta Extraordinaria n. 1, 06/03/1817. Páginas impressas 7 e 9 (duplicadas) e 10 conferidas visualmente; nenhuma ocorrência localizada. OCR de folhas em branco descartado."
+H13,1800,sem ocorrência autenticada no item,,"Gazeta n. 48, 25/02/1809: quatro páginas conferidas visualmente na cópia da BN; nenhuma ocorrência localizada. https://hemeroteca-pdf.bn.gov.br/749664/per749664_1809_00048.pdf"

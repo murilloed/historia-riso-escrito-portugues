@@ -1,11 +1,13 @@
 {
   "archive_addresses": 13,
   "matrix_rows": 137,
-  "confirmed_archive_decade_cells": 64,
+  "confirmed_archive_decade_cells": 65,
   "alternative_source_cells": 70,
-  "pending_quota_cells": 1,
-  "selected_references": 134,
+  "pending_quota_cells": 0,
+  "selected_references": 135,
   "new_core_documents_round3": 4,
   "scope_completed": false,
-  "checked_on": "2026-11-09"
+  "quota_completed": true,
+  "items_without_attestation": 2,
+  "checked_on": "2026-11-11"
 }

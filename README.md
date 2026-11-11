@@ -132,7 +132,7 @@ A elaboração utilizou assistência de IA para organização, redação, busca 
 
 ## Ampliação por acervo e década
 
-A terceira rodada acrescenta quatro documentos ao núcleo e um inventário complementar de menções lexicais. A meta de uma referência em cada década de cada acervo **permanece parcialmente atendida**. Veja o [relatório da terceira revisão](docs/REVISAO-3.md), os [perfis dos 13 endereços](data/archive_profiles.csv), as [referências selecionadas](data/archive_decade_references.csv) e a [matriz com pendências](data/archive_decade_matrix.csv). O balanço atual registra 64 células confirmadas no acervo indicado, 70 em fonte alternativa e 1 linha com quota pendente. Veja o [relatório da vigésima quarta revisão](docs/REVISAO-24.md). O estado de conclusão consta em [archive_summary.json](data/archive_summary.json).
+A terceira rodada acrescenta quatro documentos ao núcleo e um inventário complementar de menções lexicais. A meta de uma referência em cada década de cada acervo **tem as 135 quotas documentais atendidas, com dois itens individuais sem ocorrência localizada**. Veja o [relatório da terceira revisão](docs/REVISAO-3.md), os [perfis dos 13 endereços](data/archive_profiles.csv), as [referências selecionadas](data/archive_decade_references.csv) e a [matriz com pendências](data/archive_decade_matrix.csv). O balanço atual registra 65 células confirmadas no acervo indicado, 70 em fonte alternativa e nenhuma quota por década pendente. Veja o [relatório da vigésima quarta revisão](docs/REVISAO-24.md). O estado de conclusão consta em [archive_summary.json](data/archive_summary.json).
 
 ## Títulos inéditos: Brasiliana e Wayback
 

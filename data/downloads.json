@@ -17582,5 +17582,16 @@
     "path": "sources/local/r36_globo1935.html",
     "bytes": 1753413,
     "sha256": "d08f4e7a973011c51a9e1271e6d2146627d2adf4f66d63f68b33d45f2e9e5276"
+  },
+  {
+    "id": "r37_globo1925",
+    "url": "https://hugin.mybackstage.globo.com/pdf/PDFs_XMLs_paginas/o_globo/1925/07/29/01-primeira_secao/ge290725002PRM1-1234.pdf",
+    "access_date": "2026-11-11",
+    "rights": "Acervo O Globo; consulta local; redistribuição não autorizada",
+    "resolved_url": "https://hugin.mybackstage.globo.com/pdf/PDFs_XMLs_paginas/o_globo/1925/07/29/01-primeira_secao/ge290725002PRM1-1234.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r37_globo1925.pdf",
+    "bytes": 793393,
+    "sha256": "5978830cd0a14bd17e816d2fa16c90236d81117d4db6804df1ebf0debde2f028"
   }
 ]
