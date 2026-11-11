@@ -159,3 +159,5 @@ H12 e H13 estão classificados como **conferidos, sem ocorrência localizada**, 
 ## Revisão científica consolidada
 
 A [revisão de consistência](docs/REVISAO-CONSOLIDADA.md) registra a reconciliação das contagens, a distinção entre quotas e fontes, a atualização da conclusão e os limites remanescentes. O comando `python scripts/build_appendices.py` executa também [audit_inventory.py](scripts/audit_inventory.py), que reconstrói o registro consolidado. Os relatórios numerados em `docs/` conservam estados históricos e não substituem os balanços atuais.
+
+O [protocolo de reprodução](docs/METODOLOGIA.md#reprodução-dos-resultados-publicados) detalha seleção, triagem, avaliação das passagens, deduplicação e comandos. Consulte também as [quantidades por acervo](data/archive_selection_counts.csv) e o [ambiente registrado](data/reproduction_environment.json). A reconstrução dos dados codificados não equivale a repetir automaticamente toda a busca histórica.

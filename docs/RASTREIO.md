@@ -1,5 +1,7 @@
 # Rastreio de ocorrências por edição
 
+**Leitura do histórico:** este documento conserva tentativas e decisões de etapas anteriores. Expressões como “continua pendente” descrevem o estado naquela etapa. O resultado vigente de cada linha está em [archive_decade_matrix.csv](../data/archive_decade_matrix.csv); o protocolo consolidado está em [METODOLOGIA.md](METODOLOGIA.md).
+
 O procedimento adapta [TARCiS](https://www.bmj.com/content/385/bmj-2023-078384) para seguir citações e [PRISMA-S](https://pmc.ncbi.nlm.nih.gov/articles/PMC8270366/) para registrar a busca. A aplicação é exploratória.
 
 1. Fixar a linha da matriz e identificar o título, o ano e o número no catálogo.

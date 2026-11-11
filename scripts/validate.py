@@ -64,6 +64,14 @@ assert int(metric_values['M10'])==sum(int(metric_values[k]) for k in ['M11','M12
 reconciled=json.loads((ROOT/'data/consolidated_inventory.json').read_text(encoding='utf-8'))
 evidence_register=readcsv('evidence_register.csv')
 assert reconciled['combined_record_memberships']==len(evidence_register)
+archive_counts=readcsv('archive_selection_counts.csv')
+assert len(archive_counts)==len(readcsv('archive_profiles.csv'))
+assert sum(int(x['reference_links']) for x in archive_counts)==len(archive_refs)
+assert sum(int(x['matrix_rows']) for x in archive_counts)==len(archive_rows)
+for x in archive_counts:
+ assert int(x['reference_links'])==sum(int(x[k]) for k in ['lexical','rubrica','mimetica'])
+ assert int(x['reference_links'])==int(x['confirmed_in_indicated_archive'])+int(x['confirmed_alternative'])
+
 assert reconciled['unique_selected_source_identifiers']==len({x['source_id'] for x in evidence_register})
 assert reconciled['unique_selected_source_urls']==len({x['url'] for x in evidence_register})
 assert len({x['resource_group'] for x in bases})==int(metric_values['M17'])==13

@@ -21,3 +21,12 @@ ids={x['source_id'] for x in register}
 summary=dict(datasets=per_set,combined_record_memberships=len(register),unique_selected_source_identifiers=len(ids),unique_selected_source_urls=len({x['url'] for x in register}),selected_source_acquisition_status=dict(collections.Counter(manifest[x]['status'] for x in ids)),core_representation_categories=dict(collections.Counter(x['representation'] for x in core)),core_countries=dict(collections.Counter(x['country'] for x in core)),archive_selection_categories=dict(collections.Counter(x['kind'] for x in refs)),archive_rows_with_reference=sum(bool(x['reference_id']) for x in matrix),archive_source_identifiers=len({x['source_id'] for x in refs}),identity_rule='source_id; URL identity checked; not a count of independent works, editions, witnesses or national usage',independence_not_inferred=True)
 (DATA/'consolidated_inventory.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps(summary,ensure_ascii=False))
+
+profiles=read('archive_profiles.csv');counts=[]
+for profile in profiles:
+ archive=profile['archive'];selected=[x for x in refs if x['archive']==archive];tracked=[x for x in matrix if x['archive']==archive]
+ counts.append(dict(archive=archive,name=profile['name'],matrix_rows=len(tracked),reference_links=len(selected),source_identifiers=len({x['source_id'] for x in selected}),confirmed_in_indicated_archive=sum(bool(x['reference_id']) and x['status']!='confirmada em fonte alternativa' for x in tracked),confirmed_alternative=sum(x['status']=='confirmada em fonte alternativa' for x in tracked),reviewed_without_attestation=sum(x['status'].startswith('conferido: sem ocorrência localizada') for x in tracked),lexical=sum(x['kind']=='lexical' for x in selected),rubrica=sum(x['kind']=='rubrica' for x in selected),mimetica=sum(x['kind']=='mimética' for x in selected)))
+with (DATA/'archive_selection_counts.csv').open('w',encoding='utf-8',newline='') as f:
+ w=csv.DictWriter(f,fieldnames=list(counts[0]),lineterminator='\n');w.writeheader();w.writerows(counts)
+assert sum(x['reference_links'] for x in counts)==len(refs)
+assert sum(x['matrix_rows'] for x in counts)==len(matrix)

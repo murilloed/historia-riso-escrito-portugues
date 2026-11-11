@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows",
+  "platform_release": "11",
+  "packages": {
+    "PyMuPDF": "2.1",
+    "Pillow": "13.0.0",
+    "rapidocr-onnxruntime": "1.4.4"
+  },
+  "compiler": "Tectonic 0.17.0",
+  "scope": "Local validation environment; table generation uses Python standard library. OCR is optional and does not validate evidence automatically."
+}
