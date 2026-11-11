@@ -178,7 +178,16 @@ A busca histórica completa não é reproduzível como uma sequência exata de r
 
 Para **novas buscas**, recomenda-se registrar: identificador da consulta, linha-alvo, recurso, data/hora, termo exato, filtros, ordenação, URL ou endpoint, fonte candidata, localizador, transcrição, tipo de evidência, decisão e justificativa. Trata-se de uma especificação para ampliar o registro daqui em diante, não de dados retrospectivos que já existiriam para toda a coleta.
 
-## Plano de amostragem
+<a id="plano-de-amostragem"></a>
+
+## Plano de amostragem: finalidade prospectiva
+
+**Estatuto dos cálculos.** As fórmulas abaixo foram calculadas como cenários interpretativos e de planejamento. O desenho probabilístico correspondente **não foi aplicado à seleção do corpus**: os cálculos não fixaram o número de documentos por ano, não orientaram sorteio de unidades e não determinaram uma regra de encerramento por tamanho amostral.
+
+O trabalho executado foi direcionado pela pergunta de pesquisa, pelas indicações bibliográficas, pelas metas de cobertura anual ou decenal, pela disponibilidade dos documentos e pela verificação das passagens. As quantidades efetivamente encontradas decorrem dessa seleção intencional. Elas descrevem os inventários, sem estimar prevalências ou conferir representatividade à coleta. Os níveis de confiança e margens de erro dos exemplos não são propriedades dos resultados empíricos publicados.
+
+A utilidade das fórmulas é explicitar, sob hipóteses declaradas, os limites de uma busca com poucos documentos e planejar uma ampliação futura com moldura documental e seleção probabilística. A probabilidade de detecção dos exemplos é condicional aos valores pressupostos de ocorrência e independência; não foi estimada para os acervos examinados. Os cálculos não justificam retrospectivamente a quantidade de referências selecionada em cada ano.
+
 
 O estrato combina ano e suporte, $h=(y,s)$. Para cada estrato, registram-se o tamanho da população $N_h$, o país, o gênero, a edição, o acervo e a extensão. Prevê-se censo dos estratos pequenos e sorteio sem reposição nos demais. Materiais digitais exigem unidades próprias — sessão, usuário ou mensagem — e tratamento de sua dependência.
 
