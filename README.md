@@ -143,3 +143,5 @@ Veja [títulos selecionados](data/revision4_new_titles.csv), [exclusões de tít
 ## Balanço metodológico consolidado
 
 A metodologia do artigo e o [documento metodológico](docs/METODOLOGIA.md) vinculam o [inventário de bases](data/base_registry.csv), o [quadro quantitativo](data/method_quantification.csv), o [manifesto de aquisição](data/downloads.json) e a [cobertura anual](data/annual_coverage.csv). A busca de 8 e 9 de novembro de 2026 priorizou séries parlamentares do Brasil e de Portugal e periódicos brasileiros. Os registros estão separados por fonte e nível de evidência. Consulte o [relatório da sexta revisão](docs/REVISAO-6.md).
+
+Duas [alternativas literárias para as décadas de 1800 e 1810](data/period_alternatives.csv), Bocage (1800) e Gonzaga (1812), foram conferidas nas imagens e incorporadas ao artigo. Elas não equivalem a ocorrências nos dois exemplares específicos da Gazeta sem atestação localizada.

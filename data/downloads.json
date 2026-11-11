@@ -17593,5 +17593,27 @@
     "path": "sources/local/r37_globo1925.pdf",
     "bytes": 793393,
     "sha256": "5978830cd0a14bd17e816d2fa16c90236d81117d4db6804df1ebf0debde2f028"
+  },
+  {
+    "id": "r39_gonzaga1812",
+    "url": "https://digital.bbm.usp.br/bitstream/bbm/8905/1/45000017743_Output.o.pdf",
+    "resolved_url": "https://digital.bbm.usp.br/bitstream/bbm/8905/1/45000017743_Output.o.pdf",
+    "access_date": "2026-11-11",
+    "rights": "Texto histórico em domínio público; digitalização institucional mantida local",
+    "status": "downloaded",
+    "path": "sources/local/r39_gonzaga1812.pdf",
+    "bytes": 30940704,
+    "sha256": "f4e6ff408c0fc65fe0e67115a9a411679e25cf4ce0d53aa36fbb16970e2ddbf7"
+  },
+  {
+    "id": "r39_bocage1800",
+    "url": "https://literaturabrasileira.ufsc.br/midias/stream?id=118656&raw=1",
+    "resolved_url": "https://literaturabrasileira.ufsc.br/midias/stream?id=118656&raw=1",
+    "access_date": "2026-11-11",
+    "rights": "Texto histórico em domínio público; digitalização institucional mantida local",
+    "status": "downloaded",
+    "path": "sources/local/r39_bocage1800.pdf",
+    "bytes": 5161719,
+    "sha256": "bed24d0967c4689d1ca6be2ab5db8d1846ef4933c6f48f68ca214c0d4ce22e7b"
   }
 ]
