@@ -17560,5 +17560,27 @@
     "rights": "Ficha arquivística da Funarte",
     "status": "failed",
     "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "r36_heb1767",
+    "url": "https://hemeroteca-pdf.bn.gov.br/891070/per891070_1767_00034.pdf",
+    "access_date": "2026-11-08",
+    "rights": "Fac-símile de periódico setecentista da Biblioteca Nacional",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/891070/per891070_1767_00034.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r36_heb1767.pdf",
+    "bytes": 1139052,
+    "sha256": "5e0badc3adf23c8f3fb02b09d01b4e79d3c5b1bcb14ae265ceb49d4c1684e402"
+  },
+  {
+    "id": "r36_globo1935",
+    "url": "https://pt.scribd.com/document/688913700/Roberto-Marinho-O-Poder-Esta-No-Ar",
+    "access_date": "2026-11-08",
+    "rights": "Legenda histórica transcrita em biografia; manter íntegra local",
+    "resolved_url": "https://pt.scribd.com/document/688913700/Roberto-Marinho-O-Poder-Esta-No-Ar",
+    "status": "downloaded",
+    "path": "sources/local/r36_globo1935.html",
+    "bytes": 1753413,
+    "sha256": "d08f4e7a973011c51a9e1271e6d2146627d2adf4f66d63f68b33d45f2e9e5276"
   }
 ]
