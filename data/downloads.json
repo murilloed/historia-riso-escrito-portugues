@@ -17500,5 +17500,35 @@
     "path": "sources/local/r32_folheto1741.xml",
     "bytes": 1783227,
     "sha256": "e93e0852cdff06087117457306697036a217b694e1c6ab1c5fe643f53c44f994"
+  },
+  {
+    "id": "r33_araripe1894",
+    "url": "https://bibdig.biblioteca.unesp.br/server/api/core/bitstreams/93bd6291-8646-4e1c-99f0-07057c9a953a/content",
+    "access_date": "2026-11-08",
+    "rights": "Edição de 1894 digitalizada pela UNESP",
+    "resolved_url": "https://bibdig.biblioteca.unesp.br/server/api/core/bitstreams/93bd6291-8646-4e1c-99f0-07057c9a953a/content",
+    "status": "downloaded",
+    "path": "sources/local/r33_araripe1894.pdf",
+    "bytes": 5566020,
+    "sha256": "a6b9bc9fdecce2c0a8a25408f3463500ec57f12f13e4d4c54f2a5eafa94c70fe"
+  },
+  {
+    "id": "r33_fon1922",
+    "url": "https://hemeroteca-pdf.bn.gov.br/259063/per259063_1922_00045.pdf",
+    "access_date": "2026-11-08",
+    "rights": "Fac-símile da Biblioteca Nacional; conferir direitos antes da republicação integral",
+    "resolved_url": "https://hemeroteca-pdf.bn.gov.br/259063/per259063_1922_00045.pdf",
+    "status": "downloaded",
+    "path": "sources/local/r33_fon1922.pdf",
+    "bytes": 9209413,
+    "sha256": "2a95060848d476201586155eef62a612e2f4274be1026f13fdc8c91397b0eec1"
+  },
+  {
+    "id": "r33_fonapesp",
+    "url": "https://atom.arquivoestado.sp.gov.br/br-spapesp-hemapesp-s002-b000541-d000009%3Bisad?sf_culture=en",
+    "access_date": "2026-11-08",
+    "rights": "Ficha de exemplar do APESP",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
   }
 ]

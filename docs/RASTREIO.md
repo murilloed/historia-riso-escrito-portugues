@@ -57,8 +57,13 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H10/1980, incluída como D127.** A busca pela década na história do teatro infantil identificou o grupo Mamulengo Só-Riso. O cruzamento do nome com Diario de Pernambuco levou ao [livro de Rodrigo Sávio](https://pt.scribd.com/document/710000787/Livro-Mestre-Solon-e-o-Mamulengo-Invenca). Na p. 42, o texto republicado de Lêda Rivas traz o nome do grupo. A nota 4, p. 39, identifica a edição de 21 de janeiro de 1981. A ocorrência é onomástica e a conferência no portal original segue pendente.
 - **H05/1740.** A Biblioteca Nacional [identifica 18 números do Folheto de Lisboa de 1741](https://bndigital.bn.gov.br/dossies/periodicos-literatura/titulos-manuscritos/folheto-de-lisboa-uma-pena-rapida-na-biblioteca-nacional/), com digitalização do manuscrito. A série fornece um recorte verificável; nenhuma ocorrência foi autenticada nesta rodada.
 
-As [7 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+As [5 linhas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
 
 ## Transcrição anotada de periódico setecentista
 
 - **H05/1740, incluída como D128.** O cruzamento do título e da data com o catálogo do Corpus Tycho Brahe levou ao [XML m_009](https://www.tycho.iel.unicamp.br/corpus/texts/xml/m_009.xml). O n. 13 está datado de 1 de abril de 1741 (p_141 a p_143). Na seção Lisboa (p_150), o parágrafo p_153 traz a grafia “riu-∫e di∫so” (palavras 6915–6916), normalizada como “riu-se disso”. O cotejo com a imagem da Biblioteca Nacional permanece pendente.
+
+## Reedição autoral e cotejo entre acervos
+
+- **H07/1890, D129.** O [exemplar de 1894 digitalizado pela UNESP](https://bibdig.biblioteca.unesp.br/server/api/core/bitstreams/93bd6291-8646-4e1c-99f0-07057c9a953a/content) traz a declaração de publicação no Jornal do Brasil em fevereiro e março de 1893 (PDF p. 13) e “Differenciação do riso” no capítulo I (PDF p. 19). O prefácio informa que os capítulos novos começam no XI. O fascículo de 1893 continua por localizar.
+- **H08/1920, D130.** O [registro do APESP](https://atom.arquivoestado.sp.gov.br/br-spapesp-hemapesp-s002-b000541-d000009%3Bisad?sf_culture=en) identifica o fascículo n. 45, de 11 de novembro de 1922. A [cópia da BN](https://hemeroteca-pdf.bn.gov.br/259063/per259063_1922_00045.pdf#page=54) documenta “provoca o riso bom”, na seção teatral. O recorte se limita a esse fascículo da subsérie Fon-Fon. A ficha do APESP e o fac-símile da BN desempenham funções complementares.

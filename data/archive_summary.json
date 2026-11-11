@@ -2,9 +2,9 @@
   "archive_addresses": 13,
   "matrix_rows": 137,
   "confirmed_archive_decade_cells": 63,
-  "alternative_source_cells": 65,
-  "pending_quota_cells": 7,
-  "selected_references": 128,
+  "alternative_source_cells": 67,
+  "pending_quota_cells": 5,
+  "selected_references": 130,
   "new_core_documents_round3": 4,
   "scope_completed": false,
   "checked_on": "2026-11-09"
