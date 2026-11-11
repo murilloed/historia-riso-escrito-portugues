@@ -9,5 +9,8 @@
   "scope_completed": false,
   "quota_completed": true,
   "items_without_attestation": 2,
+  "fixed_item_reviews_completed": 2,
+  "fixed_item_reviews_pending": 0,
+  "period_alternatives": 2,
   "checked_on": "2026-11-11"
 }

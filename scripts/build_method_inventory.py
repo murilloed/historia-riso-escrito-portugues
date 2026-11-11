@@ -105,7 +105,10 @@ archive_summary=dict(archive_addresses=len(profiles),matrix_rows=len(matrix),
                      selected_references=len(r3),new_core_documents_round3=4,
                      scope_completed=all(bool(x['reference_id']) for x in matrix),
                      quota_completed=not any(x['status'].startswith('pendente:') for x in matrix),
-                     items_without_attestation=sum(x['status']=='sem ocorrência autenticada no item' for x in matrix),checked_on='2026-11-11')
+                     items_without_attestation=sum(x['status'].startswith('conferido: sem ocorrência localizada') for x in matrix),
+                     fixed_item_reviews_completed=sum(x['status'].startswith('conferido:') for x in matrix),
+                     fixed_item_reviews_pending=sum(not x['reference_id'] and not x['status'].startswith('conferido:') for x in matrix),
+                     period_alternatives=len(readcsv('period_alternatives.csv')),checked_on='2026-11-11')
 (DATA/'archive_summary.json').write_text(json.dumps(archive_summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 table('archive_profiles.tex','Recortes e condições de acesso dos 13 endereços consultados.',
       col('.20')+col('.32')+col('.37'),'ID / acervo & Recorte e fundamento & Situação',
@@ -137,7 +140,7 @@ A coleta é dirigida, exploratória e não probabilística. O núcleo tem {len(a
 
 Os 16 endereços indicados pelo autor estão no [inventário de bases](../data/base_registry.csv), com URL original, URL de acesso, sobreposições, quantidade selecionada e links para os dados. Não são 16 bases independentes: há portal e item do APESP, coleção e acervo geral da BBM e Orkut preservado no próprio Wayback.
 
-O [quadro quantitativo](../data/method_quantification.csv), também incluído na metodologia do artigo, reúne quantidades e unidades. O núcleo, as {len(r3)} referências por acervo/década e os {len(r4)} títulos inéditos se sobrepõem: não se somam como documentos independentes. Somente duas das 17 novas fontes ampliaram o núcleo. As 135 quotas por acervo e década têm referência selecionada, 70 em fontes alternativas; dois itens individuais permanecem sem ocorrência localizada após conferência visual.
+O [quadro quantitativo](../data/method_quantification.csv), também incluído na metodologia do artigo, reúne quantidades e unidades. O núcleo, as {len(r3)} referências por acervo/década e os {len(r4)} títulos inéditos se sobrepõem: não se somam como documentos independentes. Somente duas das 17 novas fontes ampliaram o núcleo. As 135 quotas por acervo e década têm referência selecionada, 70 em fontes alternativas; dois itens individuais têm conferência concluída sem ocorrência localizada, com duas alternativas de período registradas separadamente. Isso não equivale a confirmação nesses exemplares.
 
 O manifesto histórico contém {len(manifest)} entradas: {nonempty} com conteúdo, {empty} respostas vazias e {failed} falhas. Essas entradas incluem arquivos auxiliares, páginas de catálogo, imagens, PDFs, metadados e recursos técnicos; não são {len(manifest)} obras analisadas nem um contador de todas as tentativas realizadas. As {downloaded} entradas com estado `downloaded` incluem as respostas vazias. O histórico também conserva uma referência posteriormente retirada; preservação de proveniência não equivale a citação atual no artigo.
 

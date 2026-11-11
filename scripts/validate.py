@@ -29,6 +29,9 @@ assert archive_summary['selected_references']==len(archive_refs)
 assert archive_summary['alternative_source_cells']==sum(x['status']=='confirmada em fonte alternativa' and bool(x['note']) for x in archive_rows)
 assert archive_summary['confirmed_archive_decade_cells']+archive_summary['alternative_source_cells']==len(archive_refs)
 assert archive_summary['pending_quota_cells']==sum(x['status'].startswith('pendente:') for x in archive_rows)
+assert archive_summary['items_without_attestation']==sum(x['status'].startswith('conferido: sem ocorrência localizada') for x in archive_rows)
+assert archive_summary['fixed_item_reviews_pending']==sum(not x['reference_id'] and not x['status'].startswith('conferido:') for x in archive_rows)
+assert archive_summary['period_alternatives']==len(list(csv.DictReader((ROOT/'data/period_alternatives.csv').open(encoding='utf-8'))))
 ref_lookup={x['id']:x for x in archive_refs}
 for x in archive_rows:
  if x['reference_id']:
