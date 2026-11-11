@@ -17541,5 +17541,24 @@
     "path": "sources/local/r34_globo1946.pdf",
     "bytes": 1169722,
     "sha256": "aba9efd456142784af034a056302bcd313d32d9af2a12de452fe8d414aa65ae8"
+  },
+  {
+    "id": "r35_oscarito",
+    "url": "https://pt.scribd.com/document/841790333/Flavio-Marinho-Oscarito-o-Riso-e-o-Siso",
+    "access_date": "2026-11-08",
+    "rights": "Trecho reproduzido na biografia; manter cópia local",
+    "resolved_url": "https://pt.scribd.com/document/841790333/Flavio-Marinho-Oscarito-o-Riso-e-o-Siso",
+    "status": "downloaded",
+    "path": "sources/local/r35_oscarito.html",
+    "bytes": 1518353,
+    "sha256": "7b16e9dfe2818a5833b517fe51d7ff5acc5501cb9eaba4ed0f2d85c0471cae72"
+  },
+  {
+    "id": "r35_funarte",
+    "url": "https://atom.funarte.gov.br/index.php/poleiro-de-pato-revista",
+    "access_date": "2026-11-08",
+    "rights": "Ficha arquivística da Funarte",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
   }
 ]

@@ -57,7 +57,7 @@ Com Python e PyMuPDF instalados, rode **python -X utf8 scripts/trace_laughter.py
 - **H10/1980, incluída como D127.** A busca pela década na história do teatro infantil identificou o grupo Mamulengo Só-Riso. O cruzamento do nome com Diario de Pernambuco levou ao [livro de Rodrigo Sávio](https://pt.scribd.com/document/710000787/Livro-Mestre-Solon-e-o-Mamulengo-Invenca). Na p. 42, o texto republicado de Lêda Rivas traz o nome do grupo. A nota 4, p. 39, identifica a edição de 21 de janeiro de 1981. A ocorrência é onomástica e a conferência no portal original segue pendente.
 - **H05/1740.** A Biblioteca Nacional [identifica 18 números do Folheto de Lisboa de 1741](https://bndigital.bn.gov.br/dossies/periodicos-literatura/titulos-manuscritos/folheto-de-lisboa-uma-pena-rapida-na-biblioteca-nacional/), com digitalização do manuscrito. A série fornece um recorte verificável; nenhuma ocorrência foi autenticada nesta rodada.
 
-As [4 quotas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
+As [3 quotas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A [revisão anterior](REVISAO-24.md) agrupa as rotas por acervo.
 
 ## Transcrição anotada de periódico setecentista
 
@@ -71,3 +71,8 @@ As [4 quotas pendentes](../data/archive_decade_matrix.csv) continuam abertas. A 
 ## Busca por autor em dissertação sobre O Globo
 
 - **H02/1940, D131.** A busca por José Lins do Rego levou à [dissertação de Vasconcelos](https://repositorio.uepb.edu.br/server/api/core/bitstreams/ebaea2aa-c720-4ff9-abe9-3216006731c7/content#page=52). A p. 49 identifica a crônica e o jornal. A p. 50 transcreve “nos seus lábios um sorriso”. O ano de 1946 está explícito. O título contém dia e mês, e a data do fascículo ainda requer cotejo.
+
+## Crítica teatral e PDFs setecentistas
+
+- **H07/1940, D132.** A busca pelo crítico teatral Mário Nunes identificou “despertar ruidosas gargalhadas” em trecho reproduzido por [Flávio Marinho, p. 150](https://pt.scribd.com/document/841790333/Flavio-Marinho-Oscarito-o-Riso-e-o-Siso). O [dossiê da Funarte](https://atom.funarte.gov.br/index.php/poleiro-de-pato-revista) atribui a crítica ao Jornal do Brasil de 26 de abril de 1941, p. 13. A imagem da página segue por conferir.
+- **H05/1760.** Foram examinadas as camadas de texto de 58 PDFs do [Hebdomadario Lisbonense](https://memoria.bn.gov.br/DocReader/891070/186), com buscas por riso, sorriso, gargalhada, formas de rir e variantes de OCR do s longo. A triagem não autenticou ocorrência. Os PDFs recuperados são os números 1–5 de 1763, 1–11 e 14–26 de 1766 e 27–55 de 1767.
