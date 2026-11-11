@@ -26,15 +26,69 @@ Referência, documento, ocorrência e tipo gráfico são diferentes. Três passa
 
 ## Plano de amostragem
 
-Moldura de documentos por h=(ano,suporte). Registrar N_h, país, gênero, edição, acervo e extensão. Censo dos estratos pequenos; sorteio sem reposição nos demais. Materiais digitais exigem unidades próprias (sessão, usuário, mensagem), com tratamento da dependência.
+O estrato combina ano e suporte, $h=(y,s)$. Para cada estrato, registram-se o tamanho da população $N_h$, o país, o gênero, a edição, o acervo e a extensão. Prevê-se censo dos estratos pequenos e sorteio sem reposição nos demais. Materiais digitais exigem unidades próprias — sessão, usuário ou mensagem — e tratamento de sua dependência.
 
-Para proporção binomial e população grande, n0=z²p(1-p)/e². Com z=1,96, p=0,5 e e=0,10: 96,04, arredondado para 97 por estrato. Com e=0,05: 385. A exigência de 97 em cada ano e em cada um de dois suportes ao longo de 110 anos produz até 21.340 documentos. Não é uma quota universal ou necessária a todo estudo.
+### Dimensionamento para uma proporção
 
-População finita: n=ceil(N*n0/(N+n0-1)); usar n0 não arredondado. Exemplo com N=20: 17; N=100: 50; N=1000: 88.
+Para uma proporção binomial em população grande:
 
-Detecção: P(ao menos uma)=1-(1-p)^n. Para q=0,95: n=ceil(log(1-q)/log(1-p)). Resultados: n=59 para p=0,05; n=299 para p=0,01. Supõem-se oportunidades independentes e p constante. Esses p são cenários, não estimativas do corpus.
+$$
+n_0 = \frac{z^2 p(1-p)}{e^2}
+$$
 
-Alocação ótima com custos distintos: n_h proporcional a N_h*S_h/sqrt(c_h), se variâncias e custos forem conhecidos. Não foram estimados nesta coleta.
+Nessa expressão, $z$ é o quantil normal associado ao nível de confiança, $p$ é a proporção pressuposta no planejamento e $e$ é a margem de erro absoluta desejada.
+
+Com $z=1{,}96$, $p=0{,}5$ e $e=0{,}10$:
+
+$$
+n_0 = \frac{1{,}96^2 \times 0{,}5 \times (1-0{,}5)}{0{,}10^2}
+= 96{,}04
+\qquad\Rightarrow\qquad n=97
+$$
+
+O resultado é arredondado para cima. Com $e=0{,}05$, são necessários 385 documentos por estrato, sob os mesmos pressupostos. Aplicar 97 documentos a cada ano e a cada um de dois suportes, ao longo de 110 anos, produziria:
+
+$$
+97 \times 2 \times 110 = 21\,340
+$$
+
+Esse total é um cenário de planejamento, não uma quota universal ou uma exigência para este estudo.
+
+### Correção para população finita
+
+Para uma população conhecida de tamanho $N_h$, com sorteio sem reposição:
+
+$$
+n_h = \left\lceil \frac{N_h n_0}{N_h+n_0-1} \right\rceil
+$$
+
+O símbolo $\lceil x\rceil$ indica arredondamento para cima. Usa-se o valor **não arredondado** de $n_0$ na correção. No cenário $n_0=96{,}04$, obtêm-se 17 documentos para $N_h=20$, 50 para $N_h=100$ e 88 para $N_h=1000$.
+
+### Detecção de pelo menos uma ocorrência
+
+Sob oportunidades independentes e probabilidade constante $p$ de ocorrência por documento:
+
+$$
+P(\text{pelo menos uma ocorrência}\mid n,p)=1-(1-p)^n
+$$
+
+Para alcançar uma probabilidade de detecção de pelo menos $q$, com $0<p<1$ e $0<q<1$:
+
+$$
+n \geq \left\lceil \frac{\log(1-q)}{\log(1-p)} \right\rceil
+$$
+
+Com $q=0{,}95$, o mínimo é 59 documentos para $p=0{,}05$ e 299 para $p=0{,}01$. Esses valores de $p$ são **cenários**, não estimativas obtidas do corpus.
+
+### Alocação com custos distintos
+
+Se os desvios-padrão $S_h$ e os custos por unidade $c_h$ forem conhecidos, a alocação ótima sob restrição de custo segue:
+
+$$
+n_h \propto \frac{N_h S_h}{\sqrt{c_h}}
+$$
+
+O símbolo $\propto$ significa “proporcional a”. As variâncias e os custos necessários a essa alocação **não foram estimados nesta coleta**.
 
 ## O que não se pode inferir
 
