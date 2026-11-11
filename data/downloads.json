@@ -17530,5 +17530,16 @@
     "rights": "Ficha de exemplar do APESP",
     "status": "failed",
     "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "r34_globo1946",
+    "url": "https://repositorio.uepb.edu.br/server/api/core/bitstreams/ebaea2aa-c720-4ff9-abe9-3216006731c7/content",
+    "access_date": "2026-11-08",
+    "rights": "Dissertação da UEPB com trecho da crônica; manter íntegra local",
+    "resolved_url": "https://repositorio.uepb.edu.br/server/api/core/bitstreams/ebaea2aa-c720-4ff9-abe9-3216006731c7/content",
+    "status": "downloaded",
+    "path": "sources/local/r34_globo1946.pdf",
+    "bytes": 1169722,
+    "sha256": "aba9efd456142784af034a056302bcd313d32d9af2a12de452fe8d414aa65ae8"
   }
 ]
