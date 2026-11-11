@@ -70,7 +70,7 @@
   "comparability_note": "Silhouettes use distinct representations/distances; do not rank methods by their raw values.",
   "seed_stability_note": "Initialization sensitivity only; not population uncertainty or out-of-sample validation.",
   "no_supervised_training": true,
-  "input_sha256": "456e58208afef1910bf2575436ccbaf07be935c3fd1a1c2c262eaa5579166c47",
+  "input_sha256": "301a131f124db7ef572dcfe0e4bb64d079342ee121b627da6a4a06b808e7a4e0",
   "packages": {
     "numpy": "2.3.5",
     "scipy": "1.18.1",

@@ -17,7 +17,7 @@ AT=[
  (1941,'Diário Carioca, n. 3902','carioca1941','Brasil','periódico','Ah! ah!','08/03/1941; p. 13; folhetim As memórias de Sherlock Holmes','E1','carioca1941','data da tradução publicada, não da composição original'),
  (1979,'Correio do Povo','correio1979','Brasil','periódico','AH, AH, AH','28/04/1979; p. 5; tira Bidu, quadros finais','E1','correio1979','data impressa inspecionada'),
  (2007,'Chat reproduzido por Young (2008)','young2008','Brasil','chat reportado','kkkk','Dissertação p. 93; contexto: semestre 2007.2','E3','young2008','período da pesquisa; mensagem sem dia validado'),
- (2010,'Leão (2010)','ufpe','Brasil','chat reportado','kkkkkkkk / rsrsrsrs','PDF pp. 90-92; fragmentos 97, 101 e 103 e análise','E3','leao2010','ano da dissertação; não data individual da mensagem'),
+ (2010,'Leão (2010)','ufpe','Brasil','chat reportado','kkkkkkkk / rsrsrsrs','pp. impressas 89-90; PDF pp. 90-91; fragmentos 96 (kkkkkkkk) e 102 (rsrsrsrs)','E3','leao2010','ano da dissertação; não data individual da mensagem'),
  (2015,'Silva (2015)','cruz2015','Brasil','comentário reportado','Kkkk','p. impressa 86, PDF p. 87; CA7 P2','E3','silva2015','ano da dissertação; não data individual da mensagem'),
  (1925,'Diário da Câmara dos Deputados, n. 77','portugal1925','Portugal','registro parlamentar','Risos.','11/06/1925; p. 14; intervenção de Cunha Leal','E2','portugal1925','data da sessão; transcrição automática oficial'),
  (1955,'Diário do Congresso Nacional, suplemento','camara1955','Brasil','registro parlamentar','(Risos)','10/12/1955; p. 13; intervenção de Alberto Torres','E1','camara1955','data do diário; imagem inspecionada'),
